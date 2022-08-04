@@ -1,0 +1,13 @@
+#!/bin/bash
+#SBATCH --ntasks=1 
+#SBATCH --mem=32G
+#SBATCH --export=ALL
+#SBATCH -n 10
+
+
+module purge
+module load python
+source activate /home/jakob_jung/miniconda3
+source trimm_map_BB.sh
+
+#srun trimm_map_BB.sh

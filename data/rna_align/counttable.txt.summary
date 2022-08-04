@@ -1,0 +1,15 @@
+Status	../data/rna_align/L2201710_Control_1.fq.gz.bam	../data/rna_align/L2201711_RNA_MOE_1.fq.gz.bam	../data/rna_align/L2201712_RNA_F_1.fq.gz.bam	../data/rna_align/L2201713_LNA_1.fq.gz.bam	../data/rna_align/L2201714_RNA_Ome_1.fq.gz.bam	../data/rna_align/L2201715_DNA_PTO_1.fq.gz.bam	../data/rna_align/L2201716_PMO_1.fq.gz.bam	../data/rna_align/L2201717_PNA_21_1.fq.gz.bam	../data/rna_align/L2201718_PNA22_1.fq.gz.bam	../data/rna_align/L2201719_PNA15_1.fq.gz.bam	../data/rna_align/L2201720_PNA14_1.fq.gz.bam	../data/rna_align/L2201721_JVPep112_1.fq.gz.bam	../data/rna_align/L2201722_KFFN3_1.fq.gz.bam	../data/rna_align/L2201723_Control_2.fq.gz.bam	../data/rna_align/L2201724_RNA_MOE_2.fq.gz.bam	../data/rna_align/L2201725_RNA_F_2.fq.gz.bam	../data/rna_align/L2201726_LNA_2.fq.gz.bam	../data/rna_align/L2201727_RNA_Ome_2.fq.gz.bam	../data/rna_align/L2201728_DNA_PTO_2.fq.gz.bam	../data/rna_align/L2201729_PMO_2.fq.gz.bam	../data/rna_align/L2201730_PNA_21_2.fq.gz.bam	../data/rna_align/L2201731_PNA22_2.fq.gz.bam	../data/rna_align/L2201732_PNA15_2.fq.gz.bam	../data/rna_align/L2201733_PNA14_2.fq.gz.bam	../data/rna_align/L2201734_JVPep112_2.fq.gz.bam	../data/rna_align/L2201735_KFFN3_2.fq.gz.bam
+Assigned	10153993	9901986	11023381	9940396	11033459	8914152	8974927	8030452	9364009	9685132	10116006	9596362	10430687	9416440	10104842	7220479	10112921	10135771	10027992	10515420	10162673	10885627	10341064	7430661	9175975	10735864
+Unassigned_Unmapped	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Unassigned_Read_Type	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Unassigned_Singleton	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Unassigned_MappingQuality	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Unassigned_Chimera	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Unassigned_FragmentLength	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Unassigned_Duplicate	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Unassigned_MultiMapping	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Unassigned_Secondary	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Unassigned_NonSplit	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Unassigned_NoFeatures	1035457	1131073	1013353	903198	899442	694425	736999	904924	796893	824611	796326	843179	812470	688353	821870	529140	1036838	907040	794114	842356	810604	863956	877644	592380	948654	902030
+Unassigned_Overlapping_Length	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Unassigned_Ambiguity	447585	473029	437851	355976	426979	314492	345232	317957	364937	385666	401302	367144	372103	357746	383839	251974	334130	387252	342549	389864	385856	401359	398048	279603	328343	367525
