@@ -1,0 +1,391 @@
+PhoPQ	CpxR	RpoE	RpoS	RcsB	Fur	ArcA	FNR	Lrp	OxyR	OmpR	PmrAB	SlyA	CRP
+pagP	cpxP	rpoE	aidB	osmB	rlgA	pefB	caiF	ilvG	dps	hyaA	yijP	slyA	acrE
+ybjX	htrA	micA	aldB	ymgG	map	traY	dcuC	ilvG	katG	SL1469	yfbE	ispA	adhE
+pipD	dsbA	rybB	appY	ymgD	rpsB	thrL	moaABCDE	thrL	grxA	ompS1	pmrF	xseB	arcA
+phoP	ycfS	mdoG	appA	osmY	yajC	thrA	hcp-hcr	thrA	ahpF	ompC	yfbG	ompC	argR
+pagD	yebE	plsB	bolA	ybaY	nrdR	caiF	dmsABC	thrB	trxC	sprB	STM2300	fliC	ydeY
+pagC	ftnB	htrA	cbdAB	ivy	cyoE	ffs	focA-pflB	thrC	ahpC	ompR	pqa	iroN	ydeZ
+ssrB	yccA	yggN	cbpA	ycfJ	cyoD	STM0650	narK	ftsQ	fur	cstA	STM2302	pagC	yneB
+slyB	yqjA	yfjO	cfa	yfbR	cyoB	STM0699	narGHJI	ftsA	gor	gltK	STM2303	ugtL	eutI
+ompX	psd	smpA	csiA-F	yraI	cyoA	potE	fdnGHI	ftsZ	dsbG	gltI	yjdB		cchA
+rstA	spy	rpoH	csgCDEF	yraJ	fepA	speF	fliZY	pepD	flu	ybfM	ais		ypjE
+pcgL	ppiA	rseA	csgBA	yraK	fes	aSTM0907	napFDAGHBC	ykgE	fhuF	sdhC	pmrR		yfjD
+ugtL	cpxR	clpX	dps	glf	entC	STM0950	glpABC	ykgF	hemH	sdhD	udg		ygbD
+pagK	ompF	yfeY	f253a	rfc	sucC	STM1129	yfiD	ykgG	sufA	sdhA	fepE		hybA
+pmrD	rpoE	ygiM	ficA	ugd	gpmA	STM1130	hypBCDE	brnQ	sufB	SL1069	cld		hybB
+pgtE	efeU	yhjJ	frd	cld	cmk	STM1131	ansB	proY	sufC	narK	aroQ		hybC
+virK	aroK	yaeT	ftsQ	yfdC	STM1013	STM1132	nirBDC	ribE	sufD	dadA	deoA		hybD
+mig-14	yaiW	yraP	ftsZ	yjbJ	STM1133	STM1133	feoAB	nusB	sufS	mglB	dgoA		hybE
+mgtC	yceI	sixA	galEKT	galU	ydiE	ycdZ	nikABCDE	ybgS	sufE	napG	ybjG		hybF
+mgtA	yceJ	yecI	glgA	wza	nth	csgG	yhjA	ybhN	yaaA	napD	BasS		yigU
+MgrR	ydiY	fkpA	glgS	wzb	STM1586	flgN	nrfABCDEFG	ybhO	yaiA	napF	BasR		yigW
+PinT	yfjN	yfgL	glpD	wzc	ldhA	flgM	dcuB-fumB	ybhP	ybjM	fadI	pmrD		cchB
+SL1344_1169	yijP	bacA	gor	wcaA	ynaF	flgK	aspA-dcuA	ybiJ	yljA	ndk	sseJ		eutE
+phoQ	yncJ	ddg	hdeAB	wcaB	tonB	flgL	frdABCD	potF	oxyS	tctD	STM1253		eutJ
+SL1344_1168	ynfD	yiiS	himA	yaaX	hns	STM1300	nrdDG	potG	tauB	yqeF	udp		eutG
+	yqaE	ychH	hmp	wcaC	STM1795	STM1301	moeAB	potH	yobA	aer	yibD		celA
+	ytfK	yicJ	htrE	wcaD	STM2186	STM1324	cydAB	potI	sdhB	ygjU	yrbL		celB
+	dctA	ompX	hyaABCDEF	wcaE	cirA	cheY	ndh	artM	yqhA	fadA			celC
+	fadL	greA	katE	wcaF	eutC	cheB	acnA	artQ	fumA	fadB			celD
+	mglB	yfeK	katG	gmd	eutB	cheR	nrdAB	artI	mdh	ego			celF
+	sbmA	dsbC	lacZ	fcl	yffB	cheM	hmpA	artP	aceF	ydeZ			ydjC
+	tppB	nlpB	ldcC	nudD	iroB	cheW	sodA	ybjS	speD	nrfA			csgD
+	dacC	cutC	mcc	wcaI	iroN	motB		ycaM	lpdA				csgE
+	slt	ostA	osmB	cpsB	sitA	motA		aspC	aceE				csgF
+	ycbB	skp	osmE	cpsG	yggU	yecG		yceB	yadF				csgG
+	yqaU	ecfA	osmY	wcaJ	yqjH	sdiA		ycgH	ygiW				cyoA
+	flhC	ecfD	otsA	wzxC	secY	fliZ		dadA	ycfR				cyoB
+	mzrA	ecfE	otsB	yggG	bfr	fliA		dadX	gltA				cyoC
+	ydeH	ecfF	poxB	yegS	bfd	fliS		dhaM	ybiJ				cyoD
+	rfm	ecfG	pqi5	spy	feoB	yeeI		dhaL	gltI				cyoE
+	raiA	ecfH	proP	yaiY	STM3600	pocR		dhaK	pdhR				dapB
+		ecfI	rob		STM3690	pduF		oppA	osmB				ecpD
+		ecfJ	topA		rpoZ	pudB		oppB	gpmA				htrE
+		regK	treA		udp	pduC		oppC	yifK				exuT
+		ecfL	wrbA		sodA	pduD		oppD	yebZ				fadB
+		htrM	xthA		yjcD	pduE		oppF	fodG				fadA
+		lpxD	yciG		dcuA	pduG		yciN	yohC				fadD
+		fabZ	yohF		aspA	pduH		deoT	yghA				fucA
+			spvABCD		ytfE	pduJ		tyrR	yciF				fucO
+			spvR		fhuF	pduK		uspE	ybiM				fucP
+			stiA			pduL		ydeN	yceI				fucI
+			stiC			pduM		ydgI					fumA
+			fimA			pduN		folM					gatY
+			glnQ			pduO		tppB					gatZ
+			mglA			pduP		astE					gef
+			mutH			pduQ		astB					glcC
+			mutS			pduS		astD					gntP
+			sdhA			pduT		astA					grpE
+			xylF			pduU		astC					hrsA
+			stiB			pduV		leuE					ybgG
+			SdsR			pduW		sdaA					hydH
+			spvA			cdd		tyrP					hydG
+			spvB			STM2186		yodC					inaA
+			spvC			yeiA		yeeD					kbl
+			yciE			STM2314		yeeE					tdh
+			yciF			yfbK		yehL					kdgT
+			STM1513			nupC		yehM					leuL
+			katN			eutR		yehP					leuA
+			STm0360			eutK		yehQ					leuB
+			ydeI			eutL		eco					leuC
+			ygaU			eutC		mqo					leuD
+			katE			eutB		yfcC					marR
+			fbaB			eutA		yfcZ					marA
+			STM0359			eutH		yffQ					marB
+			ygdI			eutJ		yffR					mgtA
+			STM4519			eutE		uraA					mhpR
+			ybgS			eutN		upp					modA
+			STM0361			eutM		purM					modB
+			STM1558			eutD		purN					modC
+			gmd			eutT		ppx					nadA
+			spy			eutQ		csiE					pnuC
+			ybaY			eutP		sdaC					ndk
+			gcd			eutS		sdaB					nrdA
+			pagC			cadB		metK					nrdB
+			wraB			yfiD		ygjG					yfaE
+			msyB			STM2740		ygjU					pflA
+			yccJ			yqfA		tdcG					ribB
+			yegS			nupG		tdcF					rpiR
+			yncC			STM3138		tdcE					yjcX
+			yjgB			glgS		tdcD					yjcW
+			yehY			STM3216		tdcC					yjcV
+			yahO			aer		tdcB					yjcU
+			yeaG			yhaL		tdcA					yjcT
+			rpsV			yhaN		mtr					yjcS
+						yhaO		yhcN					sbmC
+						nanT		yhhW					sdaC
+						glgC		livF					sdaB
+						tcp		livG					exo
+						yhiI		livM					seqA
+						STM3599		livH					pgm
+						STM3600		livK					sodA
+						STM3601		livJ					speA
+						STM3604		yhiP					speB
+						yhjH		tdh					speF
+						STM3690		kbl					potE
+						slsA		emrD					srlA
+						STM3784		ilvM					srlE
+						yidF		ilvE					srlB
+						udp		ilvD					srlD
+						STM4044		ilvA					gutM
+						rhaD		yjbJ					srlR
+						STM4071		yjbQ					gutQ
+						ydeV		lysU					thrS
+						ydeW		yjeM					infC
+						ego		cycA					rpmI
+						ydeY		ytfK					rplT
+						ydeZ		yjiC					tpiA
+						yneA		osmY					ubiB
+						yneB		leuD					ucpA
+						yneC		leuC					uidR
+						STM4080		leuB					uspA
+						cytR		leuA					uxaB
+						gldA		leuL					wzzB
+						frwC		ilvI					yaaF
+						nrfA		ilvH					yabQ
+						nrfB		htrE					yacL
+						aidB		ecpD					yadN
+						yjfN		ykgK					yaeH
+						sgaB		ompT					yahM
+						ptxA		aroG					yahO
+						STM4421		serC					yaiB
+						pyrI		aroA					phoA
+						yjgG		lolC					yajD
+						STM4463		lolD					ybbB
+						STM4464		lolE					ybeL
+						STM4465		nagK					ybfP
+						STM4466		adhE					ybhD
+						STM4467		spr					ybhJ
+						argI		napC					ybhK
+						STM4510		napB					ybiH
+						yjiE		napH					ybhF
+						iadA		napG					ybhS
+						yjiG		napA					ybhR
+						hsdR		napD					ybiP
+						deoC		napF					ycdZ
+						deoA		lrhA					ychH
+						yjjY		yfbQ					ydcH
+						PSLT042		fadJ					ydeD
+						PSLT047		fadI					ydeF
+						tlpA		stpA					ydeI
+						PSLT049		yqeF					yeaA
+						PSLT050		gcvP					yedE
+						traC		gcvH					yedF
+						PSLT106		gcvT					yedK
+						STM0018		serA					yedL
+						nhaA		ansB					yedM
+						nhaR		gltB					yedN
+						hepA		gltD					yeeA
+						gcd		gltF					yeeX
+						stiC		yzgL					yejK
+						yafC		yhjE					yfaD
+						STM0289		dppF					yfaH
+						yafH		dppD					yfaO
+						STM0314		dppC					yfeA
+						prfH		dppB					yfeC
+						STM0356		dppA					yfeD
+						phoR		avtA					yfiD
+						cyoE		ilvN					ygbL
+						cyoD		ilvB					ygbM
+						cyoC		ivbL					ygcB
+						cyoB		aceB					yggG
+						cyoA		aceA					yghA
+						STM0581		aceK					ygjU
+						ybdJ		fumB					ygjV
+						cstA		dcuB					yhaB
+						ybeF		dcuA					yhaC
+						gltL		aspA					yhcB
+						gltK		fimA					yhcM
+						gltJ		fimI					yhdG
+						gltI		fimC					fis
+						abrB		fimD					yhdJ
+						sucC		fimF					yhdU
+						sucD		fimG					yhfM
+						hutU		fimH					yhfN
+						hutH		serB					yhfO
+						bioA		radA					yhfP
+						ybhP							yhfQ
+						ybiS							yhfR
+						ybiT							yhfZ
+						ybiU							yhfY
+						ybiV(1)							yhiP
+						STM0858							yhjJ
+						potF							yidE
+						potG							yidP
+						STM0914							yidW
+						STM0915							dgoK
+						STM0916							dgoA
+						STM0917							yieP
+						STM0925							yieO
+						STM0927							yigC
+						poxB							yihV
+						STM0952							yihW
+						cmk							yihX
+						STM1029							rbn
+						STM1034							yihZ
+						STM1041							yiiD
+						aSTM1046							yiiM
+						STM1050							yjaE
+						STM1052							yjeM
+						STM1060							yjeN
+						hpaG							yjeO
+						ycdC							yjfG
+						STM1123							yjhB
+						putA							yjhC
+						putP							yjhQ
+						ptsG							yjhP
+						ycfR							yjiM
+						potB							yjiL
+						potA							yjiK
+						pagC							yjiJ
+						yeaM							yjjM
+						astC							yjjY
+						astA							ynfM
+						astD							yqeA
+						astB							yqgA
+						STM1328							yqgB
+						ydiH							yqhA
+						STM1368							yqiE
+						STM1459							yqiB
+						marB							icc
+						marA							yqiA
+						marR							parE
+						STM1538							ytfQ
+						STM1539							ytfR
+						STM1548							ytfS
+						ydcI							ytfT
+						STM1668							yjfF
+						acnA							zipA
+						yciG							bglG
+						yciF							dctA
+						yciE							rbsD
+						STM1731							rbsA
+						chaA							rbsC
+						STM1786							rbsB
+						STM1788							rbsK
+						STM1790							rbsR
+						STM1791							rhaS
+						STM1795							rhaR
+						dadX							sdhC
+						dadA							sdhD
+						rnd							sdhA
+						fadD							sdhB
+						yebN							tnaL
+						rrmA							tnaA
+						yebU							tnaB
+						STM1851							treB
+						STM1857							treC
+						pagK							focA
+						mig-3							pflB
+						yebE							galS
+						yebF							glpT
+						yebG							glpQ
+						STM1896							malX
+						otsA							malY
+						otsB							melR
+						yegQ							mglB
+						yehX							mglA
+						setB							mglC
+						STM2208							ptsG
+						STM2209							ptsH
+						yejF							ptsI
+						yejG							crr
+						sspH2							yhfA
+						STM2243							aspA
+						STM2244							deoC
+						STM2340							deoA
+						STM2341							deoB
+						STM2342							deoD
+						STM2343							glpA
+						STM2344							glpC
+						argT							glpB
+						fadL							manX
+						ddg							manY
+						guaB							manZ
+						ndk							nupC
+						STM2585							nupG
+						STM2586							rpoH
+						STM2588							tsx
+						STM2589							yjcB
+						aSTM2590							ycfR
+						STM2591							metK
+						STM2592							nirB
+						STM2593							nirD
+						STM2594							ybiS
+						STM2596							ykfC
+						STM2597							yhfC
+						STM2598							rbfA
+						STM2599							truB
+						STM2600							panF
+						STM2601							prmA
+						STM2602							amiC
+						STM2603							ydfK
+						STM2604							yeeF
+						STM2605							ygfJ
+						STM2606							ynaE
+						STM2607							pncB
+						STM2608							apbA
+						STM2609							yojL
+						STM2610							acs
+						STM2611							aldA
+						STM2617							fruB
+						recN							fruK
+						STM2708							gatA
+						STM2750							gatC
+						STM2753							gatD
+						aSTM2779							gcvP
+						STM2780							glpF
+						nxiA							glpK
+						tctE							nmpC
+						STM2786							ompF
+						STM2787							ybeK
+						STM2788							yihQ
+						STM2789							sucC
+						ygaF							sucD
+						gabD							gcd
+						gabT							proP
+						ygaP							trpL
+						ygaM							trpE
+						yqeF							trpD
+						STM3022							trpC
+						yohM							trpA
+						STM3124							yagU
+						STM3127							
+						yghA							
+						dnaG							
+						oat							
+						ygjT							
+						ygjU							
+						deaD							
+						truB							
+						yhbC							
+						yhbZ							
+						rpmA							
+						yhdG							
+						fis							
+						yheR							
+						ugpA							
+						zntA							
+						yhjV							
+						dppF							
+						dppD							
+						dppC							
+						dppB							
+						dppA							
+						STM3651							
+						lldP							
+						lldR							
+						lldD							
+						yibK							
+						pmgI							
+						mgtB							
+						mgtC							
+						ibpB							
+						pstA							
+						pstC							
+						pstS							
+						yigI							
+						fadA							
+						fadB							
+						STM4014							
+						cpxP							
+						sbp							
+						glpX							
+						udhA							
+						STM4158							
+						STM4198							
+						dinF							
+						yjcG							
+						yjcH							
+						acs							
+						adiY							
+						dcuB							
+						STM4314							
+						STM4320							
+						yjeM							
+						yjeS							
+						cycA							
+						ytfF							
+						msrA							
+						rimI							
+						STM4562							

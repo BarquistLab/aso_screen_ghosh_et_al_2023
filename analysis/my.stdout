@@ -1,0 +1,3088 @@
+ERROR: Unable to locate a modulefile for 'python'
+Start trimming
+../data/fastq/L2201710_Control_1.fq.gz starts trimming nowwwwwww
+L2201710_Control_1.fq.gz_trimmed.fastq.gz
+java -Djava.library.path=/home/jakob_jung/miniconda3/opt/bbmap-38.18/jni/ -ea -Xmx4g -Xms4g -cp /home/jakob_jung/miniconda3/opt/bbmap-38.18/current/ jgi.BBDukF in=../data/fastq/L2201710_Control_1.fq.gz ref=../data/reference_sequences/adapters.fa -Xmx4g t=20 out=../data/libs/L2201710_Control_1.fq.gz_trimmed.fastq.gz ktrim=r k=23 mink=11 hdist=1 qtrim=r trimq=10 ftl=12
+Executing jgi.BBDukF [in=../data/fastq/L2201710_Control_1.fq.gz, ref=../data/reference_sequences/adapters.fa, -Xmx4g, t=20, out=../data/libs/L2201710_Control_1.fq.gz_trimmed.fastq.gz, ktrim=r, k=23, mink=11, hdist=1, qtrim=r, trimq=10, ftl=12]
+Version 38.18
+
+Set threads to 20
+maskMiddle was disabled because useShortKmers=true
+0.028 seconds.
+Initial:
+Memory: max=4294m, total=4294m, free=4266m, used=28m
+
+Added 217135 kmers; time: 	0.111 seconds.
+Memory: max=4294m, total=4294m, free=4257m, used=37m
+
+Input is being processed as unpaired
+Started output streams:	0.025 seconds.
+Processing time:   		36.954 seconds.
+
+Input:                  	12416081 reads 		943622156 bases.
+QTrimmed:               	1612 reads (0.01%) 	19292 bases (0.00%)
+FTrimmed:               	12416081 reads (100.00%) 	148992972 bases (15.79%)
+KTrimmed:               	2656363 reads (21.39%) 	80839954 bases (8.57%)
+Total Removed:          	131105 reads (1.06%) 	229852218 bases (24.36%)
+Result:                 	12284976 reads (98.94%) 	713769938 bases (75.64%)
+
+Time:                         	37.094 seconds.
+Reads Processed:      12416k 	334.72k reads/sec
+Bases Processed:        943m 	25.44m bases/sec
+../data/fastq/L2201711_RNA_MOE_1.fq.gz starts trimming nowwwwwww
+L2201711_RNA_MOE_1.fq.gz_trimmed.fastq.gz
+java -Djava.library.path=/home/jakob_jung/miniconda3/opt/bbmap-38.18/jni/ -ea -Xmx4g -Xms4g -cp /home/jakob_jung/miniconda3/opt/bbmap-38.18/current/ jgi.BBDukF in=../data/fastq/L2201711_RNA_MOE_1.fq.gz ref=../data/reference_sequences/adapters.fa -Xmx4g t=20 out=../data/libs/L2201711_RNA_MOE_1.fq.gz_trimmed.fastq.gz ktrim=r k=23 mink=11 hdist=1 qtrim=r trimq=10 ftl=12
+Executing jgi.BBDukF [in=../data/fastq/L2201711_RNA_MOE_1.fq.gz, ref=../data/reference_sequences/adapters.fa, -Xmx4g, t=20, out=../data/libs/L2201711_RNA_MOE_1.fq.gz_trimmed.fastq.gz, ktrim=r, k=23, mink=11, hdist=1, qtrim=r, trimq=10, ftl=12]
+Version 38.18
+
+Set threads to 20
+maskMiddle was disabled because useShortKmers=true
+0.021 seconds.
+Initial:
+Memory: max=4294m, total=4294m, free=4268m, used=26m
+
+Added 217135 kmers; time: 	0.096 seconds.
+Memory: max=4294m, total=4294m, free=4259m, used=35m
+
+Input is being processed as unpaired
+Started output streams:	0.017 seconds.
+Processing time:   		36.628 seconds.
+
+Input:                  	12566436 reads 		955049136 bases.
+QTrimmed:               	1920 reads (0.02%) 	23056 bases (0.00%)
+FTrimmed:               	12566436 reads (100.00%) 	150797232 bases (15.79%)
+KTrimmed:               	3314518 reads (26.38%) 	103399080 bases (10.83%)
+Total Removed:          	186778 reads (1.49%) 	254219368 bases (26.62%)
+Result:                 	12379658 reads (98.51%) 	700829768 bases (73.38%)
+
+Time:                         	36.745 seconds.
+Reads Processed:      12566k 	341.99k reads/sec
+Bases Processed:        955m 	25.99m bases/sec
+../data/fastq/L2201712_RNA_F_1.fq.gz starts trimming nowwwwwww
+L2201712_RNA_F_1.fq.gz_trimmed.fastq.gz
+java -Djava.library.path=/home/jakob_jung/miniconda3/opt/bbmap-38.18/jni/ -ea -Xmx4g -Xms4g -cp /home/jakob_jung/miniconda3/opt/bbmap-38.18/current/ jgi.BBDukF in=../data/fastq/L2201712_RNA_F_1.fq.gz ref=../data/reference_sequences/adapters.fa -Xmx4g t=20 out=../data/libs/L2201712_RNA_F_1.fq.gz_trimmed.fastq.gz ktrim=r k=23 mink=11 hdist=1 qtrim=r trimq=10 ftl=12
+Executing jgi.BBDukF [in=../data/fastq/L2201712_RNA_F_1.fq.gz, ref=../data/reference_sequences/adapters.fa, -Xmx4g, t=20, out=../data/libs/L2201712_RNA_F_1.fq.gz_trimmed.fastq.gz, ktrim=r, k=23, mink=11, hdist=1, qtrim=r, trimq=10, ftl=12]
+Version 38.18
+
+Set threads to 20
+maskMiddle was disabled because useShortKmers=true
+0.027 seconds.
+Initial:
+Memory: max=4294m, total=4294m, free=4268m, used=26m
+
+Added 217135 kmers; time: 	0.070 seconds.
+Memory: max=4294m, total=4294m, free=4258m, used=36m
+
+Input is being processed as unpaired
+Started output streams:	0.024 seconds.
+Processing time:   		41.063 seconds.
+
+Input:                  	13438434 reads 		1021320984 bases.
+QTrimmed:               	1809 reads (0.01%) 	20987 bases (0.00%)
+FTrimmed:               	13438434 reads (100.00%) 	161261208 bases (15.79%)
+KTrimmed:               	2968982 reads (22.09%) 	92281023 bases (9.04%)
+Total Removed:          	172404 reads (1.28%) 	253563218 bases (24.83%)
+Result:                 	13266030 reads (98.72%) 	767757766 bases (75.17%)
+
+Time:                         	41.161 seconds.
+Reads Processed:      13438k 	326.48k reads/sec
+Bases Processed:       1021m 	24.81m bases/sec
+../data/fastq/L2201713_LNA_1.fq.gz starts trimming nowwwwwww
+L2201713_LNA_1.fq.gz_trimmed.fastq.gz
+java -Djava.library.path=/home/jakob_jung/miniconda3/opt/bbmap-38.18/jni/ -ea -Xmx4g -Xms4g -cp /home/jakob_jung/miniconda3/opt/bbmap-38.18/current/ jgi.BBDukF in=../data/fastq/L2201713_LNA_1.fq.gz ref=../data/reference_sequences/adapters.fa -Xmx4g t=20 out=../data/libs/L2201713_LNA_1.fq.gz_trimmed.fastq.gz ktrim=r k=23 mink=11 hdist=1 qtrim=r trimq=10 ftl=12
+Executing jgi.BBDukF [in=../data/fastq/L2201713_LNA_1.fq.gz, ref=../data/reference_sequences/adapters.fa, -Xmx4g, t=20, out=../data/libs/L2201713_LNA_1.fq.gz_trimmed.fastq.gz, ktrim=r, k=23, mink=11, hdist=1, qtrim=r, trimq=10, ftl=12]
+Version 38.18
+
+Set threads to 20
+maskMiddle was disabled because useShortKmers=true
+0.026 seconds.
+Initial:
+Memory: max=4294m, total=4294m, free=4268m, used=26m
+
+Added 217135 kmers; time: 	0.085 seconds.
+Memory: max=4294m, total=4294m, free=4258m, used=36m
+
+Input is being processed as unpaired
+Started output streams:	0.022 seconds.
+Processing time:   		36.763 seconds.
+
+Input:                  	11923600 reads 		906193600 bases.
+QTrimmed:               	1440 reads (0.01%) 	17172 bases (0.00%)
+FTrimmed:               	11923600 reads (100.00%) 	143083200 bases (15.79%)
+KTrimmed:               	2343385 reads (19.65%) 	72417323 bases (7.99%)
+Total Removed:          	134138 reads (1.12%) 	215517695 bases (23.78%)
+Result:                 	11789462 reads (98.88%) 	690675905 bases (76.22%)
+
+Time:                         	36.874 seconds.
+Reads Processed:      11923k 	323.36k reads/sec
+Bases Processed:        906m 	24.58m bases/sec
+../data/fastq/L2201714_RNA_Ome_1.fq.gz starts trimming nowwwwwww
+L2201714_RNA_Ome_1.fq.gz_trimmed.fastq.gz
+java -Djava.library.path=/home/jakob_jung/miniconda3/opt/bbmap-38.18/jni/ -ea -Xmx4g -Xms4g -cp /home/jakob_jung/miniconda3/opt/bbmap-38.18/current/ jgi.BBDukF in=../data/fastq/L2201714_RNA_Ome_1.fq.gz ref=../data/reference_sequences/adapters.fa -Xmx4g t=20 out=../data/libs/L2201714_RNA_Ome_1.fq.gz_trimmed.fastq.gz ktrim=r k=23 mink=11 hdist=1 qtrim=r trimq=10 ftl=12
+Executing jgi.BBDukF [in=../data/fastq/L2201714_RNA_Ome_1.fq.gz, ref=../data/reference_sequences/adapters.fa, -Xmx4g, t=20, out=../data/libs/L2201714_RNA_Ome_1.fq.gz_trimmed.fastq.gz, ktrim=r, k=23, mink=11, hdist=1, qtrim=r, trimq=10, ftl=12]
+Version 38.18
+
+Set threads to 20
+maskMiddle was disabled because useShortKmers=true
+0.025 seconds.
+Initial:
+Memory: max=4294m, total=4294m, free=4266m, used=28m
+
+Added 217135 kmers; time: 	0.090 seconds.
+Memory: max=4294m, total=4294m, free=4257m, used=37m
+
+Input is being processed as unpaired
+Started output streams:	0.025 seconds.
+Processing time:   		40.826 seconds.
+
+Input:                  	13187715 reads 		1002266340 bases.
+QTrimmed:               	1617 reads (0.01%) 	19235 bases (0.00%)
+FTrimmed:               	13187715 reads (100.00%) 	158252580 bases (15.79%)
+KTrimmed:               	2592904 reads (19.66%) 	81001056 bases (8.08%)
+Total Removed:          	163327 reads (1.24%) 	239272871 bases (23.87%)
+Result:                 	13024388 reads (98.76%) 	762993469 bases (76.13%)
+
+Time:                         	40.946 seconds.
+Reads Processed:      13187k 	322.08k reads/sec
+Bases Processed:       1002m 	24.48m bases/sec
+../data/fastq/L2201715_DNA_PTO_1.fq.gz starts trimming nowwwwwww
+L2201715_DNA_PTO_1.fq.gz_trimmed.fastq.gz
+java -Djava.library.path=/home/jakob_jung/miniconda3/opt/bbmap-38.18/jni/ -ea -Xmx4g -Xms4g -cp /home/jakob_jung/miniconda3/opt/bbmap-38.18/current/ jgi.BBDukF in=../data/fastq/L2201715_DNA_PTO_1.fq.gz ref=../data/reference_sequences/adapters.fa -Xmx4g t=20 out=../data/libs/L2201715_DNA_PTO_1.fq.gz_trimmed.fastq.gz ktrim=r k=23 mink=11 hdist=1 qtrim=r trimq=10 ftl=12
+Executing jgi.BBDukF [in=../data/fastq/L2201715_DNA_PTO_1.fq.gz, ref=../data/reference_sequences/adapters.fa, -Xmx4g, t=20, out=../data/libs/L2201715_DNA_PTO_1.fq.gz_trimmed.fastq.gz, ktrim=r, k=23, mink=11, hdist=1, qtrim=r, trimq=10, ftl=12]
+Version 38.18
+
+Set threads to 20
+maskMiddle was disabled because useShortKmers=true
+0.019 seconds.
+Initial:
+Memory: max=4294m, total=4294m, free=4266m, used=28m
+
+Added 217135 kmers; time: 	0.111 seconds.
+Memory: max=4294m, total=4294m, free=4257m, used=37m
+
+Input is being processed as unpaired
+Started output streams:	0.025 seconds.
+Processing time:   		31.887 seconds.
+
+Input:                  	10514624 reads 		799111424 bases.
+QTrimmed:               	1110 reads (0.01%) 	12953 bases (0.00%)
+FTrimmed:               	10514624 reads (100.00%) 	126175488 bases (15.79%)
+KTrimmed:               	1659009 reads (15.78%) 	51355986 bases (6.43%)
+Total Removed:          	102300 reads (0.97%) 	177544427 bases (22.22%)
+Result:                 	10412324 reads (99.03%) 	621566997 bases (77.78%)
+
+Time:                         	32.028 seconds.
+Reads Processed:      10514k 	328.29k reads/sec
+Bases Processed:        799m 	24.95m bases/sec
+../data/fastq/L2201716_PMO_1.fq.gz starts trimming nowwwwwww
+L2201716_PMO_1.fq.gz_trimmed.fastq.gz
+java -Djava.library.path=/home/jakob_jung/miniconda3/opt/bbmap-38.18/jni/ -ea -Xmx4g -Xms4g -cp /home/jakob_jung/miniconda3/opt/bbmap-38.18/current/ jgi.BBDukF in=../data/fastq/L2201716_PMO_1.fq.gz ref=../data/reference_sequences/adapters.fa -Xmx4g t=20 out=../data/libs/L2201716_PMO_1.fq.gz_trimmed.fastq.gz ktrim=r k=23 mink=11 hdist=1 qtrim=r trimq=10 ftl=12
+Executing jgi.BBDukF [in=../data/fastq/L2201716_PMO_1.fq.gz, ref=../data/reference_sequences/adapters.fa, -Xmx4g, t=20, out=../data/libs/L2201716_PMO_1.fq.gz_trimmed.fastq.gz, ktrim=r, k=23, mink=11, hdist=1, qtrim=r, trimq=10, ftl=12]
+Version 38.18
+
+Set threads to 20
+maskMiddle was disabled because useShortKmers=true
+0.025 seconds.
+Initial:
+Memory: max=4294m, total=4294m, free=4266m, used=28m
+
+Added 217135 kmers; time: 	0.086 seconds.
+Memory: max=4294m, total=4294m, free=4257m, used=37m
+
+Input is being processed as unpaired
+Started output streams:	0.025 seconds.
+Processing time:   		32.953 seconds.
+
+Input:                  	10556395 reads 		802286020 bases.
+QTrimmed:               	1066 reads (0.01%) 	12625 bases (0.00%)
+FTrimmed:               	10556395 reads (100.00%) 	126676740 bases (15.79%)
+KTrimmed:               	1489465 reads (14.11%) 	45453881 bases (5.67%)
+Total Removed:          	87970 reads (0.83%) 	172143246 bases (21.46%)
+Result:                 	10468425 reads (99.17%) 	630142774 bases (78.54%)
+
+Time:                         	33.069 seconds.
+Reads Processed:      10556k 	319.22k reads/sec
+Bases Processed:        802m 	24.26m bases/sec
+../data/fastq/L2201717_PNA_21_1.fq.gz starts trimming nowwwwwww
+L2201717_PNA_21_1.fq.gz_trimmed.fastq.gz
+java -Djava.library.path=/home/jakob_jung/miniconda3/opt/bbmap-38.18/jni/ -ea -Xmx4g -Xms4g -cp /home/jakob_jung/miniconda3/opt/bbmap-38.18/current/ jgi.BBDukF in=../data/fastq/L2201717_PNA_21_1.fq.gz ref=../data/reference_sequences/adapters.fa -Xmx4g t=20 out=../data/libs/L2201717_PNA_21_1.fq.gz_trimmed.fastq.gz ktrim=r k=23 mink=11 hdist=1 qtrim=r trimq=10 ftl=12
+Executing jgi.BBDukF [in=../data/fastq/L2201717_PNA_21_1.fq.gz, ref=../data/reference_sequences/adapters.fa, -Xmx4g, t=20, out=../data/libs/L2201717_PNA_21_1.fq.gz_trimmed.fastq.gz, ktrim=r, k=23, mink=11, hdist=1, qtrim=r, trimq=10, ftl=12]
+Version 38.18
+
+Set threads to 20
+maskMiddle was disabled because useShortKmers=true
+0.024 seconds.
+Initial:
+Memory: max=4294m, total=4294m, free=4266m, used=28m
+
+Added 217135 kmers; time: 	0.078 seconds.
+Memory: max=4294m, total=4294m, free=4257m, used=37m
+
+Input is being processed as unpaired
+Started output streams:	0.032 seconds.
+Processing time:   		29.088 seconds.
+
+Input:                  	9668138 reads 		734778488 bases.
+QTrimmed:               	924 reads (0.01%) 	11000 bases (0.00%)
+FTrimmed:               	9668138 reads (100.00%) 	116017656 bases (15.79%)
+KTrimmed:               	1167988 reads (12.08%) 	33681167 bases (4.58%)
+Total Removed:          	53178 reads (0.55%) 	149709823 bases (20.37%)
+Result:                 	9614960 reads (99.45%) 	585068665 bases (79.63%)
+
+Time:                         	29.201 seconds.
+Reads Processed:       9668k 	331.08k reads/sec
+Bases Processed:        734m 	25.16m bases/sec
+../data/fastq/L2201718_PNA22_1.fq.gz starts trimming nowwwwwww
+L2201718_PNA22_1.fq.gz_trimmed.fastq.gz
+java -Djava.library.path=/home/jakob_jung/miniconda3/opt/bbmap-38.18/jni/ -ea -Xmx4g -Xms4g -cp /home/jakob_jung/miniconda3/opt/bbmap-38.18/current/ jgi.BBDukF in=../data/fastq/L2201718_PNA22_1.fq.gz ref=../data/reference_sequences/adapters.fa -Xmx4g t=20 out=../data/libs/L2201718_PNA22_1.fq.gz_trimmed.fastq.gz ktrim=r k=23 mink=11 hdist=1 qtrim=r trimq=10 ftl=12
+Executing jgi.BBDukF [in=../data/fastq/L2201718_PNA22_1.fq.gz, ref=../data/reference_sequences/adapters.fa, -Xmx4g, t=20, out=../data/libs/L2201718_PNA22_1.fq.gz_trimmed.fastq.gz, ktrim=r, k=23, mink=11, hdist=1, qtrim=r, trimq=10, ftl=12]
+Version 38.18
+
+Set threads to 20
+maskMiddle was disabled because useShortKmers=true
+0.032 seconds.
+Initial:
+Memory: max=4294m, total=4294m, free=4268m, used=26m
+
+Added 217135 kmers; time: 	0.084 seconds.
+Memory: max=4294m, total=4294m, free=4257m, used=37m
+
+Input is being processed as unpaired
+Started output streams:	0.020 seconds.
+Processing time:   		33.779 seconds.
+
+Input:                  	11019359 reads 		837471284 bases.
+QTrimmed:               	1112 reads (0.01%) 	13124 bases (0.00%)
+FTrimmed:               	11019359 reads (100.00%) 	132232308 bases (15.79%)
+KTrimmed:               	1725318 reads (15.66%) 	50713210 bases (6.06%)
+Total Removed:          	77682 reads (0.70%) 	182958642 bases (21.85%)
+Result:                 	10941677 reads (99.30%) 	654512642 bases (78.15%)
+
+Time:                         	33.886 seconds.
+Reads Processed:      11019k 	325.19k reads/sec
+Bases Processed:        837m 	24.71m bases/sec
+../data/fastq/L2201719_PNA15_1.fq.gz starts trimming nowwwwwww
+L2201719_PNA15_1.fq.gz_trimmed.fastq.gz
+java -Djava.library.path=/home/jakob_jung/miniconda3/opt/bbmap-38.18/jni/ -ea -Xmx4g -Xms4g -cp /home/jakob_jung/miniconda3/opt/bbmap-38.18/current/ jgi.BBDukF in=../data/fastq/L2201719_PNA15_1.fq.gz ref=../data/reference_sequences/adapters.fa -Xmx4g t=20 out=../data/libs/L2201719_PNA15_1.fq.gz_trimmed.fastq.gz ktrim=r k=23 mink=11 hdist=1 qtrim=r trimq=10 ftl=12
+Executing jgi.BBDukF [in=../data/fastq/L2201719_PNA15_1.fq.gz, ref=../data/reference_sequences/adapters.fa, -Xmx4g, t=20, out=../data/libs/L2201719_PNA15_1.fq.gz_trimmed.fastq.gz, ktrim=r, k=23, mink=11, hdist=1, qtrim=r, trimq=10, ftl=12]
+Version 38.18
+
+Set threads to 20
+maskMiddle was disabled because useShortKmers=true
+0.025 seconds.
+Initial:
+Memory: max=4294m, total=4294m, free=4266m, used=28m
+
+Added 217135 kmers; time: 	0.116 seconds.
+Memory: max=4294m, total=4294m, free=4257m, used=37m
+
+Input is being processed as unpaired
+Started output streams:	0.021 seconds.
+Processing time:   		34.880 seconds.
+
+Input:                  	11297800 reads 		858632800 bases.
+QTrimmed:               	1062 reads (0.01%) 	12894 bases (0.00%)
+FTrimmed:               	11297800 reads (100.00%) 	135573600 bases (15.79%)
+KTrimmed:               	1509140 reads (13.36%) 	42812798 bases (4.99%)
+Total Removed:          	54966 reads (0.49%) 	178399292 bases (20.78%)
+Result:                 	11242834 reads (99.51%) 	680233508 bases (79.22%)
+
+Time:                         	35.021 seconds.
+Reads Processed:      11297k 	322.60k reads/sec
+Bases Processed:        858m 	24.52m bases/sec
+../data/fastq/L2201720_PNA14_1.fq.gz starts trimming nowwwwwww
+L2201720_PNA14_1.fq.gz_trimmed.fastq.gz
+java -Djava.library.path=/home/jakob_jung/miniconda3/opt/bbmap-38.18/jni/ -ea -Xmx4g -Xms4g -cp /home/jakob_jung/miniconda3/opt/bbmap-38.18/current/ jgi.BBDukF in=../data/fastq/L2201720_PNA14_1.fq.gz ref=../data/reference_sequences/adapters.fa -Xmx4g t=20 out=../data/libs/L2201720_PNA14_1.fq.gz_trimmed.fastq.gz ktrim=r k=23 mink=11 hdist=1 qtrim=r trimq=10 ftl=12
+Executing jgi.BBDukF [in=../data/fastq/L2201720_PNA14_1.fq.gz, ref=../data/reference_sequences/adapters.fa, -Xmx4g, t=20, out=../data/libs/L2201720_PNA14_1.fq.gz_trimmed.fastq.gz, ktrim=r, k=23, mink=11, hdist=1, qtrim=r, trimq=10, ftl=12]
+Version 38.18
+
+Set threads to 20
+maskMiddle was disabled because useShortKmers=true
+0.030 seconds.
+Initial:
+Memory: max=4294m, total=4294m, free=4268m, used=26m
+
+Added 217135 kmers; time: 	0.105 seconds.
+Memory: max=4294m, total=4294m, free=4258m, used=36m
+
+Input is being processed as unpaired
+Started output streams:	0.025 seconds.
+Processing time:   		35.547 seconds.
+
+Input:                  	11790848 reads 		896104448 bases.
+QTrimmed:               	1131 reads (0.01%) 	14101 bases (0.00%)
+FTrimmed:               	11790848 reads (100.00%) 	141490176 bases (15.79%)
+KTrimmed:               	1663643 reads (14.11%) 	47613610 bases (5.31%)
+Total Removed:          	62266 reads (0.53%) 	189117887 bases (21.10%)
+Result:                 	11728582 reads (99.47%) 	706986561 bases (78.90%)
+
+Time:                         	35.680 seconds.
+Reads Processed:      11790k 	330.46k reads/sec
+Bases Processed:        896m 	25.11m bases/sec
+../data/fastq/L2201721_JVPep112_1.fq.gz starts trimming nowwwwwww
+L2201721_JVPep112_1.fq.gz_trimmed.fastq.gz
+java -Djava.library.path=/home/jakob_jung/miniconda3/opt/bbmap-38.18/jni/ -ea -Xmx4g -Xms4g -cp /home/jakob_jung/miniconda3/opt/bbmap-38.18/current/ jgi.BBDukF in=../data/fastq/L2201721_JVPep112_1.fq.gz ref=../data/reference_sequences/adapters.fa -Xmx4g t=20 out=../data/libs/L2201721_JVPep112_1.fq.gz_trimmed.fastq.gz ktrim=r k=23 mink=11 hdist=1 qtrim=r trimq=10 ftl=12
+Executing jgi.BBDukF [in=../data/fastq/L2201721_JVPep112_1.fq.gz, ref=../data/reference_sequences/adapters.fa, -Xmx4g, t=20, out=../data/libs/L2201721_JVPep112_1.fq.gz_trimmed.fastq.gz, ktrim=r, k=23, mink=11, hdist=1, qtrim=r, trimq=10, ftl=12]
+Version 38.18
+
+Set threads to 20
+maskMiddle was disabled because useShortKmers=true
+0.030 seconds.
+Initial:
+Memory: max=4294m, total=4294m, free=4266m, used=28m
+
+Added 217135 kmers; time: 	0.103 seconds.
+Memory: max=4294m, total=4294m, free=4257m, used=37m
+
+Input is being processed as unpaired
+Started output streams:	0.025 seconds.
+Processing time:   		33.860 seconds.
+
+Input:                  	11324221 reads 		860640796 bases.
+QTrimmed:               	1062 reads (0.01%) 	12916 bases (0.00%)
+FTrimmed:               	11324221 reads (100.00%) 	135890652 bases (15.79%)
+KTrimmed:               	1495504 reads (13.21%) 	42206054 bases (4.90%)
+Total Removed:          	51864 reads (0.46%) 	178109622 bases (20.70%)
+Result:                 	11272357 reads (99.54%) 	682531174 bases (79.30%)
+
+Time:                         	33.993 seconds.
+Reads Processed:      11324k 	333.14k reads/sec
+Bases Processed:        860m 	25.32m bases/sec
+../data/fastq/L2201722_KFFN3_1.fq.gz starts trimming nowwwwwww
+L2201722_KFFN3_1.fq.gz_trimmed.fastq.gz
+java -Djava.library.path=/home/jakob_jung/miniconda3/opt/bbmap-38.18/jni/ -ea -Xmx4g -Xms4g -cp /home/jakob_jung/miniconda3/opt/bbmap-38.18/current/ jgi.BBDukF in=../data/fastq/L2201722_KFFN3_1.fq.gz ref=../data/reference_sequences/adapters.fa -Xmx4g t=20 out=../data/libs/L2201722_KFFN3_1.fq.gz_trimmed.fastq.gz ktrim=r k=23 mink=11 hdist=1 qtrim=r trimq=10 ftl=12
+Executing jgi.BBDukF [in=../data/fastq/L2201722_KFFN3_1.fq.gz, ref=../data/reference_sequences/adapters.fa, -Xmx4g, t=20, out=../data/libs/L2201722_KFFN3_1.fq.gz_trimmed.fastq.gz, ktrim=r, k=23, mink=11, hdist=1, qtrim=r, trimq=10, ftl=12]
+Version 38.18
+
+Set threads to 20
+maskMiddle was disabled because useShortKmers=true
+0.016 seconds.
+Initial:
+Memory: max=4294m, total=4294m, free=4268m, used=26m
+
+Added 217135 kmers; time: 	0.092 seconds.
+Memory: max=4294m, total=4294m, free=4258m, used=36m
+
+Input is being processed as unpaired
+Started output streams:	0.022 seconds.
+Processing time:   		37.304 seconds.
+
+Input:                  	12059516 reads 		916523216 bases.
+QTrimmed:               	1155 reads (0.01%) 	13804 bases (0.00%)
+FTrimmed:               	12059516 reads (100.00%) 	144714192 bases (15.79%)
+KTrimmed:               	1756820 reads (14.57%) 	51017758 bases (5.57%)
+Total Removed:          	76580 reads (0.64%) 	195745754 bases (21.36%)
+Result:                 	11982936 reads (99.36%) 	720777462 bases (78.64%)
+
+Time:                         	37.421 seconds.
+Reads Processed:      12059k 	322.26k reads/sec
+Bases Processed:        916m 	24.49m bases/sec
+../data/fastq/L2201723_Control_2.fq.gz starts trimming nowwwwwww
+L2201723_Control_2.fq.gz_trimmed.fastq.gz
+java -Djava.library.path=/home/jakob_jung/miniconda3/opt/bbmap-38.18/jni/ -ea -Xmx4g -Xms4g -cp /home/jakob_jung/miniconda3/opt/bbmap-38.18/current/ jgi.BBDukF in=../data/fastq/L2201723_Control_2.fq.gz ref=../data/reference_sequences/adapters.fa -Xmx4g t=20 out=../data/libs/L2201723_Control_2.fq.gz_trimmed.fastq.gz ktrim=r k=23 mink=11 hdist=1 qtrim=r trimq=10 ftl=12
+Executing jgi.BBDukF [in=../data/fastq/L2201723_Control_2.fq.gz, ref=../data/reference_sequences/adapters.fa, -Xmx4g, t=20, out=../data/libs/L2201723_Control_2.fq.gz_trimmed.fastq.gz, ktrim=r, k=23, mink=11, hdist=1, qtrim=r, trimq=10, ftl=12]
+Version 38.18
+
+Set threads to 20
+maskMiddle was disabled because useShortKmers=true
+0.023 seconds.
+Initial:
+Memory: max=4294m, total=4294m, free=4268m, used=26m
+
+Added 217135 kmers; time: 	0.107 seconds.
+Memory: max=4294m, total=4294m, free=4258m, used=36m
+
+Input is being processed as unpaired
+Started output streams:	0.024 seconds.
+Processing time:   		32.553 seconds.
+
+Input:                  	10931666 reads 		830806616 bases.
+QTrimmed:               	1084 reads (0.01%) 	13132 bases (0.00%)
+FTrimmed:               	10931666 reads (100.00%) 	131179992 bases (15.79%)
+KTrimmed:               	1644224 reads (15.04%) 	49123122 bases (5.91%)
+Total Removed:          	85299 reads (0.78%) 	180316246 bases (21.70%)
+Result:                 	10846367 reads (99.22%) 	650490370 bases (78.30%)
+
+Time:                         	32.687 seconds.
+Reads Processed:      10931k 	334.43k reads/sec
+Bases Processed:        830m 	25.42m bases/sec
+../data/fastq/L2201724_RNA_MOE_2.fq.gz starts trimming nowwwwwww
+L2201724_RNA_MOE_2.fq.gz_trimmed.fastq.gz
+java -Djava.library.path=/home/jakob_jung/miniconda3/opt/bbmap-38.18/jni/ -ea -Xmx4g -Xms4g -cp /home/jakob_jung/miniconda3/opt/bbmap-38.18/current/ jgi.BBDukF in=../data/fastq/L2201724_RNA_MOE_2.fq.gz ref=../data/reference_sequences/adapters.fa -Xmx4g t=20 out=../data/libs/L2201724_RNA_MOE_2.fq.gz_trimmed.fastq.gz ktrim=r k=23 mink=11 hdist=1 qtrim=r trimq=10 ftl=12
+Executing jgi.BBDukF [in=../data/fastq/L2201724_RNA_MOE_2.fq.gz, ref=../data/reference_sequences/adapters.fa, -Xmx4g, t=20, out=../data/libs/L2201724_RNA_MOE_2.fq.gz_trimmed.fastq.gz, ktrim=r, k=23, mink=11, hdist=1, qtrim=r, trimq=10, ftl=12]
+Version 38.18
+
+Set threads to 20
+maskMiddle was disabled because useShortKmers=true
+0.027 seconds.
+Initial:
+Memory: max=4294m, total=4294m, free=4266m, used=28m
+
+Added 217135 kmers; time: 	0.097 seconds.
+Memory: max=4294m, total=4294m, free=4257m, used=37m
+
+Input is being processed as unpaired
+Started output streams:	0.022 seconds.
+Processing time:   		34.767 seconds.
+
+Input:                  	11662199 reads 		886327124 bases.
+QTrimmed:               	1059 reads (0.01%) 	13135 bases (0.00%)
+FTrimmed:               	11662199 reads (100.00%) 	139946388 bases (15.79%)
+KTrimmed:               	1477725 reads (12.67%) 	41753636 bases (4.71%)
+Total Removed:          	52862 reads (0.45%) 	181713159 bases (20.50%)
+Result:                 	11609337 reads (99.55%) 	704613965 bases (79.50%)
+
+Time:                         	34.890 seconds.
+Reads Processed:      11662k 	334.25k reads/sec
+Bases Processed:        886m 	25.40m bases/sec
+../data/fastq/L2201725_RNA_F_2.fq.gz starts trimming nowwwwwww
+L2201725_RNA_F_2.fq.gz_trimmed.fastq.gz
+java -Djava.library.path=/home/jakob_jung/miniconda3/opt/bbmap-38.18/jni/ -ea -Xmx4g -Xms4g -cp /home/jakob_jung/miniconda3/opt/bbmap-38.18/current/ jgi.BBDukF in=../data/fastq/L2201725_RNA_F_2.fq.gz ref=../data/reference_sequences/adapters.fa -Xmx4g t=20 out=../data/libs/L2201725_RNA_F_2.fq.gz_trimmed.fastq.gz ktrim=r k=23 mink=11 hdist=1 qtrim=r trimq=10 ftl=12
+Executing jgi.BBDukF [in=../data/fastq/L2201725_RNA_F_2.fq.gz, ref=../data/reference_sequences/adapters.fa, -Xmx4g, t=20, out=../data/libs/L2201725_RNA_F_2.fq.gz_trimmed.fastq.gz, ktrim=r, k=23, mink=11, hdist=1, qtrim=r, trimq=10, ftl=12]
+Version 38.18
+
+Set threads to 20
+maskMiddle was disabled because useShortKmers=true
+0.031 seconds.
+Initial:
+Memory: max=4294m, total=4294m, free=4268m, used=26m
+
+Added 217135 kmers; time: 	0.098 seconds.
+Memory: max=4294m, total=4294m, free=4258m, used=36m
+
+Input is being processed as unpaired
+Started output streams:	0.023 seconds.
+Processing time:   		25.688 seconds.
+
+Input:                  	8209356 reads 		623911056 bases.
+QTrimmed:               	718 reads (0.01%) 	8318 bases (0.00%)
+FTrimmed:               	8209356 reads (100.00%) 	98512272 bases (15.79%)
+KTrimmed:               	803131 reads (9.78%) 	22169082 bases (3.55%)
+Total Removed:          	25207 reads (0.31%) 	120689672 bases (19.34%)
+Result:                 	8184149 reads (99.69%) 	503221384 bases (80.66%)
+
+Time:                         	25.813 seconds.
+Reads Processed:       8209k 	318.03k reads/sec
+Bases Processed:        623m 	24.17m bases/sec
+../data/fastq/L2201726_LNA_2.fq.gz starts trimming nowwwwwww
+L2201726_LNA_2.fq.gz_trimmed.fastq.gz
+java -Djava.library.path=/home/jakob_jung/miniconda3/opt/bbmap-38.18/jni/ -ea -Xmx4g -Xms4g -cp /home/jakob_jung/miniconda3/opt/bbmap-38.18/current/ jgi.BBDukF in=../data/fastq/L2201726_LNA_2.fq.gz ref=../data/reference_sequences/adapters.fa -Xmx4g t=20 out=../data/libs/L2201726_LNA_2.fq.gz_trimmed.fastq.gz ktrim=r k=23 mink=11 hdist=1 qtrim=r trimq=10 ftl=12
+Executing jgi.BBDukF [in=../data/fastq/L2201726_LNA_2.fq.gz, ref=../data/reference_sequences/adapters.fa, -Xmx4g, t=20, out=../data/libs/L2201726_LNA_2.fq.gz_trimmed.fastq.gz, ktrim=r, k=23, mink=11, hdist=1, qtrim=r, trimq=10, ftl=12]
+Version 38.18
+
+Set threads to 20
+maskMiddle was disabled because useShortKmers=true
+0.030 seconds.
+Initial:
+Memory: max=4294m, total=4294m, free=4266m, used=28m
+
+Added 217135 kmers; time: 	0.088 seconds.
+Memory: max=4294m, total=4294m, free=4257m, used=37m
+
+Input is being processed as unpaired
+Started output streams:	0.020 seconds.
+Processing time:   		36.008 seconds.
+
+Input:                  	11813257 reads 		897807532 bases.
+QTrimmed:               	1103 reads (0.01%) 	13564 bases (0.00%)
+FTrimmed:               	11813257 reads (100.00%) 	141759084 bases (15.79%)
+KTrimmed:               	1366355 reads (11.57%) 	38064230 bases (4.24%)
+Total Removed:          	46267 reads (0.39%) 	179836878 bases (20.03%)
+Result:                 	11766990 reads (99.61%) 	717970654 bases (79.97%)
+
+Time:                         	36.120 seconds.
+Reads Processed:      11813k 	327.05k reads/sec
+Bases Processed:        897m 	24.86m bases/sec
+../data/fastq/L2201727_RNA_Ome_2.fq.gz starts trimming nowwwwwww
+L2201727_RNA_Ome_2.fq.gz_trimmed.fastq.gz
+java -Djava.library.path=/home/jakob_jung/miniconda3/opt/bbmap-38.18/jni/ -ea -Xmx4g -Xms4g -cp /home/jakob_jung/miniconda3/opt/bbmap-38.18/current/ jgi.BBDukF in=../data/fastq/L2201727_RNA_Ome_2.fq.gz ref=../data/reference_sequences/adapters.fa -Xmx4g t=20 out=../data/libs/L2201727_RNA_Ome_2.fq.gz_trimmed.fastq.gz ktrim=r k=23 mink=11 hdist=1 qtrim=r trimq=10 ftl=12
+Executing jgi.BBDukF [in=../data/fastq/L2201727_RNA_Ome_2.fq.gz, ref=../data/reference_sequences/adapters.fa, -Xmx4g, t=20, out=../data/libs/L2201727_RNA_Ome_2.fq.gz_trimmed.fastq.gz, ktrim=r, k=23, mink=11, hdist=1, qtrim=r, trimq=10, ftl=12]
+Version 38.18
+
+Set threads to 20
+maskMiddle was disabled because useShortKmers=true
+0.026 seconds.
+Initial:
+Memory: max=4294m, total=4294m, free=4266m, used=28m
+
+Added 217135 kmers; time: 	0.085 seconds.
+Memory: max=4294m, total=4294m, free=4257m, used=37m
+
+Input is being processed as unpaired
+Started output streams:	0.030 seconds.
+Processing time:   		36.330 seconds.
+
+Input:                  	11682863 reads 		887897588 bases.
+QTrimmed:               	909 reads (0.01%) 	11066 bases (0.00%)
+FTrimmed:               	11682863 reads (100.00%) 	140194356 bases (15.79%)
+KTrimmed:               	1068984 reads (9.15%) 	28778494 bases (3.24%)
+Total Removed:          	29622 reads (0.25%) 	168983916 bases (19.03%)
+Result:                 	11653241 reads (99.75%) 	718913672 bases (80.97%)
+
+Time:                         	36.449 seconds.
+Reads Processed:      11682k 	320.52k reads/sec
+Bases Processed:        887m 	24.36m bases/sec
+../data/fastq/L2201728_DNA_PTO_2.fq.gz starts trimming nowwwwwww
+L2201728_DNA_PTO_2.fq.gz_trimmed.fastq.gz
+java -Djava.library.path=/home/jakob_jung/miniconda3/opt/bbmap-38.18/jni/ -ea -Xmx4g -Xms4g -cp /home/jakob_jung/miniconda3/opt/bbmap-38.18/current/ jgi.BBDukF in=../data/fastq/L2201728_DNA_PTO_2.fq.gz ref=../data/reference_sequences/adapters.fa -Xmx4g t=20 out=../data/libs/L2201728_DNA_PTO_2.fq.gz_trimmed.fastq.gz ktrim=r k=23 mink=11 hdist=1 qtrim=r trimq=10 ftl=12
+Executing jgi.BBDukF [in=../data/fastq/L2201728_DNA_PTO_2.fq.gz, ref=../data/reference_sequences/adapters.fa, -Xmx4g, t=20, out=../data/libs/L2201728_DNA_PTO_2.fq.gz_trimmed.fastq.gz, ktrim=r, k=23, mink=11, hdist=1, qtrim=r, trimq=10, ftl=12]
+Version 38.18
+
+Set threads to 20
+maskMiddle was disabled because useShortKmers=true
+0.019 seconds.
+Initial:
+Memory: max=4294m, total=4294m, free=4266m, used=28m
+
+Added 217135 kmers; time: 	0.097 seconds.
+Memory: max=4294m, total=4294m, free=4257m, used=37m
+
+Input is being processed as unpaired
+Started output streams:	0.019 seconds.
+Processing time:   		35.806 seconds.
+
+Input:                  	11486529 reads 		872976204 bases.
+QTrimmed:               	993 reads (0.01%) 	12200 bases (0.00%)
+FTrimmed:               	11486529 reads (100.00%) 	137838348 bases (15.79%)
+KTrimmed:               	1297232 reads (11.29%) 	35934732 bases (4.12%)
+Total Removed:          	39640 reads (0.35%) 	173785280 bases (19.91%)
+Result:                 	11446889 reads (99.65%) 	699190924 bases (80.09%)
+
+Time:                         	35.924 seconds.
+Reads Processed:      11486k 	319.75k reads/sec
+Bases Processed:        872m 	24.30m bases/sec
+../data/fastq/L2201729_PMO_2.fq.gz starts trimming nowwwwwww
+L2201729_PMO_2.fq.gz_trimmed.fastq.gz
+java -Djava.library.path=/home/jakob_jung/miniconda3/opt/bbmap-38.18/jni/ -ea -Xmx4g -Xms4g -cp /home/jakob_jung/miniconda3/opt/bbmap-38.18/current/ jgi.BBDukF in=../data/fastq/L2201729_PMO_2.fq.gz ref=../data/reference_sequences/adapters.fa -Xmx4g t=20 out=../data/libs/L2201729_PMO_2.fq.gz_trimmed.fastq.gz ktrim=r k=23 mink=11 hdist=1 qtrim=r trimq=10 ftl=12
+Executing jgi.BBDukF [in=../data/fastq/L2201729_PMO_2.fq.gz, ref=../data/reference_sequences/adapters.fa, -Xmx4g, t=20, out=../data/libs/L2201729_PMO_2.fq.gz_trimmed.fastq.gz, ktrim=r, k=23, mink=11, hdist=1, qtrim=r, trimq=10, ftl=12]
+Version 38.18
+
+Set threads to 20
+maskMiddle was disabled because useShortKmers=true
+0.020 seconds.
+Initial:
+Memory: max=4294m, total=4294m, free=4268m, used=26m
+
+Added 217135 kmers; time: 	0.094 seconds.
+Memory: max=4294m, total=4294m, free=4258m, used=36m
+
+Input is being processed as unpaired
+Started output streams:	0.026 seconds.
+Processing time:   		36.432 seconds.
+
+Input:                  	12078761 reads 		917985836 bases.
+QTrimmed:               	975 reads (0.01%) 	12104 bases (0.00%)
+FTrimmed:               	12078761 reads (100.00%) 	144945132 bases (15.79%)
+KTrimmed:               	1245639 reads (10.31%) 	34002909 bases (3.70%)
+Total Removed:          	38424 reads (0.32%) 	178960145 bases (19.49%)
+Result:                 	12040337 reads (99.68%) 	739025691 bases (80.51%)
+
+Time:                         	36.555 seconds.
+Reads Processed:      12078k 	330.43k reads/sec
+Bases Processed:        917m 	25.11m bases/sec
+../data/fastq/L2201730_PNA_21_2.fq.gz starts trimming nowwwwwww
+L2201730_PNA_21_2.fq.gz_trimmed.fastq.gz
+java -Djava.library.path=/home/jakob_jung/miniconda3/opt/bbmap-38.18/jni/ -ea -Xmx4g -Xms4g -cp /home/jakob_jung/miniconda3/opt/bbmap-38.18/current/ jgi.BBDukF in=../data/fastq/L2201730_PNA_21_2.fq.gz ref=../data/reference_sequences/adapters.fa -Xmx4g t=20 out=../data/libs/L2201730_PNA_21_2.fq.gz_trimmed.fastq.gz ktrim=r k=23 mink=11 hdist=1 qtrim=r trimq=10 ftl=12
+Executing jgi.BBDukF [in=../data/fastq/L2201730_PNA_21_2.fq.gz, ref=../data/reference_sequences/adapters.fa, -Xmx4g, t=20, out=../data/libs/L2201730_PNA_21_2.fq.gz_trimmed.fastq.gz, ktrim=r, k=23, mink=11, hdist=1, qtrim=r, trimq=10, ftl=12]
+Version 38.18
+
+Set threads to 20
+maskMiddle was disabled because useShortKmers=true
+0.022 seconds.
+Initial:
+Memory: max=4294m, total=4294m, free=4266m, used=28m
+
+Added 217135 kmers; time: 	0.111 seconds.
+Memory: max=4294m, total=4294m, free=4256m, used=38m
+
+Input is being processed as unpaired
+Started output streams:	0.027 seconds.
+Processing time:   		34.910 seconds.
+
+Input:                  	11731666 reads 		891606616 bases.
+QTrimmed:               	1033 reads (0.01%) 	12356 bases (0.00%)
+FTrimmed:               	11731666 reads (100.00%) 	140779992 bases (15.79%)
+KTrimmed:               	1331814 reads (11.35%) 	37807984 bases (4.24%)
+Total Removed:          	54525 reads (0.46%) 	178600332 bases (20.03%)
+Result:                 	11677141 reads (99.54%) 	713006284 bases (79.97%)
+
+Time:                         	35.053 seconds.
+Reads Processed:      11731k 	334.69k reads/sec
+Bases Processed:        891m 	25.44m bases/sec
+../data/fastq/L2201731_PNA22_2.fq.gz starts trimming nowwwwwww
+L2201731_PNA22_2.fq.gz_trimmed.fastq.gz
+java -Djava.library.path=/home/jakob_jung/miniconda3/opt/bbmap-38.18/jni/ -ea -Xmx4g -Xms4g -cp /home/jakob_jung/miniconda3/opt/bbmap-38.18/current/ jgi.BBDukF in=../data/fastq/L2201731_PNA22_2.fq.gz ref=../data/reference_sequences/adapters.fa -Xmx4g t=20 out=../data/libs/L2201731_PNA22_2.fq.gz_trimmed.fastq.gz ktrim=r k=23 mink=11 hdist=1 qtrim=r trimq=10 ftl=12
+Executing jgi.BBDukF [in=../data/fastq/L2201731_PNA22_2.fq.gz, ref=../data/reference_sequences/adapters.fa, -Xmx4g, t=20, out=../data/libs/L2201731_PNA22_2.fq.gz_trimmed.fastq.gz, ktrim=r, k=23, mink=11, hdist=1, qtrim=r, trimq=10, ftl=12]
+Version 38.18
+
+Set threads to 20
+maskMiddle was disabled because useShortKmers=true
+0.018 seconds.
+Initial:
+Memory: max=4294m, total=4294m, free=4266m, used=28m
+
+Added 217135 kmers; time: 	0.223 seconds.
+Memory: max=4294m, total=4294m, free=4257m, used=37m
+
+Input is being processed as unpaired
+Started output streams:	0.023 seconds.
+Processing time:   		38.294 seconds.
+
+Input:                  	12482952 reads 		948704352 bases.
+QTrimmed:               	1134 reads (0.01%) 	13703 bases (0.00%)
+FTrimmed:               	12482952 reads (100.00%) 	149795424 bases (15.79%)
+KTrimmed:               	1359522 reads (10.89%) 	37871040 bases (3.99%)
+Total Removed:          	42696 reads (0.34%) 	187680167 bases (19.78%)
+Result:                 	12440256 reads (99.66%) 	761024185 bases (80.22%)
+
+Time:                         	38.545 seconds.
+Reads Processed:      12482k 	323.86k reads/sec
+Bases Processed:        948m 	24.61m bases/sec
+../data/fastq/L2201732_PNA15_2.fq.gz starts trimming nowwwwwww
+L2201732_PNA15_2.fq.gz_trimmed.fastq.gz
+java -Djava.library.path=/home/jakob_jung/miniconda3/opt/bbmap-38.18/jni/ -ea -Xmx4g -Xms4g -cp /home/jakob_jung/miniconda3/opt/bbmap-38.18/current/ jgi.BBDukF in=../data/fastq/L2201732_PNA15_2.fq.gz ref=../data/reference_sequences/adapters.fa -Xmx4g t=20 out=../data/libs/L2201732_PNA15_2.fq.gz_trimmed.fastq.gz ktrim=r k=23 mink=11 hdist=1 qtrim=r trimq=10 ftl=12
+Executing jgi.BBDukF [in=../data/fastq/L2201732_PNA15_2.fq.gz, ref=../data/reference_sequences/adapters.fa, -Xmx4g, t=20, out=../data/libs/L2201732_PNA15_2.fq.gz_trimmed.fastq.gz, ktrim=r, k=23, mink=11, hdist=1, qtrim=r, trimq=10, ftl=12]
+Version 38.18
+
+Set threads to 20
+maskMiddle was disabled because useShortKmers=true
+0.018 seconds.
+Initial:
+Memory: max=4294m, total=4294m, free=4268m, used=26m
+
+Added 217135 kmers; time: 	0.093 seconds.
+Memory: max=4294m, total=4294m, free=4258m, used=36m
+
+Input is being processed as unpaired
+Started output streams:	0.024 seconds.
+Processing time:   		36.273 seconds.
+
+Input:                  	11968924 reads 		909638224 bases.
+QTrimmed:               	1062 reads (0.01%) 	13074 bases (0.00%)
+FTrimmed:               	11968924 reads (100.00%) 	143627088 bases (15.79%)
+KTrimmed:               	1306225 reads (10.91%) 	36913457 bases (4.06%)
+Total Removed:          	49404 reads (0.41%) 	180553619 bases (19.85%)
+Result:                 	11919520 reads (99.59%) 	729084605 bases (80.15%)
+
+Time:                         	36.392 seconds.
+Reads Processed:      11968k 	328.89k reads/sec
+Bases Processed:        909m 	25.00m bases/sec
+../data/fastq/L2201733_PNA14_2.fq.gz starts trimming nowwwwwww
+L2201733_PNA14_2.fq.gz_trimmed.fastq.gz
+java -Djava.library.path=/home/jakob_jung/miniconda3/opt/bbmap-38.18/jni/ -ea -Xmx4g -Xms4g -cp /home/jakob_jung/miniconda3/opt/bbmap-38.18/current/ jgi.BBDukF in=../data/fastq/L2201733_PNA14_2.fq.gz ref=../data/reference_sequences/adapters.fa -Xmx4g t=20 out=../data/libs/L2201733_PNA14_2.fq.gz_trimmed.fastq.gz ktrim=r k=23 mink=11 hdist=1 qtrim=r trimq=10 ftl=12
+Executing jgi.BBDukF [in=../data/fastq/L2201733_PNA14_2.fq.gz, ref=../data/reference_sequences/adapters.fa, -Xmx4g, t=20, out=../data/libs/L2201733_PNA14_2.fq.gz_trimmed.fastq.gz, ktrim=r, k=23, mink=11, hdist=1, qtrim=r, trimq=10, ftl=12]
+Version 38.18
+
+Set threads to 20
+maskMiddle was disabled because useShortKmers=true
+0.035 seconds.
+Initial:
+Memory: max=4294m, total=4294m, free=4266m, used=28m
+
+Added 217135 kmers; time: 	0.110 seconds.
+Memory: max=4294m, total=4294m, free=4256m, used=38m
+
+Input is being processed as unpaired
+Started output streams:	0.023 seconds.
+Processing time:   		27.182 seconds.
+
+Input:                  	8619768 reads 		655102368 bases.
+QTrimmed:               	808 reads (0.01%) 	9934 bases (0.00%)
+FTrimmed:               	8619768 reads (100.00%) 	103437216 bases (15.79%)
+KTrimmed:               	1093301 reads (12.68%) 	31589847 bases (4.82%)
+Total Removed:          	48772 reads (0.57%) 	135036997 bases (20.61%)
+Result:                 	8570996 reads (99.43%) 	520065371 bases (79.39%)
+
+Time:                         	27.319 seconds.
+Reads Processed:       8619k 	315.52k reads/sec
+Bases Processed:        655m 	23.98m bases/sec
+../data/fastq/L2201734_JVPep112_2.fq.gz starts trimming nowwwwwww
+L2201734_JVPep112_2.fq.gz_trimmed.fastq.gz
+java -Djava.library.path=/home/jakob_jung/miniconda3/opt/bbmap-38.18/jni/ -ea -Xmx4g -Xms4g -cp /home/jakob_jung/miniconda3/opt/bbmap-38.18/current/ jgi.BBDukF in=../data/fastq/L2201734_JVPep112_2.fq.gz ref=../data/reference_sequences/adapters.fa -Xmx4g t=20 out=../data/libs/L2201734_JVPep112_2.fq.gz_trimmed.fastq.gz ktrim=r k=23 mink=11 hdist=1 qtrim=r trimq=10 ftl=12
+Executing jgi.BBDukF [in=../data/fastq/L2201734_JVPep112_2.fq.gz, ref=../data/reference_sequences/adapters.fa, -Xmx4g, t=20, out=../data/libs/L2201734_JVPep112_2.fq.gz_trimmed.fastq.gz, ktrim=r, k=23, mink=11, hdist=1, qtrim=r, trimq=10, ftl=12]
+Version 38.18
+
+Set threads to 20
+maskMiddle was disabled because useShortKmers=true
+0.023 seconds.
+Initial:
+Memory: max=4294m, total=4294m, free=4268m, used=26m
+
+Added 217135 kmers; time: 	0.111 seconds.
+Memory: max=4294m, total=4294m, free=4257m, used=37m
+
+Input is being processed as unpaired
+Started output streams:	0.022 seconds.
+Processing time:   		32.877 seconds.
+
+Input:                  	10651882 reads 		809543032 bases.
+QTrimmed:               	761 reads (0.01%) 	9044 bases (0.00%)
+FTrimmed:               	10651882 reads (100.00%) 	127822584 bases (15.79%)
+KTrimmed:               	821079 reads (7.71%) 	21450259 bases (2.65%)
+Total Removed:          	23024 reads (0.22%) 	149281887 bases (18.44%)
+Result:                 	10628858 reads (99.78%) 	660261145 bases (81.56%)
+
+Time:                         	33.015 seconds.
+Reads Processed:      10651k 	322.64k reads/sec
+Bases Processed:        809m 	24.52m bases/sec
+../data/fastq/L2201735_KFFN3_2.fq.gz starts trimming nowwwwwww
+L2201735_KFFN3_2.fq.gz_trimmed.fastq.gz
+java -Djava.library.path=/home/jakob_jung/miniconda3/opt/bbmap-38.18/jni/ -ea -Xmx4g -Xms4g -cp /home/jakob_jung/miniconda3/opt/bbmap-38.18/current/ jgi.BBDukF in=../data/fastq/L2201735_KFFN3_2.fq.gz ref=../data/reference_sequences/adapters.fa -Xmx4g t=20 out=../data/libs/L2201735_KFFN3_2.fq.gz_trimmed.fastq.gz ktrim=r k=23 mink=11 hdist=1 qtrim=r trimq=10 ftl=12
+Executing jgi.BBDukF [in=../data/fastq/L2201735_KFFN3_2.fq.gz, ref=../data/reference_sequences/adapters.fa, -Xmx4g, t=20, out=../data/libs/L2201735_KFFN3_2.fq.gz_trimmed.fastq.gz, ktrim=r, k=23, mink=11, hdist=1, qtrim=r, trimq=10, ftl=12]
+Version 38.18
+
+Set threads to 20
+maskMiddle was disabled because useShortKmers=true
+0.020 seconds.
+Initial:
+Memory: max=4294m, total=4294m, free=4268m, used=26m
+
+Added 217135 kmers; time: 	0.087 seconds.
+Memory: max=4294m, total=4294m, free=4259m, used=35m
+
+Input is being processed as unpaired
+Started output streams:	0.022 seconds.
+Processing time:   		38.519 seconds.
+
+Input:                  	12270119 reads 		932529044 bases.
+QTrimmed:               	914 reads (0.01%) 	10871 bases (0.00%)
+FTrimmed:               	12270119 reads (100.00%) 	147241428 bases (15.79%)
+KTrimmed:               	1096283 reads (8.93%) 	28699791 bases (3.08%)
+Total Removed:          	25168 reads (0.21%) 	175952090 bases (18.87%)
+Result:                 	12244951 reads (99.79%) 	756576954 bases (81.13%)
+
+Time:                         	38.632 seconds.
+Reads Processed:      12270k 	317.61k reads/sec
+Bases Processed:        932m 	24.14m bases/sec
+Trimming done. Start mapping
+Starting mapping for sample: L2201710_Control_1.fq.gz
+java -Djava.library.path=/home/jakob_jung/miniconda3/opt/bbmap-38.18/jni/ -ea -Xmx27114m -cp /home/jakob_jung/miniconda3/opt/bbmap-38.18/current/ align2.BBMap build=1 overwrite=true fastareadlen=500 in=../data/libs/L2201710_Control_1.fq.gz_trimmed.fastq.gz trimreaddescription=t t=20 ref=../data/reference_sequences/FQ312003_wplasmids.fa k=12 outm=../data/rna_align/L2201710_Control_1.fq.gz.sam
+Executing align2.BBMap [build=1, overwrite=true, fastareadlen=500, in=../data/libs/L2201710_Control_1.fq.gz_trimmed.fastq.gz, trimreaddescription=t, t=20, ref=../data/reference_sequences/FQ312003_wplasmids.fa, k=12, outm=../data/rna_align/L2201710_Control_1.fq.gz.sam]
+Version 38.18
+
+Set threads to 20
+Retaining first best site only for ambiguous mappings.
+Writing reference.
+Executing dna.FastaToChromArrays2 [../data/reference_sequences/FQ312003_wplasmids.fa, 1, writeinthread=false, genscaffoldinfo=true, retain, waitforwriting=false, gz=true, maxlen=536670912, writechroms=true, minscaf=1, midpad=300, startpad=8000, stoppad=8000, nodisk=false]
+
+Set genScaffoldInfo=true
+Writing chunk 1
+Set genome to 1
+
+Loaded Reference:	0.014 seconds.
+Loading index for chunk 1-1, build 1
+No index available; generating from reference genome: /home/jakob_jung/cpp_pna_screen_cd_2022_08/scripts/ref/index/1/chr1_index_k12_c8_b1.block
+Indexing threads started for block 0-1
+Indexing threads finished for block 0-1
+Generated Index:	1.091 seconds.
+Analyzed Index:   	0.778 seconds.
+Started output stream:	0.126 seconds.
+Cleared Memory:    	0.128 seconds.
+Processing reads in single-ended mode.
+Started read stream.
+Started 20 mapping threads.
+Detecting finished threads: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19
+
+   ------------------   Results   ------------------   
+
+Genome:                	1
+Key Length:            	12
+Max Indel:             	16000
+Minimum Score Ratio:  	0.56
+Mapping Mode:         	normal
+Reads Used:           	12284976	(713769938 bases)
+
+Mapping:          	147.233 seconds.
+Reads/sec:       	83439.12
+kBases/sec:      	4847.90
+
+
+Read 1 data:      	pct reads	num reads 	pct bases	   num bases
+
+mapped:          	 94.7257% 	 11637035 	 96.9402% 	   691929990
+unambiguous:     	 90.3967% 	 11105211 	 93.4890% 	   667296096
+ambiguous:       	  4.3291% 	   531824 	  3.4512% 	    24633894
+low-Q discards:  	  0.0000% 	        4 	  0.0000% 	          92
+
+perfect best site:	 47.8159% 	  5874176 	 52.2853% 	   373196960
+semiperfect site:	 47.8268% 	  5875515 	 52.2972% 	   373281445
+
+Match Rate:      	      NA 	       NA 	 92.2532% 	   676492830
+Error Rate:      	 48.3792% 	  5756063 	  7.7350% 	    56720946
+Sub Rate:        	 43.5770% 	  5184699 	  1.8650% 	    13675888
+Del Rate:        	  3.7765% 	   449319 	  5.6416% 	    41370198
+Ins Rate:        	  9.2739% 	  1103394 	  0.2284% 	     1674860
+N Rate:          	  0.1024% 	    12188 	  0.0118% 	       86412
+
+Total time:     	149.911 seconds.
+[bam_sort_core] merging from 0 files and 40 in-memory blocks...
+Started analysis of L2201710_Control_1.fq.gz_trimmed.fastq.gz
+Approx 5% complete for L2201710_Control_1.fq.gz_trimmed.fastq.gz
+Approx 10% complete for L2201710_Control_1.fq.gz_trimmed.fastq.gz
+Approx 15% complete for L2201710_Control_1.fq.gz_trimmed.fastq.gz
+Approx 20% complete for L2201710_Control_1.fq.gz_trimmed.fastq.gz
+Approx 25% complete for L2201710_Control_1.fq.gz_trimmed.fastq.gz
+Approx 30% complete for L2201710_Control_1.fq.gz_trimmed.fastq.gz
+Approx 35% complete for L2201710_Control_1.fq.gz_trimmed.fastq.gz
+Approx 40% complete for L2201710_Control_1.fq.gz_trimmed.fastq.gz
+Approx 45% complete for L2201710_Control_1.fq.gz_trimmed.fastq.gz
+Approx 50% complete for L2201710_Control_1.fq.gz_trimmed.fastq.gz
+Approx 55% complete for L2201710_Control_1.fq.gz_trimmed.fastq.gz
+Approx 60% complete for L2201710_Control_1.fq.gz_trimmed.fastq.gz
+Approx 65% complete for L2201710_Control_1.fq.gz_trimmed.fastq.gz
+Approx 70% complete for L2201710_Control_1.fq.gz_trimmed.fastq.gz
+Approx 75% complete for L2201710_Control_1.fq.gz_trimmed.fastq.gz
+Approx 80% complete for L2201710_Control_1.fq.gz_trimmed.fastq.gz
+Approx 85% complete for L2201710_Control_1.fq.gz_trimmed.fastq.gz
+Approx 90% complete for L2201710_Control_1.fq.gz_trimmed.fastq.gz
+Approx 95% complete for L2201710_Control_1.fq.gz_trimmed.fastq.gz
+Analysis complete for L2201710_Control_1.fq.gz_trimmed.fastq.gz
+Starting mapping for sample: L2201711_RNA_MOE_1.fq.gz
+java -Djava.library.path=/home/jakob_jung/miniconda3/opt/bbmap-38.18/jni/ -ea -Xmx27114m -cp /home/jakob_jung/miniconda3/opt/bbmap-38.18/current/ align2.BBMap build=1 overwrite=true fastareadlen=500 in=../data/libs/L2201711_RNA_MOE_1.fq.gz_trimmed.fastq.gz trimreaddescription=t t=20 ref=../data/reference_sequences/FQ312003_wplasmids.fa k=12 outm=../data/rna_align/L2201711_RNA_MOE_1.fq.gz.sam
+Executing align2.BBMap [build=1, overwrite=true, fastareadlen=500, in=../data/libs/L2201711_RNA_MOE_1.fq.gz_trimmed.fastq.gz, trimreaddescription=t, t=20, ref=../data/reference_sequences/FQ312003_wplasmids.fa, k=12, outm=../data/rna_align/L2201711_RNA_MOE_1.fq.gz.sam]
+Version 38.18
+
+Set threads to 20
+Retaining first best site only for ambiguous mappings.
+NOTE:	Ignoring reference file because it already appears to have been processed.
+NOTE:	If you wish to regenerate the index, please manually delete ref/genome/1/summary.txt
+Set genome to 1
+
+Loaded Reference:	0.071 seconds.
+Loading index for chunk 1-1, build 1
+Generated Index:	0.236 seconds.
+Analyzed Index:   	0.745 seconds.
+Started output stream:	0.027 seconds.
+Cleared Memory:    	0.108 seconds.
+Processing reads in single-ended mode.
+Started read stream.
+Started 20 mapping threads.
+Detecting finished threads: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19
+
+   ------------------   Results   ------------------   
+
+Genome:                	1
+Key Length:            	12
+Max Indel:             	16000
+Minimum Score Ratio:  	0.56
+Mapping Mode:         	normal
+Reads Used:           	12379658	(700829768 bases)
+
+Mapping:          	140.860 seconds.
+Reads/sec:       	87886.09
+kBases/sec:      	4975.35
+
+
+Read 1 data:      	pct reads	num reads 	pct bases	   num bases
+
+mapped:          	 92.9435% 	 11506088 	 95.9850% 	   672691732
+unambiguous:     	 88.5431% 	 10961328 	 92.6534% 	   649342774
+ambiguous:       	  4.4004% 	   544760 	  3.3316% 	    23348958
+low-Q discards:  	  0.0001% 	       11 	  0.0000% 	         286
+
+perfect best site:	 43.2209% 	  5350604 	 48.3865% 	   339107045
+semiperfect site:	 43.2321% 	  5351985 	 48.3989% 	   339193836
+
+Match Rate:      	      NA 	       NA 	 91.7944% 	   655711470
+Error Rate:      	 51.9638% 	  6149173 	  8.1937% 	    58529789
+Sub Rate:        	 46.9861% 	  5560134 	  2.1096% 	    15069084
+Del Rate:        	  4.2527% 	   503246 	  5.8285% 	    41634758
+Ins Rate:        	 10.0981% 	  1194964 	  0.2556% 	     1825947
+N Rate:          	  0.1017% 	    12030 	  0.0119% 	       85231
+
+Total time:     	142.140 seconds.
+[bam_sort_core] merging from 0 files and 40 in-memory blocks...
+Started analysis of L2201711_RNA_MOE_1.fq.gz_trimmed.fastq.gz
+Approx 5% complete for L2201711_RNA_MOE_1.fq.gz_trimmed.fastq.gz
+Approx 10% complete for L2201711_RNA_MOE_1.fq.gz_trimmed.fastq.gz
+Approx 15% complete for L2201711_RNA_MOE_1.fq.gz_trimmed.fastq.gz
+Approx 20% complete for L2201711_RNA_MOE_1.fq.gz_trimmed.fastq.gz
+Approx 25% complete for L2201711_RNA_MOE_1.fq.gz_trimmed.fastq.gz
+Approx 30% complete for L2201711_RNA_MOE_1.fq.gz_trimmed.fastq.gz
+Approx 35% complete for L2201711_RNA_MOE_1.fq.gz_trimmed.fastq.gz
+Approx 40% complete for L2201711_RNA_MOE_1.fq.gz_trimmed.fastq.gz
+Approx 45% complete for L2201711_RNA_MOE_1.fq.gz_trimmed.fastq.gz
+Approx 50% complete for L2201711_RNA_MOE_1.fq.gz_trimmed.fastq.gz
+Approx 55% complete for L2201711_RNA_MOE_1.fq.gz_trimmed.fastq.gz
+Approx 60% complete for L2201711_RNA_MOE_1.fq.gz_trimmed.fastq.gz
+Approx 65% complete for L2201711_RNA_MOE_1.fq.gz_trimmed.fastq.gz
+Approx 70% complete for L2201711_RNA_MOE_1.fq.gz_trimmed.fastq.gz
+Approx 75% complete for L2201711_RNA_MOE_1.fq.gz_trimmed.fastq.gz
+Approx 80% complete for L2201711_RNA_MOE_1.fq.gz_trimmed.fastq.gz
+Approx 85% complete for L2201711_RNA_MOE_1.fq.gz_trimmed.fastq.gz
+Approx 90% complete for L2201711_RNA_MOE_1.fq.gz_trimmed.fastq.gz
+Approx 95% complete for L2201711_RNA_MOE_1.fq.gz_trimmed.fastq.gz
+Analysis complete for L2201711_RNA_MOE_1.fq.gz_trimmed.fastq.gz
+Starting mapping for sample: L2201712_RNA_F_1.fq.gz
+java -Djava.library.path=/home/jakob_jung/miniconda3/opt/bbmap-38.18/jni/ -ea -Xmx27114m -cp /home/jakob_jung/miniconda3/opt/bbmap-38.18/current/ align2.BBMap build=1 overwrite=true fastareadlen=500 in=../data/libs/L2201712_RNA_F_1.fq.gz_trimmed.fastq.gz trimreaddescription=t t=20 ref=../data/reference_sequences/FQ312003_wplasmids.fa k=12 outm=../data/rna_align/L2201712_RNA_F_1.fq.gz.sam
+Executing align2.BBMap [build=1, overwrite=true, fastareadlen=500, in=../data/libs/L2201712_RNA_F_1.fq.gz_trimmed.fastq.gz, trimreaddescription=t, t=20, ref=../data/reference_sequences/FQ312003_wplasmids.fa, k=12, outm=../data/rna_align/L2201712_RNA_F_1.fq.gz.sam]
+Version 38.18
+
+Set threads to 20
+Retaining first best site only for ambiguous mappings.
+NOTE:	Ignoring reference file because it already appears to have been processed.
+NOTE:	If you wish to regenerate the index, please manually delete ref/genome/1/summary.txt
+Set genome to 1
+
+Loaded Reference:	0.054 seconds.
+Loading index for chunk 1-1, build 1
+Generated Index:	0.225 seconds.
+Analyzed Index:   	0.745 seconds.
+Started output stream:	0.053 seconds.
+Cleared Memory:    	0.109 seconds.
+Processing reads in single-ended mode.
+Started read stream.
+Started 20 mapping threads.
+Detecting finished threads: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19
+
+   ------------------   Results   ------------------   
+
+Genome:                	1
+Key Length:            	12
+Max Indel:             	16000
+Minimum Score Ratio:  	0.56
+Mapping Mode:         	normal
+Reads Used:           	13266030	(767757766 bases)
+
+Mapping:          	137.481 seconds.
+Reads/sec:       	96493.42
+kBases/sec:      	5584.46
+
+
+Read 1 data:      	pct reads	num reads 	pct bases	   num bases
+
+mapped:          	 94.0340% 	 12474585 	 96.5748% 	   741460442
+unambiguous:     	 90.2011% 	 11966107 	 93.6140% 	   718728788
+ambiguous:       	  3.8329% 	   508478 	  2.9608% 	    22731654
+low-Q discards:  	  0.0001% 	       19 	  0.0001% 	         550
+
+perfect best site:	 47.4902% 	  6300061 	 52.1155% 	   400120962
+semiperfect site:	 47.4991% 	  6301242 	 52.1253% 	   400195656
+
+Match Rate:      	      NA 	       NA 	 92.3462% 	   724918178
+Error Rate:      	 48.2545% 	  6167533 	  7.6424% 	    59992763
+Sub Rate:        	 43.4536% 	  5553908 	  1.8661% 	    14649235
+Del Rate:        	  3.8018% 	   485918 	  5.5465% 	    43540073
+Ins Rate:        	  9.2778% 	  1185824 	  0.2297% 	     1803455
+N Rate:          	  0.1001% 	    12795 	  0.0114% 	       89574
+
+Total time:     	138.756 seconds.
+[bam_sort_core] merging from 0 files and 40 in-memory blocks...
+Started analysis of L2201712_RNA_F_1.fq.gz_trimmed.fastq.gz
+Approx 5% complete for L2201712_RNA_F_1.fq.gz_trimmed.fastq.gz
+Approx 10% complete for L2201712_RNA_F_1.fq.gz_trimmed.fastq.gz
+Approx 15% complete for L2201712_RNA_F_1.fq.gz_trimmed.fastq.gz
+Approx 20% complete for L2201712_RNA_F_1.fq.gz_trimmed.fastq.gz
+Approx 25% complete for L2201712_RNA_F_1.fq.gz_trimmed.fastq.gz
+Approx 30% complete for L2201712_RNA_F_1.fq.gz_trimmed.fastq.gz
+Approx 35% complete for L2201712_RNA_F_1.fq.gz_trimmed.fastq.gz
+Approx 40% complete for L2201712_RNA_F_1.fq.gz_trimmed.fastq.gz
+Approx 45% complete for L2201712_RNA_F_1.fq.gz_trimmed.fastq.gz
+Approx 50% complete for L2201712_RNA_F_1.fq.gz_trimmed.fastq.gz
+Approx 55% complete for L2201712_RNA_F_1.fq.gz_trimmed.fastq.gz
+Approx 60% complete for L2201712_RNA_F_1.fq.gz_trimmed.fastq.gz
+Approx 65% complete for L2201712_RNA_F_1.fq.gz_trimmed.fastq.gz
+Approx 70% complete for L2201712_RNA_F_1.fq.gz_trimmed.fastq.gz
+Approx 75% complete for L2201712_RNA_F_1.fq.gz_trimmed.fastq.gz
+Approx 80% complete for L2201712_RNA_F_1.fq.gz_trimmed.fastq.gz
+Approx 85% complete for L2201712_RNA_F_1.fq.gz_trimmed.fastq.gz
+Approx 90% complete for L2201712_RNA_F_1.fq.gz_trimmed.fastq.gz
+Approx 95% complete for L2201712_RNA_F_1.fq.gz_trimmed.fastq.gz
+Analysis complete for L2201712_RNA_F_1.fq.gz_trimmed.fastq.gz
+Starting mapping for sample: L2201713_LNA_1.fq.gz
+java -Djava.library.path=/home/jakob_jung/miniconda3/opt/bbmap-38.18/jni/ -ea -Xmx27114m -cp /home/jakob_jung/miniconda3/opt/bbmap-38.18/current/ align2.BBMap build=1 overwrite=true fastareadlen=500 in=../data/libs/L2201713_LNA_1.fq.gz_trimmed.fastq.gz trimreaddescription=t t=20 ref=../data/reference_sequences/FQ312003_wplasmids.fa k=12 outm=../data/rna_align/L2201713_LNA_1.fq.gz.sam
+Executing align2.BBMap [build=1, overwrite=true, fastareadlen=500, in=../data/libs/L2201713_LNA_1.fq.gz_trimmed.fastq.gz, trimreaddescription=t, t=20, ref=../data/reference_sequences/FQ312003_wplasmids.fa, k=12, outm=../data/rna_align/L2201713_LNA_1.fq.gz.sam]
+Version 38.18
+
+Set threads to 20
+Retaining first best site only for ambiguous mappings.
+NOTE:	Ignoring reference file because it already appears to have been processed.
+NOTE:	If you wish to regenerate the index, please manually delete ref/genome/1/summary.txt
+Set genome to 1
+
+Loaded Reference:	0.053 seconds.
+Loading index for chunk 1-1, build 1
+Generated Index:	0.226 seconds.
+Analyzed Index:   	0.721 seconds.
+Started output stream:	0.032 seconds.
+Cleared Memory:    	0.108 seconds.
+Processing reads in single-ended mode.
+Started read stream.
+Started 20 mapping threads.
+Detecting finished threads: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19
+
+   ------------------   Results   ------------------   
+
+Genome:                	1
+Key Length:            	12
+Max Indel:             	16000
+Minimum Score Ratio:  	0.56
+Mapping Mode:         	normal
+Reads Used:           	11789462	(690675905 bases)
+
+Mapping:          	115.678 seconds.
+Reads/sec:       	101916.50
+kBases/sec:      	5970.69
+
+
+Read 1 data:      	pct reads	num reads 	pct bases	   num bases
+
+mapped:          	 94.9964% 	 11199570 	 97.1683% 	   671118126
+unambiguous:     	 91.3587% 	 10770694 	 94.3138% 	   651402588
+ambiguous:       	  3.6378% 	   428876 	  2.8545% 	    19715538
+low-Q discards:  	  0.0000% 	        2 	  0.0000% 	          30
+
+perfect best site:	 49.1887% 	  5799087 	 53.3824% 	   368699470
+semiperfect site:	 49.1980% 	  5800178 	 53.3924% 	   368768565
+
+Match Rate:      	      NA 	       NA 	 93.2741% 	   656934833
+Error Rate:      	 47.1807% 	  5394321 	  6.7147% 	    47291991
+Sub Rate:        	 42.5757% 	  4867814 	  1.7872% 	    12587629
+Del Rate:        	  3.5383% 	   404546 	  4.7121% 	    33187288
+Ins Rate:        	  8.7908% 	  1005077 	  0.2154% 	     1517074
+N Rate:          	  0.0980% 	    11199 	  0.0112% 	       78590
+
+Total time:     	116.904 seconds.
+[bam_sort_core] merging from 0 files and 40 in-memory blocks...
+Started analysis of L2201713_LNA_1.fq.gz_trimmed.fastq.gz
+Approx 5% complete for L2201713_LNA_1.fq.gz_trimmed.fastq.gz
+Approx 10% complete for L2201713_LNA_1.fq.gz_trimmed.fastq.gz
+Approx 15% complete for L2201713_LNA_1.fq.gz_trimmed.fastq.gz
+Approx 20% complete for L2201713_LNA_1.fq.gz_trimmed.fastq.gz
+Approx 25% complete for L2201713_LNA_1.fq.gz_trimmed.fastq.gz
+Approx 30% complete for L2201713_LNA_1.fq.gz_trimmed.fastq.gz
+Approx 35% complete for L2201713_LNA_1.fq.gz_trimmed.fastq.gz
+Approx 40% complete for L2201713_LNA_1.fq.gz_trimmed.fastq.gz
+Approx 45% complete for L2201713_LNA_1.fq.gz_trimmed.fastq.gz
+Approx 50% complete for L2201713_LNA_1.fq.gz_trimmed.fastq.gz
+Approx 55% complete for L2201713_LNA_1.fq.gz_trimmed.fastq.gz
+Approx 60% complete for L2201713_LNA_1.fq.gz_trimmed.fastq.gz
+Approx 65% complete for L2201713_LNA_1.fq.gz_trimmed.fastq.gz
+Approx 70% complete for L2201713_LNA_1.fq.gz_trimmed.fastq.gz
+Approx 75% complete for L2201713_LNA_1.fq.gz_trimmed.fastq.gz
+Approx 80% complete for L2201713_LNA_1.fq.gz_trimmed.fastq.gz
+Approx 85% complete for L2201713_LNA_1.fq.gz_trimmed.fastq.gz
+Approx 90% complete for L2201713_LNA_1.fq.gz_trimmed.fastq.gz
+Approx 95% complete for L2201713_LNA_1.fq.gz_trimmed.fastq.gz
+Analysis complete for L2201713_LNA_1.fq.gz_trimmed.fastq.gz
+Starting mapping for sample: L2201714_RNA_Ome_1.fq.gz
+java -Djava.library.path=/home/jakob_jung/miniconda3/opt/bbmap-38.18/jni/ -ea -Xmx27114m -cp /home/jakob_jung/miniconda3/opt/bbmap-38.18/current/ align2.BBMap build=1 overwrite=true fastareadlen=500 in=../data/libs/L2201714_RNA_Ome_1.fq.gz_trimmed.fastq.gz trimreaddescription=t t=20 ref=../data/reference_sequences/FQ312003_wplasmids.fa k=12 outm=../data/rna_align/L2201714_RNA_Ome_1.fq.gz.sam
+Executing align2.BBMap [build=1, overwrite=true, fastareadlen=500, in=../data/libs/L2201714_RNA_Ome_1.fq.gz_trimmed.fastq.gz, trimreaddescription=t, t=20, ref=../data/reference_sequences/FQ312003_wplasmids.fa, k=12, outm=../data/rna_align/L2201714_RNA_Ome_1.fq.gz.sam]
+Version 38.18
+
+Set threads to 20
+Retaining first best site only for ambiguous mappings.
+NOTE:	Ignoring reference file because it already appears to have been processed.
+NOTE:	If you wish to regenerate the index, please manually delete ref/genome/1/summary.txt
+Set genome to 1
+
+Loaded Reference:	0.054 seconds.
+Loading index for chunk 1-1, build 1
+Generated Index:	0.223 seconds.
+Analyzed Index:   	0.737 seconds.
+Started output stream:	0.027 seconds.
+Cleared Memory:    	0.115 seconds.
+Processing reads in single-ended mode.
+Started read stream.
+Started 20 mapping threads.
+Detecting finished threads: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19
+
+   ------------------   Results   ------------------   
+
+Genome:                	1
+Key Length:            	12
+Max Indel:             	16000
+Minimum Score Ratio:  	0.56
+Mapping Mode:         	normal
+Reads Used:           	13024388	(762993469 bases)
+
+Mapping:          	123.638 seconds.
+Reads/sec:       	105342.77
+kBases/sec:      	6171.18
+
+
+Read 1 data:      	pct reads	num reads 	pct bases	   num bases
+
+mapped:          	 94.8980% 	 12359880 	 97.1766% 	   741451120
+unambiguous:     	 91.4233% 	 11907328 	 94.4686% 	   720788982
+ambiguous:       	  3.4747% 	   452552 	  2.7080% 	    20662138
+low-Q discards:  	  0.0000% 	        6 	  0.0000% 	         137
+
+perfect best site:	 50.0037% 	  6512681 	 54.2777% 	   414135227
+semiperfect site:	 50.0130% 	  6513881 	 54.2876% 	   414211045
+
+Match Rate:      	      NA 	       NA 	 93.1380% 	   726228380
+Error Rate:      	 46.3022% 	  5839991 	  6.8506% 	    53416655
+Sub Rate:        	 41.6800% 	  5257013 	  1.7310% 	    13497555
+Del Rate:        	  3.4632% 	   436807 	  4.9097% 	    38282322
+Ins Rate:        	  8.6224% 	  1087521 	  0.2099% 	     1636778
+N Rate:          	  0.1007% 	    12695 	  0.0113% 	       88407
+
+Total time:     	124.883 seconds.
+[bam_sort_core] merging from 0 files and 40 in-memory blocks...
+Started analysis of L2201714_RNA_Ome_1.fq.gz_trimmed.fastq.gz
+Approx 5% complete for L2201714_RNA_Ome_1.fq.gz_trimmed.fastq.gz
+Approx 10% complete for L2201714_RNA_Ome_1.fq.gz_trimmed.fastq.gz
+Approx 15% complete for L2201714_RNA_Ome_1.fq.gz_trimmed.fastq.gz
+Approx 20% complete for L2201714_RNA_Ome_1.fq.gz_trimmed.fastq.gz
+Approx 25% complete for L2201714_RNA_Ome_1.fq.gz_trimmed.fastq.gz
+Approx 30% complete for L2201714_RNA_Ome_1.fq.gz_trimmed.fastq.gz
+Approx 35% complete for L2201714_RNA_Ome_1.fq.gz_trimmed.fastq.gz
+Approx 40% complete for L2201714_RNA_Ome_1.fq.gz_trimmed.fastq.gz
+Approx 45% complete for L2201714_RNA_Ome_1.fq.gz_trimmed.fastq.gz
+Approx 50% complete for L2201714_RNA_Ome_1.fq.gz_trimmed.fastq.gz
+Approx 55% complete for L2201714_RNA_Ome_1.fq.gz_trimmed.fastq.gz
+Approx 60% complete for L2201714_RNA_Ome_1.fq.gz_trimmed.fastq.gz
+Approx 65% complete for L2201714_RNA_Ome_1.fq.gz_trimmed.fastq.gz
+Approx 70% complete for L2201714_RNA_Ome_1.fq.gz_trimmed.fastq.gz
+Approx 75% complete for L2201714_RNA_Ome_1.fq.gz_trimmed.fastq.gz
+Approx 80% complete for L2201714_RNA_Ome_1.fq.gz_trimmed.fastq.gz
+Approx 85% complete for L2201714_RNA_Ome_1.fq.gz_trimmed.fastq.gz
+Approx 90% complete for L2201714_RNA_Ome_1.fq.gz_trimmed.fastq.gz
+Approx 95% complete for L2201714_RNA_Ome_1.fq.gz_trimmed.fastq.gz
+Analysis complete for L2201714_RNA_Ome_1.fq.gz_trimmed.fastq.gz
+Starting mapping for sample: L2201715_DNA_PTO_1.fq.gz
+java -Djava.library.path=/home/jakob_jung/miniconda3/opt/bbmap-38.18/jni/ -ea -Xmx27114m -cp /home/jakob_jung/miniconda3/opt/bbmap-38.18/current/ align2.BBMap build=1 overwrite=true fastareadlen=500 in=../data/libs/L2201715_DNA_PTO_1.fq.gz_trimmed.fastq.gz trimreaddescription=t t=20 ref=../data/reference_sequences/FQ312003_wplasmids.fa k=12 outm=../data/rna_align/L2201715_DNA_PTO_1.fq.gz.sam
+Executing align2.BBMap [build=1, overwrite=true, fastareadlen=500, in=../data/libs/L2201715_DNA_PTO_1.fq.gz_trimmed.fastq.gz, trimreaddescription=t, t=20, ref=../data/reference_sequences/FQ312003_wplasmids.fa, k=12, outm=../data/rna_align/L2201715_DNA_PTO_1.fq.gz.sam]
+Version 38.18
+
+Set threads to 20
+Retaining first best site only for ambiguous mappings.
+NOTE:	Ignoring reference file because it already appears to have been processed.
+NOTE:	If you wish to regenerate the index, please manually delete ref/genome/1/summary.txt
+Set genome to 1
+
+Loaded Reference:	0.052 seconds.
+Loading index for chunk 1-1, build 1
+Generated Index:	0.222 seconds.
+Analyzed Index:   	0.732 seconds.
+Started output stream:	0.028 seconds.
+Cleared Memory:    	0.120 seconds.
+Processing reads in single-ended mode.
+Started read stream.
+Started 20 mapping threads.
+Detecting finished threads: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19
+
+   ------------------   Results   ------------------   
+
+Genome:                	1
+Key Length:            	12
+Max Indel:             	16000
+Minimum Score Ratio:  	0.56
+Mapping Mode:         	normal
+Reads Used:           	10412324	(621566997 bases)
+
+Mapping:          	93.179 seconds.
+Reads/sec:       	111745.73
+kBases/sec:      	6670.70
+
+
+Read 1 data:      	pct reads	num reads 	pct bases	   num bases
+
+mapped:          	 95.3012% 	  9923069 	 97.2945% 	   604750229
+unambiguous:     	 92.2814% 	  9608640 	 94.8348% 	   589461719
+ambiguous:       	  3.0198% 	   314429 	  2.4597% 	    15288510
+low-Q discards:  	  0.0000% 	        2 	  0.0000% 	          28
+
+perfect best site:	 52.5161% 	  5468143 	 56.0380% 	   348313473
+semiperfect site:	 52.5249% 	  5469061 	 56.0473% 	   348371662
+
+Match Rate:      	      NA 	       NA 	 93.8992% 	   593396358
+Error Rate:      	 44.0130% 	  4449134 	  6.0897% 	    38483771
+Sub Rate:        	 39.5905% 	  4002077 	  1.5918% 	    10059102
+Del Rate:        	  3.0168% 	   304961 	  4.3042% 	    27200380
+Ins Rate:        	  8.0654% 	   815307 	  0.1937% 	     1224289
+N Rate:          	  0.1007% 	    10180 	  0.0112% 	       70480
+
+Total time:     	94.419 seconds.
+[bam_sort_core] merging from 0 files and 40 in-memory blocks...
+Started analysis of L2201715_DNA_PTO_1.fq.gz_trimmed.fastq.gz
+Approx 5% complete for L2201715_DNA_PTO_1.fq.gz_trimmed.fastq.gz
+Approx 10% complete for L2201715_DNA_PTO_1.fq.gz_trimmed.fastq.gz
+Approx 15% complete for L2201715_DNA_PTO_1.fq.gz_trimmed.fastq.gz
+Approx 20% complete for L2201715_DNA_PTO_1.fq.gz_trimmed.fastq.gz
+Approx 25% complete for L2201715_DNA_PTO_1.fq.gz_trimmed.fastq.gz
+Approx 30% complete for L2201715_DNA_PTO_1.fq.gz_trimmed.fastq.gz
+Approx 35% complete for L2201715_DNA_PTO_1.fq.gz_trimmed.fastq.gz
+Approx 40% complete for L2201715_DNA_PTO_1.fq.gz_trimmed.fastq.gz
+Approx 45% complete for L2201715_DNA_PTO_1.fq.gz_trimmed.fastq.gz
+Approx 50% complete for L2201715_DNA_PTO_1.fq.gz_trimmed.fastq.gz
+Approx 55% complete for L2201715_DNA_PTO_1.fq.gz_trimmed.fastq.gz
+Approx 60% complete for L2201715_DNA_PTO_1.fq.gz_trimmed.fastq.gz
+Approx 65% complete for L2201715_DNA_PTO_1.fq.gz_trimmed.fastq.gz
+Approx 70% complete for L2201715_DNA_PTO_1.fq.gz_trimmed.fastq.gz
+Approx 75% complete for L2201715_DNA_PTO_1.fq.gz_trimmed.fastq.gz
+Approx 80% complete for L2201715_DNA_PTO_1.fq.gz_trimmed.fastq.gz
+Approx 85% complete for L2201715_DNA_PTO_1.fq.gz_trimmed.fastq.gz
+Approx 90% complete for L2201715_DNA_PTO_1.fq.gz_trimmed.fastq.gz
+Approx 95% complete for L2201715_DNA_PTO_1.fq.gz_trimmed.fastq.gz
+Analysis complete for L2201715_DNA_PTO_1.fq.gz_trimmed.fastq.gz
+Starting mapping for sample: L2201716_PMO_1.fq.gz
+java -Djava.library.path=/home/jakob_jung/miniconda3/opt/bbmap-38.18/jni/ -ea -Xmx27114m -cp /home/jakob_jung/miniconda3/opt/bbmap-38.18/current/ align2.BBMap build=1 overwrite=true fastareadlen=500 in=../data/libs/L2201716_PMO_1.fq.gz_trimmed.fastq.gz trimreaddescription=t t=20 ref=../data/reference_sequences/FQ312003_wplasmids.fa k=12 outm=../data/rna_align/L2201716_PMO_1.fq.gz.sam
+Executing align2.BBMap [build=1, overwrite=true, fastareadlen=500, in=../data/libs/L2201716_PMO_1.fq.gz_trimmed.fastq.gz, trimreaddescription=t, t=20, ref=../data/reference_sequences/FQ312003_wplasmids.fa, k=12, outm=../data/rna_align/L2201716_PMO_1.fq.gz.sam]
+Version 38.18
+
+Set threads to 20
+Retaining first best site only for ambiguous mappings.
+NOTE:	Ignoring reference file because it already appears to have been processed.
+NOTE:	If you wish to regenerate the index, please manually delete ref/genome/1/summary.txt
+Set genome to 1
+
+Loaded Reference:	0.055 seconds.
+Loading index for chunk 1-1, build 1
+Generated Index:	0.218 seconds.
+Analyzed Index:   	0.729 seconds.
+Started output stream:	0.031 seconds.
+Cleared Memory:    	0.126 seconds.
+Processing reads in single-ended mode.
+Started read stream.
+Started 20 mapping threads.
+Detecting finished threads: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19
+
+   ------------------   Results   ------------------   
+
+Genome:                	1
+Key Length:            	12
+Max Indel:             	16000
+Minimum Score Ratio:  	0.56
+Mapping Mode:         	normal
+Reads Used:           	10468425	(630142774 bases)
+
+Mapping:          	94.348 seconds.
+Reads/sec:       	110955.80
+kBases/sec:      	6678.94
+
+
+Read 1 data:      	pct reads	num reads 	pct bases	   num bases
+
+mapped:          	 96.0714% 	 10057158 	 97.7263% 	   615815250
+unambiguous:     	 93.0227% 	  9738010 	 95.1889% 	   599826025
+ambiguous:       	  3.0487% 	   319148 	  2.5374% 	    15989225
+low-Q discards:  	  0.0001% 	        6 	  0.0000% 	         166
+
+perfect best site:	 54.4978% 	  5705061 	 57.7098% 	   363653921
+semiperfect site:	 54.5077% 	  5706096 	 57.7202% 	   363719690
+
+Match Rate:      	      NA 	       NA 	 94.2039% 	   604954818
+Error Rate:      	 42.5267% 	  4345847 	  5.7845% 	    37146503
+Sub Rate:        	 38.0348% 	  3886820 	  1.4930% 	     9587439
+Del Rate:        	  2.8487% 	   291116 	  4.1049% 	    26360642
+Ins Rate:        	  7.8883% 	   806113 	  0.1866% 	     1198422
+N Rate:          	  0.1045% 	    10677 	  0.0116% 	       74571
+
+Total time:     	95.601 seconds.
+[bam_sort_core] merging from 0 files and 40 in-memory blocks...
+Started analysis of L2201716_PMO_1.fq.gz_trimmed.fastq.gz
+Approx 5% complete for L2201716_PMO_1.fq.gz_trimmed.fastq.gz
+Approx 10% complete for L2201716_PMO_1.fq.gz_trimmed.fastq.gz
+Approx 15% complete for L2201716_PMO_1.fq.gz_trimmed.fastq.gz
+Approx 20% complete for L2201716_PMO_1.fq.gz_trimmed.fastq.gz
+Approx 25% complete for L2201716_PMO_1.fq.gz_trimmed.fastq.gz
+Approx 30% complete for L2201716_PMO_1.fq.gz_trimmed.fastq.gz
+Approx 35% complete for L2201716_PMO_1.fq.gz_trimmed.fastq.gz
+Approx 40% complete for L2201716_PMO_1.fq.gz_trimmed.fastq.gz
+Approx 45% complete for L2201716_PMO_1.fq.gz_trimmed.fastq.gz
+Approx 50% complete for L2201716_PMO_1.fq.gz_trimmed.fastq.gz
+Approx 55% complete for L2201716_PMO_1.fq.gz_trimmed.fastq.gz
+Approx 60% complete for L2201716_PMO_1.fq.gz_trimmed.fastq.gz
+Approx 65% complete for L2201716_PMO_1.fq.gz_trimmed.fastq.gz
+Approx 70% complete for L2201716_PMO_1.fq.gz_trimmed.fastq.gz
+Approx 75% complete for L2201716_PMO_1.fq.gz_trimmed.fastq.gz
+Approx 80% complete for L2201716_PMO_1.fq.gz_trimmed.fastq.gz
+Approx 85% complete for L2201716_PMO_1.fq.gz_trimmed.fastq.gz
+Approx 90% complete for L2201716_PMO_1.fq.gz_trimmed.fastq.gz
+Approx 95% complete for L2201716_PMO_1.fq.gz_trimmed.fastq.gz
+Analysis complete for L2201716_PMO_1.fq.gz_trimmed.fastq.gz
+Starting mapping for sample: L2201717_PNA_21_1.fq.gz
+java -Djava.library.path=/home/jakob_jung/miniconda3/opt/bbmap-38.18/jni/ -ea -Xmx27114m -cp /home/jakob_jung/miniconda3/opt/bbmap-38.18/current/ align2.BBMap build=1 overwrite=true fastareadlen=500 in=../data/libs/L2201717_PNA_21_1.fq.gz_trimmed.fastq.gz trimreaddescription=t t=20 ref=../data/reference_sequences/FQ312003_wplasmids.fa k=12 outm=../data/rna_align/L2201717_PNA_21_1.fq.gz.sam
+Executing align2.BBMap [build=1, overwrite=true, fastareadlen=500, in=../data/libs/L2201717_PNA_21_1.fq.gz_trimmed.fastq.gz, trimreaddescription=t, t=20, ref=../data/reference_sequences/FQ312003_wplasmids.fa, k=12, outm=../data/rna_align/L2201717_PNA_21_1.fq.gz.sam]
+Version 38.18
+
+Set threads to 20
+Retaining first best site only for ambiguous mappings.
+NOTE:	Ignoring reference file because it already appears to have been processed.
+NOTE:	If you wish to regenerate the index, please manually delete ref/genome/1/summary.txt
+Set genome to 1
+
+Loaded Reference:	0.054 seconds.
+Loading index for chunk 1-1, build 1
+Generated Index:	0.220 seconds.
+Analyzed Index:   	0.745 seconds.
+Started output stream:	0.031 seconds.
+Cleared Memory:    	0.115 seconds.
+Processing reads in single-ended mode.
+Started read stream.
+Started 20 mapping threads.
+Detecting finished threads: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19
+
+   ------------------   Results   ------------------   
+
+Genome:                	1
+Key Length:            	12
+Max Indel:             	16000
+Minimum Score Ratio:  	0.56
+Mapping Mode:         	normal
+Reads Used:           	9614960	(585068665 bases)
+
+Mapping:          	95.608 seconds.
+Reads/sec:       	100566.42
+kBases/sec:      	6119.45
+
+
+Read 1 data:      	pct reads	num reads 	pct bases	   num bases
+
+mapped:          	 96.2389% 	  9253333 	 97.5380% 	   570664450
+unambiguous:     	 90.6151% 	  8712604 	 92.2773% 	   539885296
+ambiguous:       	  5.6238% 	   540729 	  5.2608% 	    30779154
+low-Q discards:  	  0.0001% 	        6 	  0.0000% 	         192
+
+perfect best site:	 54.2850% 	  5219484 	 56.9359% 	   333114256
+semiperfect site:	 54.2955% 	  5220488 	 56.9468% 	   333177974
+
+Match Rate:      	      NA 	       NA 	 91.0039% 	   560258137
+Error Rate:      	 42.7721% 	  4028019 	  8.9847% 	    55313432
+Sub Rate:        	 38.2436% 	  3601551 	  1.4864% 	     9150804
+Del Rate:        	  2.8349% 	   266978 	  7.3058% 	    44977698
+Ins Rate:        	  8.1547% 	   767957 	  0.1925% 	     1184930
+N Rate:          	  0.1062% 	    10005 	  0.0115% 	       70579
+
+Total time:     	96.862 seconds.
+[bam_sort_core] merging from 0 files and 40 in-memory blocks...
+Started analysis of L2201717_PNA_21_1.fq.gz_trimmed.fastq.gz
+Approx 5% complete for L2201717_PNA_21_1.fq.gz_trimmed.fastq.gz
+Approx 10% complete for L2201717_PNA_21_1.fq.gz_trimmed.fastq.gz
+Approx 15% complete for L2201717_PNA_21_1.fq.gz_trimmed.fastq.gz
+Approx 20% complete for L2201717_PNA_21_1.fq.gz_trimmed.fastq.gz
+Approx 25% complete for L2201717_PNA_21_1.fq.gz_trimmed.fastq.gz
+Approx 30% complete for L2201717_PNA_21_1.fq.gz_trimmed.fastq.gz
+Approx 35% complete for L2201717_PNA_21_1.fq.gz_trimmed.fastq.gz
+Approx 40% complete for L2201717_PNA_21_1.fq.gz_trimmed.fastq.gz
+Approx 45% complete for L2201717_PNA_21_1.fq.gz_trimmed.fastq.gz
+Approx 50% complete for L2201717_PNA_21_1.fq.gz_trimmed.fastq.gz
+Approx 55% complete for L2201717_PNA_21_1.fq.gz_trimmed.fastq.gz
+Approx 60% complete for L2201717_PNA_21_1.fq.gz_trimmed.fastq.gz
+Approx 65% complete for L2201717_PNA_21_1.fq.gz_trimmed.fastq.gz
+Approx 70% complete for L2201717_PNA_21_1.fq.gz_trimmed.fastq.gz
+Approx 75% complete for L2201717_PNA_21_1.fq.gz_trimmed.fastq.gz
+Approx 80% complete for L2201717_PNA_21_1.fq.gz_trimmed.fastq.gz
+Approx 85% complete for L2201717_PNA_21_1.fq.gz_trimmed.fastq.gz
+Approx 90% complete for L2201717_PNA_21_1.fq.gz_trimmed.fastq.gz
+Approx 95% complete for L2201717_PNA_21_1.fq.gz_trimmed.fastq.gz
+Analysis complete for L2201717_PNA_21_1.fq.gz_trimmed.fastq.gz
+Starting mapping for sample: L2201718_PNA22_1.fq.gz
+java -Djava.library.path=/home/jakob_jung/miniconda3/opt/bbmap-38.18/jni/ -ea -Xmx27114m -cp /home/jakob_jung/miniconda3/opt/bbmap-38.18/current/ align2.BBMap build=1 overwrite=true fastareadlen=500 in=../data/libs/L2201718_PNA22_1.fq.gz_trimmed.fastq.gz trimreaddescription=t t=20 ref=../data/reference_sequences/FQ312003_wplasmids.fa k=12 outm=../data/rna_align/L2201718_PNA22_1.fq.gz.sam
+Executing align2.BBMap [build=1, overwrite=true, fastareadlen=500, in=../data/libs/L2201718_PNA22_1.fq.gz_trimmed.fastq.gz, trimreaddescription=t, t=20, ref=../data/reference_sequences/FQ312003_wplasmids.fa, k=12, outm=../data/rna_align/L2201718_PNA22_1.fq.gz.sam]
+Version 38.18
+
+Set threads to 20
+Retaining first best site only for ambiguous mappings.
+NOTE:	Ignoring reference file because it already appears to have been processed.
+NOTE:	If you wish to regenerate the index, please manually delete ref/genome/1/summary.txt
+Set genome to 1
+
+Loaded Reference:	0.052 seconds.
+Loading index for chunk 1-1, build 1
+Generated Index:	0.220 seconds.
+Analyzed Index:   	0.750 seconds.
+Started output stream:	0.028 seconds.
+Cleared Memory:    	0.123 seconds.
+Processing reads in single-ended mode.
+Started read stream.
+Started 20 mapping threads.
+Detecting finished threads: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19
+
+   ------------------   Results   ------------------   
+
+Genome:                	1
+Key Length:            	12
+Max Indel:             	16000
+Minimum Score Ratio:  	0.56
+Mapping Mode:         	normal
+Reads Used:           	10941677	(654512642 bases)
+
+Mapping:          	100.052 seconds.
+Reads/sec:       	109359.51
+kBases/sec:      	6541.70
+
+
+Read 1 data:      	pct reads	num reads 	pct bases	   num bases
+
+mapped:          	 96.1995% 	 10525839 	 97.6970% 	   639439431
+unambiguous:     	 92.3359% 	 10103101 	 94.4265% 	   618033433
+ambiguous:       	  3.8636% 	   422738 	  3.2705% 	    21405998
+low-Q discards:  	  0.0000% 	        4 	  0.0000% 	         122
+
+perfect best site:	 53.3684% 	  5839401 	 56.8322% 	   371973976
+semiperfect site:	 53.3793% 	  5840592 	 56.8437% 	   372049467
+
+Match Rate:      	      NA 	       NA 	 93.3418% 	   627444656
+Error Rate:      	 43.7398% 	  4679923 	  6.6466% 	    44678432
+Sub Rate:        	 39.3443% 	  4209625 	  1.5832% 	    10641976
+Del Rate:        	  3.1966% 	   342020 	  4.8738% 	    32761479
+Ins Rate:        	  7.9000% 	   845260 	  0.1897% 	     1274977
+N Rate:          	  0.1024% 	    10951 	  0.0116% 	       77822
+
+Total time:     	101.314 seconds.
+[bam_sort_core] merging from 0 files and 40 in-memory blocks...
+Started analysis of L2201718_PNA22_1.fq.gz_trimmed.fastq.gz
+Approx 5% complete for L2201718_PNA22_1.fq.gz_trimmed.fastq.gz
+Approx 10% complete for L2201718_PNA22_1.fq.gz_trimmed.fastq.gz
+Approx 15% complete for L2201718_PNA22_1.fq.gz_trimmed.fastq.gz
+Approx 20% complete for L2201718_PNA22_1.fq.gz_trimmed.fastq.gz
+Approx 25% complete for L2201718_PNA22_1.fq.gz_trimmed.fastq.gz
+Approx 30% complete for L2201718_PNA22_1.fq.gz_trimmed.fastq.gz
+Approx 35% complete for L2201718_PNA22_1.fq.gz_trimmed.fastq.gz
+Approx 40% complete for L2201718_PNA22_1.fq.gz_trimmed.fastq.gz
+Approx 45% complete for L2201718_PNA22_1.fq.gz_trimmed.fastq.gz
+Approx 50% complete for L2201718_PNA22_1.fq.gz_trimmed.fastq.gz
+Approx 55% complete for L2201718_PNA22_1.fq.gz_trimmed.fastq.gz
+Approx 60% complete for L2201718_PNA22_1.fq.gz_trimmed.fastq.gz
+Approx 65% complete for L2201718_PNA22_1.fq.gz_trimmed.fastq.gz
+Approx 70% complete for L2201718_PNA22_1.fq.gz_trimmed.fastq.gz
+Approx 75% complete for L2201718_PNA22_1.fq.gz_trimmed.fastq.gz
+Approx 80% complete for L2201718_PNA22_1.fq.gz_trimmed.fastq.gz
+Approx 85% complete for L2201718_PNA22_1.fq.gz_trimmed.fastq.gz
+Approx 90% complete for L2201718_PNA22_1.fq.gz_trimmed.fastq.gz
+Approx 95% complete for L2201718_PNA22_1.fq.gz_trimmed.fastq.gz
+Analysis complete for L2201718_PNA22_1.fq.gz_trimmed.fastq.gz
+Starting mapping for sample: L2201719_PNA15_1.fq.gz
+java -Djava.library.path=/home/jakob_jung/miniconda3/opt/bbmap-38.18/jni/ -ea -Xmx27114m -cp /home/jakob_jung/miniconda3/opt/bbmap-38.18/current/ align2.BBMap build=1 overwrite=true fastareadlen=500 in=../data/libs/L2201719_PNA15_1.fq.gz_trimmed.fastq.gz trimreaddescription=t t=20 ref=../data/reference_sequences/FQ312003_wplasmids.fa k=12 outm=../data/rna_align/L2201719_PNA15_1.fq.gz.sam
+Executing align2.BBMap [build=1, overwrite=true, fastareadlen=500, in=../data/libs/L2201719_PNA15_1.fq.gz_trimmed.fastq.gz, trimreaddescription=t, t=20, ref=../data/reference_sequences/FQ312003_wplasmids.fa, k=12, outm=../data/rna_align/L2201719_PNA15_1.fq.gz.sam]
+Version 38.18
+
+Set threads to 20
+Retaining first best site only for ambiguous mappings.
+NOTE:	Ignoring reference file because it already appears to have been processed.
+NOTE:	If you wish to regenerate the index, please manually delete ref/genome/1/summary.txt
+Set genome to 1
+
+Loaded Reference:	0.053 seconds.
+Loading index for chunk 1-1, build 1
+Generated Index:	0.222 seconds.
+Analyzed Index:   	0.742 seconds.
+Started output stream:	0.027 seconds.
+Cleared Memory:    	0.112 seconds.
+Processing reads in single-ended mode.
+Started read stream.
+Started 20 mapping threads.
+Detecting finished threads: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19
+
+   ------------------   Results   ------------------   
+
+Genome:                	1
+Key Length:            	12
+Max Indel:             	16000
+Minimum Score Ratio:  	0.56
+Mapping Mode:         	normal
+Reads Used:           	11242834	(680233508 bases)
+
+Mapping:          	100.478 seconds.
+Reads/sec:       	111893.11
+kBases/sec:      	6769.95
+
+
+Read 1 data:      	pct reads	num reads 	pct bases	   num bases
+
+mapped:          	 96.9098% 	 10895409 	 97.9835% 	   666516748
+unambiguous:     	 93.8500% 	 10551396 	 95.4230% 	   649099549
+ambiguous:       	  3.0598% 	   344013 	  2.5605% 	    17417199
+low-Q discards:  	  0.0000% 	        4 	  0.0000% 	         107
+
+perfect best site:	 54.2437% 	  6098526 	 57.1688% 	   388881586
+semiperfect site:	 54.2532% 	  6099596 	 57.1788% 	   388949309
+
+Match Rate:      	      NA 	       NA 	 93.0461% 	   654188461
+Error Rate:      	 43.2943% 	  4790445 	  6.9427% 	    48813062
+Sub Rate:        	 39.0477% 	  4320562 	  1.5556% 	    10937074
+Del Rate:        	  3.0157% 	   333677 	  5.2004% 	    36563296
+Ins Rate:        	  7.7416% 	   856597 	  0.1867% 	     1312692
+N Rate:          	  0.1009% 	    11159 	  0.0112% 	       78521
+
+Total time:     	101.718 seconds.
+[bam_sort_core] merging from 0 files and 40 in-memory blocks...
+Started analysis of L2201719_PNA15_1.fq.gz_trimmed.fastq.gz
+Approx 5% complete for L2201719_PNA15_1.fq.gz_trimmed.fastq.gz
+Approx 10% complete for L2201719_PNA15_1.fq.gz_trimmed.fastq.gz
+Approx 15% complete for L2201719_PNA15_1.fq.gz_trimmed.fastq.gz
+Approx 20% complete for L2201719_PNA15_1.fq.gz_trimmed.fastq.gz
+Approx 25% complete for L2201719_PNA15_1.fq.gz_trimmed.fastq.gz
+Approx 30% complete for L2201719_PNA15_1.fq.gz_trimmed.fastq.gz
+Approx 35% complete for L2201719_PNA15_1.fq.gz_trimmed.fastq.gz
+Approx 40% complete for L2201719_PNA15_1.fq.gz_trimmed.fastq.gz
+Approx 45% complete for L2201719_PNA15_1.fq.gz_trimmed.fastq.gz
+Approx 50% complete for L2201719_PNA15_1.fq.gz_trimmed.fastq.gz
+Approx 55% complete for L2201719_PNA15_1.fq.gz_trimmed.fastq.gz
+Approx 60% complete for L2201719_PNA15_1.fq.gz_trimmed.fastq.gz
+Approx 65% complete for L2201719_PNA15_1.fq.gz_trimmed.fastq.gz
+Approx 70% complete for L2201719_PNA15_1.fq.gz_trimmed.fastq.gz
+Approx 75% complete for L2201719_PNA15_1.fq.gz_trimmed.fastq.gz
+Approx 80% complete for L2201719_PNA15_1.fq.gz_trimmed.fastq.gz
+Approx 85% complete for L2201719_PNA15_1.fq.gz_trimmed.fastq.gz
+Approx 90% complete for L2201719_PNA15_1.fq.gz_trimmed.fastq.gz
+Approx 95% complete for L2201719_PNA15_1.fq.gz_trimmed.fastq.gz
+Analysis complete for L2201719_PNA15_1.fq.gz_trimmed.fastq.gz
+Starting mapping for sample: L2201720_PNA14_1.fq.gz
+java -Djava.library.path=/home/jakob_jung/miniconda3/opt/bbmap-38.18/jni/ -ea -Xmx27114m -cp /home/jakob_jung/miniconda3/opt/bbmap-38.18/current/ align2.BBMap build=1 overwrite=true fastareadlen=500 in=../data/libs/L2201720_PNA14_1.fq.gz_trimmed.fastq.gz trimreaddescription=t t=20 ref=../data/reference_sequences/FQ312003_wplasmids.fa k=12 outm=../data/rna_align/L2201720_PNA14_1.fq.gz.sam
+Executing align2.BBMap [build=1, overwrite=true, fastareadlen=500, in=../data/libs/L2201720_PNA14_1.fq.gz_trimmed.fastq.gz, trimreaddescription=t, t=20, ref=../data/reference_sequences/FQ312003_wplasmids.fa, k=12, outm=../data/rna_align/L2201720_PNA14_1.fq.gz.sam]
+Version 38.18
+
+Set threads to 20
+Retaining first best site only for ambiguous mappings.
+NOTE:	Ignoring reference file because it already appears to have been processed.
+NOTE:	If you wish to regenerate the index, please manually delete ref/genome/1/summary.txt
+Set genome to 1
+
+Loaded Reference:	0.052 seconds.
+Loading index for chunk 1-1, build 1
+Generated Index:	0.222 seconds.
+Analyzed Index:   	0.750 seconds.
+Started output stream:	0.031 seconds.
+Cleared Memory:    	0.115 seconds.
+Processing reads in single-ended mode.
+Started read stream.
+Started 20 mapping threads.
+Detecting finished threads: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19
+
+   ------------------   Results   ------------------   
+
+Genome:                	1
+Key Length:            	12
+Max Indel:             	16000
+Minimum Score Ratio:  	0.56
+Mapping Mode:         	normal
+Reads Used:           	11728582	(706986561 bases)
+
+Mapping:          	102.923 seconds.
+Reads/sec:       	113955.12
+kBases/sec:      	6869.09
+
+
+Read 1 data:      	pct reads	num reads 	pct bases	   num bases
+
+mapped:          	 96.4621% 	 11313634 	 97.6877% 	   690638815
+unambiguous:     	 93.4370% 	 10958836 	 95.1865% 	   672955551
+ambiguous:       	  3.0251% 	   354798 	  2.5012% 	    17683264
+low-Q discards:  	  0.0001% 	        9 	  0.0000% 	         179
+
+perfect best site:	 55.4512% 	  6503643 	 58.6333% 	   414529457
+semiperfect site:	 55.4610% 	  6504789 	 58.6435% 	   414601853
+
+Match Rate:      	      NA 	       NA 	 93.9877% 	   678553545
+Error Rate:      	 41.8336% 	  4802762 	  6.0006% 	    43321784
+Sub Rate:        	 37.6619% 	  4323824 	  1.4845% 	    10717772
+Del Rate:        	  3.0709% 	   352564 	  4.3383% 	    31320753
+Ins Rate:        	  7.3782% 	   847064 	  0.1777% 	     1283259
+N Rate:          	  0.1041% 	    11950 	  0.0117% 	       84239
+
+Total time:     	104.184 seconds.
+[bam_sort_core] merging from 0 files and 40 in-memory blocks...
+Started analysis of L2201720_PNA14_1.fq.gz_trimmed.fastq.gz
+Approx 5% complete for L2201720_PNA14_1.fq.gz_trimmed.fastq.gz
+Approx 10% complete for L2201720_PNA14_1.fq.gz_trimmed.fastq.gz
+Approx 15% complete for L2201720_PNA14_1.fq.gz_trimmed.fastq.gz
+Approx 20% complete for L2201720_PNA14_1.fq.gz_trimmed.fastq.gz
+Approx 25% complete for L2201720_PNA14_1.fq.gz_trimmed.fastq.gz
+Approx 30% complete for L2201720_PNA14_1.fq.gz_trimmed.fastq.gz
+Approx 35% complete for L2201720_PNA14_1.fq.gz_trimmed.fastq.gz
+Approx 40% complete for L2201720_PNA14_1.fq.gz_trimmed.fastq.gz
+Approx 45% complete for L2201720_PNA14_1.fq.gz_trimmed.fastq.gz
+Approx 50% complete for L2201720_PNA14_1.fq.gz_trimmed.fastq.gz
+Approx 55% complete for L2201720_PNA14_1.fq.gz_trimmed.fastq.gz
+Approx 60% complete for L2201720_PNA14_1.fq.gz_trimmed.fastq.gz
+Approx 65% complete for L2201720_PNA14_1.fq.gz_trimmed.fastq.gz
+Approx 70% complete for L2201720_PNA14_1.fq.gz_trimmed.fastq.gz
+Approx 75% complete for L2201720_PNA14_1.fq.gz_trimmed.fastq.gz
+Approx 80% complete for L2201720_PNA14_1.fq.gz_trimmed.fastq.gz
+Approx 85% complete for L2201720_PNA14_1.fq.gz_trimmed.fastq.gz
+Approx 90% complete for L2201720_PNA14_1.fq.gz_trimmed.fastq.gz
+Approx 95% complete for L2201720_PNA14_1.fq.gz_trimmed.fastq.gz
+Analysis complete for L2201720_PNA14_1.fq.gz_trimmed.fastq.gz
+Starting mapping for sample: L2201721_JVPep112_1.fq.gz
+java -Djava.library.path=/home/jakob_jung/miniconda3/opt/bbmap-38.18/jni/ -ea -Xmx27114m -cp /home/jakob_jung/miniconda3/opt/bbmap-38.18/current/ align2.BBMap build=1 overwrite=true fastareadlen=500 in=../data/libs/L2201721_JVPep112_1.fq.gz_trimmed.fastq.gz trimreaddescription=t t=20 ref=../data/reference_sequences/FQ312003_wplasmids.fa k=12 outm=../data/rna_align/L2201721_JVPep112_1.fq.gz.sam
+Executing align2.BBMap [build=1, overwrite=true, fastareadlen=500, in=../data/libs/L2201721_JVPep112_1.fq.gz_trimmed.fastq.gz, trimreaddescription=t, t=20, ref=../data/reference_sequences/FQ312003_wplasmids.fa, k=12, outm=../data/rna_align/L2201721_JVPep112_1.fq.gz.sam]
+Version 38.18
+
+Set threads to 20
+Retaining first best site only for ambiguous mappings.
+NOTE:	Ignoring reference file because it already appears to have been processed.
+NOTE:	If you wish to regenerate the index, please manually delete ref/genome/1/summary.txt
+Set genome to 1
+
+Loaded Reference:	0.054 seconds.
+Loading index for chunk 1-1, build 1
+Generated Index:	0.219 seconds.
+Analyzed Index:   	0.739 seconds.
+Started output stream:	0.028 seconds.
+Cleared Memory:    	0.110 seconds.
+Processing reads in single-ended mode.
+Started read stream.
+Started 20 mapping threads.
+Detecting finished threads: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19
+
+   ------------------   Results   ------------------   
+
+Genome:                	1
+Key Length:            	12
+Max Indel:             	16000
+Minimum Score Ratio:  	0.56
+Mapping Mode:         	normal
+Reads Used:           	11272357	(682531174 bases)
+
+Mapping:          	95.697 seconds.
+Reads/sec:       	117791.65
+kBases/sec:      	7132.18
+
+
+Read 1 data:      	pct reads	num reads 	pct bases	   num bases
+
+mapped:          	 95.8689% 	 10806685 	 96.8243% 	   660855876
+unambiguous:     	 93.0787% 	 10492165 	 94.5355% 	   645234385
+ambiguous:       	  2.7902% 	   314520 	  2.2888% 	    15621491
+low-Q discards:  	  0.0000% 	        3 	  0.0000% 	         110
+
+perfect best site:	 55.0065% 	  6200526 	 57.9205% 	   395325433
+semiperfect site:	 55.0162% 	  6201621 	 57.9306% 	   395394725
+
+Match Rate:      	      NA 	       NA 	 92.9812% 	   649070045
+Error Rate:      	 41.8909% 	  4599242 	  7.0071% 	    48914097
+Sub Rate:        	 38.0040% 	  4172496 	  1.5013% 	    10480137
+Del Rate:        	  3.0882% 	   339057 	  5.3304% 	    37209704
+Ins Rate:        	  7.1554% 	   785604 	  0.1754% 	     1224256
+N Rate:          	  0.1050% 	    11526 	  0.0117% 	       81438
+
+Total time:     	96.934 seconds.
+[bam_sort_core] merging from 0 files and 40 in-memory blocks...
+Started analysis of L2201721_JVPep112_1.fq.gz_trimmed.fastq.gz
+Approx 5% complete for L2201721_JVPep112_1.fq.gz_trimmed.fastq.gz
+Approx 10% complete for L2201721_JVPep112_1.fq.gz_trimmed.fastq.gz
+Approx 15% complete for L2201721_JVPep112_1.fq.gz_trimmed.fastq.gz
+Approx 20% complete for L2201721_JVPep112_1.fq.gz_trimmed.fastq.gz
+Approx 25% complete for L2201721_JVPep112_1.fq.gz_trimmed.fastq.gz
+Approx 30% complete for L2201721_JVPep112_1.fq.gz_trimmed.fastq.gz
+Approx 35% complete for L2201721_JVPep112_1.fq.gz_trimmed.fastq.gz
+Approx 40% complete for L2201721_JVPep112_1.fq.gz_trimmed.fastq.gz
+Approx 45% complete for L2201721_JVPep112_1.fq.gz_trimmed.fastq.gz
+Approx 50% complete for L2201721_JVPep112_1.fq.gz_trimmed.fastq.gz
+Approx 55% complete for L2201721_JVPep112_1.fq.gz_trimmed.fastq.gz
+Approx 60% complete for L2201721_JVPep112_1.fq.gz_trimmed.fastq.gz
+Approx 65% complete for L2201721_JVPep112_1.fq.gz_trimmed.fastq.gz
+Approx 70% complete for L2201721_JVPep112_1.fq.gz_trimmed.fastq.gz
+Approx 75% complete for L2201721_JVPep112_1.fq.gz_trimmed.fastq.gz
+Approx 80% complete for L2201721_JVPep112_1.fq.gz_trimmed.fastq.gz
+Approx 85% complete for L2201721_JVPep112_1.fq.gz_trimmed.fastq.gz
+Approx 90% complete for L2201721_JVPep112_1.fq.gz_trimmed.fastq.gz
+Approx 95% complete for L2201721_JVPep112_1.fq.gz_trimmed.fastq.gz
+Analysis complete for L2201721_JVPep112_1.fq.gz_trimmed.fastq.gz
+Starting mapping for sample: L2201722_KFFN3_1.fq.gz
+java -Djava.library.path=/home/jakob_jung/miniconda3/opt/bbmap-38.18/jni/ -ea -Xmx27114m -cp /home/jakob_jung/miniconda3/opt/bbmap-38.18/current/ align2.BBMap build=1 overwrite=true fastareadlen=500 in=../data/libs/L2201722_KFFN3_1.fq.gz_trimmed.fastq.gz trimreaddescription=t t=20 ref=../data/reference_sequences/FQ312003_wplasmids.fa k=12 outm=../data/rna_align/L2201722_KFFN3_1.fq.gz.sam
+Executing align2.BBMap [build=1, overwrite=true, fastareadlen=500, in=../data/libs/L2201722_KFFN3_1.fq.gz_trimmed.fastq.gz, trimreaddescription=t, t=20, ref=../data/reference_sequences/FQ312003_wplasmids.fa, k=12, outm=../data/rna_align/L2201722_KFFN3_1.fq.gz.sam]
+Version 38.18
+
+Set threads to 20
+Retaining first best site only for ambiguous mappings.
+NOTE:	Ignoring reference file because it already appears to have been processed.
+NOTE:	If you wish to regenerate the index, please manually delete ref/genome/1/summary.txt
+Set genome to 1
+
+Loaded Reference:	0.053 seconds.
+Loading index for chunk 1-1, build 1
+Generated Index:	0.225 seconds.
+Analyzed Index:   	0.744 seconds.
+Started output stream:	0.027 seconds.
+Cleared Memory:    	0.110 seconds.
+Processing reads in single-ended mode.
+Started read stream.
+Started 20 mapping threads.
+Detecting finished threads: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19
+
+   ------------------   Results   ------------------   
+
+Genome:                	1
+Key Length:            	12
+Max Indel:             	16000
+Minimum Score Ratio:  	0.56
+Mapping Mode:         	normal
+Reads Used:           	11982936	(720777462 bases)
+
+Mapping:          	102.920 seconds.
+Reads/sec:       	116429.70
+kBases/sec:      	7003.28
+
+
+Read 1 data:      	pct reads	num reads 	pct bases	   num bases
+
+mapped:          	 96.9317% 	 11615260 	 98.1785% 	   707648553
+unambiguous:     	 94.2321% 	 11291776 	 96.0332% 	   692185741
+ambiguous:       	  2.6995% 	   323484 	  2.1453% 	    15462812
+low-Q discards:  	  0.0001% 	        6 	  0.0000% 	         213
+
+perfect best site:	 54.9152% 	  6580459 	 58.1731% 	   419298604
+semiperfect site:	 54.9264% 	  6581799 	 58.1848% 	   419383264
+
+Match Rate:      	      NA 	       NA 	 94.5712% 	   695040142
+Error Rate:      	 42.7023% 	  5027395 	  5.4168% 	    39810002
+Sub Rate:        	 38.3929% 	  4520045 	  1.5216% 	    11182924
+Del Rate:        	  3.0868% 	   363412 	  3.7132% 	    27289617
+Ins Rate:        	  7.5952% 	   894196 	  0.1820% 	     1337461
+N Rate:          	  0.1059% 	    12472 	  0.0120% 	       88026
+
+Total time:     	104.166 seconds.
+[bam_sort_core] merging from 0 files and 40 in-memory blocks...
+Started analysis of L2201722_KFFN3_1.fq.gz_trimmed.fastq.gz
+Approx 5% complete for L2201722_KFFN3_1.fq.gz_trimmed.fastq.gz
+Approx 10% complete for L2201722_KFFN3_1.fq.gz_trimmed.fastq.gz
+Approx 15% complete for L2201722_KFFN3_1.fq.gz_trimmed.fastq.gz
+Approx 20% complete for L2201722_KFFN3_1.fq.gz_trimmed.fastq.gz
+Approx 25% complete for L2201722_KFFN3_1.fq.gz_trimmed.fastq.gz
+Approx 30% complete for L2201722_KFFN3_1.fq.gz_trimmed.fastq.gz
+Approx 35% complete for L2201722_KFFN3_1.fq.gz_trimmed.fastq.gz
+Approx 40% complete for L2201722_KFFN3_1.fq.gz_trimmed.fastq.gz
+Approx 45% complete for L2201722_KFFN3_1.fq.gz_trimmed.fastq.gz
+Approx 50% complete for L2201722_KFFN3_1.fq.gz_trimmed.fastq.gz
+Approx 55% complete for L2201722_KFFN3_1.fq.gz_trimmed.fastq.gz
+Approx 60% complete for L2201722_KFFN3_1.fq.gz_trimmed.fastq.gz
+Approx 65% complete for L2201722_KFFN3_1.fq.gz_trimmed.fastq.gz
+Approx 70% complete for L2201722_KFFN3_1.fq.gz_trimmed.fastq.gz
+Approx 75% complete for L2201722_KFFN3_1.fq.gz_trimmed.fastq.gz
+Approx 80% complete for L2201722_KFFN3_1.fq.gz_trimmed.fastq.gz
+Approx 85% complete for L2201722_KFFN3_1.fq.gz_trimmed.fastq.gz
+Approx 90% complete for L2201722_KFFN3_1.fq.gz_trimmed.fastq.gz
+Approx 95% complete for L2201722_KFFN3_1.fq.gz_trimmed.fastq.gz
+Analysis complete for L2201722_KFFN3_1.fq.gz_trimmed.fastq.gz
+Starting mapping for sample: L2201723_Control_2.fq.gz
+java -Djava.library.path=/home/jakob_jung/miniconda3/opt/bbmap-38.18/jni/ -ea -Xmx27114m -cp /home/jakob_jung/miniconda3/opt/bbmap-38.18/current/ align2.BBMap build=1 overwrite=true fastareadlen=500 in=../data/libs/L2201723_Control_2.fq.gz_trimmed.fastq.gz trimreaddescription=t t=20 ref=../data/reference_sequences/FQ312003_wplasmids.fa k=12 outm=../data/rna_align/L2201723_Control_2.fq.gz.sam
+Executing align2.BBMap [build=1, overwrite=true, fastareadlen=500, in=../data/libs/L2201723_Control_2.fq.gz_trimmed.fastq.gz, trimreaddescription=t, t=20, ref=../data/reference_sequences/FQ312003_wplasmids.fa, k=12, outm=../data/rna_align/L2201723_Control_2.fq.gz.sam]
+Version 38.18
+
+Set threads to 20
+Retaining first best site only for ambiguous mappings.
+NOTE:	Ignoring reference file because it already appears to have been processed.
+NOTE:	If you wish to regenerate the index, please manually delete ref/genome/1/summary.txt
+Set genome to 1
+
+Loaded Reference:	0.052 seconds.
+Loading index for chunk 1-1, build 1
+Generated Index:	0.220 seconds.
+Analyzed Index:   	0.755 seconds.
+Started output stream:	0.028 seconds.
+Cleared Memory:    	0.109 seconds.
+Processing reads in single-ended mode.
+Started read stream.
+Started 20 mapping threads.
+Detecting finished threads: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19
+
+   ------------------   Results   ------------------   
+
+Genome:                	1
+Key Length:            	12
+Max Indel:             	16000
+Minimum Score Ratio:  	0.56
+Mapping Mode:         	normal
+Reads Used:           	10846367	(650490370 bases)
+
+Mapping:          	97.917 seconds.
+Reads/sec:       	110770.63
+kBases/sec:      	6643.26
+
+
+Read 1 data:      	pct reads	num reads 	pct bases	   num bases
+
+mapped:          	 96.4612% 	 10462539 	 97.9586% 	   637211480
+unambiguous:     	 93.3811% 	 10128460 	 95.4432% 	   620848644
+ambiguous:       	  3.0801% 	   334079 	  2.5155% 	    16362836
+low-Q discards:  	  0.0000% 	        5 	  0.0000% 	         108
+
+perfect best site:	 54.3829% 	  5898567 	 57.7770% 	   375833706
+semiperfect site:	 54.3933% 	  5899695 	 57.7880% 	   375905106
+
+Match Rate:      	      NA 	       NA 	 93.8834% 	   625611470
+Error Rate:      	 42.9242% 	  4557462 	  6.1050% 	    40681902
+Sub Rate:        	 38.7257% 	  4111688 	  1.5474% 	    10311573
+Del Rate:        	  3.0716% 	   326122 	  4.3759% 	    29159401
+Ins Rate:        	  7.5274% 	   799223 	  0.1817% 	     1210928
+N Rate:          	  0.1034% 	    10975 	  0.0116% 	       77509
+
+Total time:     	99.167 seconds.
+[bam_sort_core] merging from 0 files and 40 in-memory blocks...
+Started analysis of L2201723_Control_2.fq.gz_trimmed.fastq.gz
+Approx 5% complete for L2201723_Control_2.fq.gz_trimmed.fastq.gz
+Approx 10% complete for L2201723_Control_2.fq.gz_trimmed.fastq.gz
+Approx 15% complete for L2201723_Control_2.fq.gz_trimmed.fastq.gz
+Approx 20% complete for L2201723_Control_2.fq.gz_trimmed.fastq.gz
+Approx 25% complete for L2201723_Control_2.fq.gz_trimmed.fastq.gz
+Approx 30% complete for L2201723_Control_2.fq.gz_trimmed.fastq.gz
+Approx 35% complete for L2201723_Control_2.fq.gz_trimmed.fastq.gz
+Approx 40% complete for L2201723_Control_2.fq.gz_trimmed.fastq.gz
+Approx 45% complete for L2201723_Control_2.fq.gz_trimmed.fastq.gz
+Approx 50% complete for L2201723_Control_2.fq.gz_trimmed.fastq.gz
+Approx 55% complete for L2201723_Control_2.fq.gz_trimmed.fastq.gz
+Approx 60% complete for L2201723_Control_2.fq.gz_trimmed.fastq.gz
+Approx 65% complete for L2201723_Control_2.fq.gz_trimmed.fastq.gz
+Approx 70% complete for L2201723_Control_2.fq.gz_trimmed.fastq.gz
+Approx 75% complete for L2201723_Control_2.fq.gz_trimmed.fastq.gz
+Approx 80% complete for L2201723_Control_2.fq.gz_trimmed.fastq.gz
+Approx 85% complete for L2201723_Control_2.fq.gz_trimmed.fastq.gz
+Approx 90% complete for L2201723_Control_2.fq.gz_trimmed.fastq.gz
+Approx 95% complete for L2201723_Control_2.fq.gz_trimmed.fastq.gz
+Analysis complete for L2201723_Control_2.fq.gz_trimmed.fastq.gz
+Starting mapping for sample: L2201724_RNA_MOE_2.fq.gz
+java -Djava.library.path=/home/jakob_jung/miniconda3/opt/bbmap-38.18/jni/ -ea -Xmx27114m -cp /home/jakob_jung/miniconda3/opt/bbmap-38.18/current/ align2.BBMap build=1 overwrite=true fastareadlen=500 in=../data/libs/L2201724_RNA_MOE_2.fq.gz_trimmed.fastq.gz trimreaddescription=t t=20 ref=../data/reference_sequences/FQ312003_wplasmids.fa k=12 outm=../data/rna_align/L2201724_RNA_MOE_2.fq.gz.sam
+Executing align2.BBMap [build=1, overwrite=true, fastareadlen=500, in=../data/libs/L2201724_RNA_MOE_2.fq.gz_trimmed.fastq.gz, trimreaddescription=t, t=20, ref=../data/reference_sequences/FQ312003_wplasmids.fa, k=12, outm=../data/rna_align/L2201724_RNA_MOE_2.fq.gz.sam]
+Version 38.18
+
+Set threads to 20
+Retaining first best site only for ambiguous mappings.
+NOTE:	Ignoring reference file because it already appears to have been processed.
+NOTE:	If you wish to regenerate the index, please manually delete ref/genome/1/summary.txt
+Set genome to 1
+
+Loaded Reference:	0.054 seconds.
+Loading index for chunk 1-1, build 1
+Generated Index:	0.210 seconds.
+Analyzed Index:   	0.743 seconds.
+Started output stream:	0.028 seconds.
+Cleared Memory:    	0.144 seconds.
+Processing reads in single-ended mode.
+Started read stream.
+Started 20 mapping threads.
+Detecting finished threads: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19
+
+   ------------------   Results   ------------------   
+
+Genome:                	1
+Key Length:            	12
+Max Indel:             	16000
+Minimum Score Ratio:  	0.56
+Mapping Mode:         	normal
+Reads Used:           	11609337	(704613965 bases)
+
+Mapping:          	100.112 seconds.
+Reads/sec:       	115963.52
+kBases/sec:      	7038.26
+
+
+Read 1 data:      	pct reads	num reads 	pct bases	   num bases
+
+mapped:          	 97.4263% 	 11310551 	 98.3720% 	   693142623
+unambiguous:     	 94.3087% 	 10948619 	 95.7394% 	   674593311
+ambiguous:       	  3.1176% 	   361932 	  2.6325% 	    18549312
+low-Q discards:  	  0.0000% 	        3 	  0.0000% 	          92
+
+perfect best site:	 56.7468% 	  6587931 	 59.6085% 	   420009669
+semiperfect site:	 56.7578% 	  6589199 	 59.6199% 	   420090072
+
+Match Rate:      	      NA 	       NA 	 94.1120% 	   681522370
+Error Rate:      	 41.1747% 	  4715337 	  5.8762% 	    42553156
+Sub Rate:        	 37.0856% 	  4247056 	  1.4238% 	    10310627
+Del Rate:        	  2.9007% 	   332188 	  4.2834% 	    31018581
+Ins Rate:        	  7.1262% 	   816096 	  0.1690% 	     1223948
+N Rate:          	  0.1054% 	    12071 	  0.0118% 	       85678
+
+Total time:     	101.380 seconds.
+[bam_sort_core] merging from 0 files and 40 in-memory blocks...
+Started analysis of L2201724_RNA_MOE_2.fq.gz_trimmed.fastq.gz
+Approx 5% complete for L2201724_RNA_MOE_2.fq.gz_trimmed.fastq.gz
+Approx 10% complete for L2201724_RNA_MOE_2.fq.gz_trimmed.fastq.gz
+Approx 15% complete for L2201724_RNA_MOE_2.fq.gz_trimmed.fastq.gz
+Approx 20% complete for L2201724_RNA_MOE_2.fq.gz_trimmed.fastq.gz
+Approx 25% complete for L2201724_RNA_MOE_2.fq.gz_trimmed.fastq.gz
+Approx 30% complete for L2201724_RNA_MOE_2.fq.gz_trimmed.fastq.gz
+Approx 35% complete for L2201724_RNA_MOE_2.fq.gz_trimmed.fastq.gz
+Approx 40% complete for L2201724_RNA_MOE_2.fq.gz_trimmed.fastq.gz
+Approx 45% complete for L2201724_RNA_MOE_2.fq.gz_trimmed.fastq.gz
+Approx 50% complete for L2201724_RNA_MOE_2.fq.gz_trimmed.fastq.gz
+Approx 55% complete for L2201724_RNA_MOE_2.fq.gz_trimmed.fastq.gz
+Approx 60% complete for L2201724_RNA_MOE_2.fq.gz_trimmed.fastq.gz
+Approx 65% complete for L2201724_RNA_MOE_2.fq.gz_trimmed.fastq.gz
+Approx 70% complete for L2201724_RNA_MOE_2.fq.gz_trimmed.fastq.gz
+Approx 75% complete for L2201724_RNA_MOE_2.fq.gz_trimmed.fastq.gz
+Approx 80% complete for L2201724_RNA_MOE_2.fq.gz_trimmed.fastq.gz
+Approx 85% complete for L2201724_RNA_MOE_2.fq.gz_trimmed.fastq.gz
+Approx 90% complete for L2201724_RNA_MOE_2.fq.gz_trimmed.fastq.gz
+Approx 95% complete for L2201724_RNA_MOE_2.fq.gz_trimmed.fastq.gz
+Analysis complete for L2201724_RNA_MOE_2.fq.gz_trimmed.fastq.gz
+Starting mapping for sample: L2201725_RNA_F_2.fq.gz
+java -Djava.library.path=/home/jakob_jung/miniconda3/opt/bbmap-38.18/jni/ -ea -Xmx27114m -cp /home/jakob_jung/miniconda3/opt/bbmap-38.18/current/ align2.BBMap build=1 overwrite=true fastareadlen=500 in=../data/libs/L2201725_RNA_F_2.fq.gz_trimmed.fastq.gz trimreaddescription=t t=20 ref=../data/reference_sequences/FQ312003_wplasmids.fa k=12 outm=../data/rna_align/L2201725_RNA_F_2.fq.gz.sam
+Executing align2.BBMap [build=1, overwrite=true, fastareadlen=500, in=../data/libs/L2201725_RNA_F_2.fq.gz_trimmed.fastq.gz, trimreaddescription=t, t=20, ref=../data/reference_sequences/FQ312003_wplasmids.fa, k=12, outm=../data/rna_align/L2201725_RNA_F_2.fq.gz.sam]
+Version 38.18
+
+Set threads to 20
+Retaining first best site only for ambiguous mappings.
+NOTE:	Ignoring reference file because it already appears to have been processed.
+NOTE:	If you wish to regenerate the index, please manually delete ref/genome/1/summary.txt
+Set genome to 1
+
+Loaded Reference:	0.054 seconds.
+Loading index for chunk 1-1, build 1
+Generated Index:	0.222 seconds.
+Analyzed Index:   	0.737 seconds.
+Started output stream:	0.028 seconds.
+Cleared Memory:    	0.132 seconds.
+Processing reads in single-ended mode.
+Started read stream.
+Started 20 mapping threads.
+Detecting finished threads: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19
+
+   ------------------   Results   ------------------   
+
+Genome:                	1
+Key Length:            	12
+Max Indel:             	16000
+Minimum Score Ratio:  	0.56
+Mapping Mode:         	normal
+Reads Used:           	8184149	(503221384 bases)
+
+Mapping:          	70.148 seconds.
+Reads/sec:       	116669.38
+kBases/sec:      	7173.69
+
+
+Read 1 data:      	pct reads	num reads 	pct bases	   num bases
+
+mapped:          	 97.7694% 	  8001593 	 98.4911% 	   495628297
+unambiguous:     	 94.9756% 	  7772948 	 96.0417% 	   483302407
+ambiguous:       	  2.7938% 	   228645 	  2.4494% 	    12325890
+low-Q discards:  	  0.0000% 	        3 	  0.0000% 	          72
+
+perfect best site:	 58.1952% 	  4762783 	 60.4205% 	   304048724
+semiperfect site:	 58.2048% 	  4763568 	 60.4304% 	   304098714
+
+Match Rate:      	      NA 	       NA 	 94.4251% 	   487825381
+Error Rate:      	 39.9406% 	  3233673 	  5.5637% 	    28743390
+Sub Rate:        	 35.6529% 	  2886530 	  1.3309% 	     6875939
+Del Rate:        	  2.4688% 	   199883 	  4.0646% 	    20998764
+Ins Rate:        	  7.2408% 	   586226 	  0.1681% 	      868687
+N Rate:          	  0.1032% 	     8359 	  0.0113% 	       58290
+
+Total time:     	71.406 seconds.
+[bam_sort_core] merging from 0 files and 40 in-memory blocks...
+Started analysis of L2201725_RNA_F_2.fq.gz_trimmed.fastq.gz
+Approx 5% complete for L2201725_RNA_F_2.fq.gz_trimmed.fastq.gz
+Approx 10% complete for L2201725_RNA_F_2.fq.gz_trimmed.fastq.gz
+Approx 15% complete for L2201725_RNA_F_2.fq.gz_trimmed.fastq.gz
+Approx 20% complete for L2201725_RNA_F_2.fq.gz_trimmed.fastq.gz
+Approx 25% complete for L2201725_RNA_F_2.fq.gz_trimmed.fastq.gz
+Approx 30% complete for L2201725_RNA_F_2.fq.gz_trimmed.fastq.gz
+Approx 35% complete for L2201725_RNA_F_2.fq.gz_trimmed.fastq.gz
+Approx 40% complete for L2201725_RNA_F_2.fq.gz_trimmed.fastq.gz
+Approx 45% complete for L2201725_RNA_F_2.fq.gz_trimmed.fastq.gz
+Approx 50% complete for L2201725_RNA_F_2.fq.gz_trimmed.fastq.gz
+Approx 55% complete for L2201725_RNA_F_2.fq.gz_trimmed.fastq.gz
+Approx 60% complete for L2201725_RNA_F_2.fq.gz_trimmed.fastq.gz
+Approx 65% complete for L2201725_RNA_F_2.fq.gz_trimmed.fastq.gz
+Approx 70% complete for L2201725_RNA_F_2.fq.gz_trimmed.fastq.gz
+Approx 75% complete for L2201725_RNA_F_2.fq.gz_trimmed.fastq.gz
+Approx 80% complete for L2201725_RNA_F_2.fq.gz_trimmed.fastq.gz
+Approx 85% complete for L2201725_RNA_F_2.fq.gz_trimmed.fastq.gz
+Approx 90% complete for L2201725_RNA_F_2.fq.gz_trimmed.fastq.gz
+Approx 95% complete for L2201725_RNA_F_2.fq.gz_trimmed.fastq.gz
+Analysis complete for L2201725_RNA_F_2.fq.gz_trimmed.fastq.gz
+Starting mapping for sample: L2201726_LNA_2.fq.gz
+java -Djava.library.path=/home/jakob_jung/miniconda3/opt/bbmap-38.18/jni/ -ea -Xmx27114m -cp /home/jakob_jung/miniconda3/opt/bbmap-38.18/current/ align2.BBMap build=1 overwrite=true fastareadlen=500 in=../data/libs/L2201726_LNA_2.fq.gz_trimmed.fastq.gz trimreaddescription=t t=20 ref=../data/reference_sequences/FQ312003_wplasmids.fa k=12 outm=../data/rna_align/L2201726_LNA_2.fq.gz.sam
+Executing align2.BBMap [build=1, overwrite=true, fastareadlen=500, in=../data/libs/L2201726_LNA_2.fq.gz_trimmed.fastq.gz, trimreaddescription=t, t=20, ref=../data/reference_sequences/FQ312003_wplasmids.fa, k=12, outm=../data/rna_align/L2201726_LNA_2.fq.gz.sam]
+Version 38.18
+
+Set threads to 20
+Retaining first best site only for ambiguous mappings.
+NOTE:	Ignoring reference file because it already appears to have been processed.
+NOTE:	If you wish to regenerate the index, please manually delete ref/genome/1/summary.txt
+Set genome to 1
+
+Loaded Reference:	0.054 seconds.
+Loading index for chunk 1-1, build 1
+Generated Index:	0.222 seconds.
+Analyzed Index:   	0.732 seconds.
+Started output stream:	0.027 seconds.
+Cleared Memory:    	0.108 seconds.
+Processing reads in single-ended mode.
+Started read stream.
+Started 20 mapping threads.
+Detecting finished threads: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19
+
+   ------------------   Results   ------------------   
+
+Genome:                	1
+Key Length:            	12
+Max Indel:             	16000
+Minimum Score Ratio:  	0.56
+Mapping Mode:         	normal
+Reads Used:           	11766990	(717970654 bases)
+
+Mapping:          	102.780 seconds.
+Reads/sec:       	114487.44
+kBases/sec:      	6985.53
+
+
+Read 1 data:      	pct reads	num reads 	pct bases	   num bases
+
+mapped:          	 97.5941% 	 11483889 	 98.4101% 	   706555680
+unambiguous:     	 92.6972% 	 10907675 	 93.9360% 	   674432777
+ambiguous:       	  4.8969% 	   576214 	  4.4741% 	    32122903
+low-Q discards:  	  0.0000% 	        2 	  0.0000% 	          56
+
+perfect best site:	 57.8586% 	  6808219 	 60.4944% 	   434332378
+semiperfect site:	 57.8678% 	  6809295 	 60.5040% 	   434400613
+
+Match Rate:      	      NA 	       NA 	 93.3887% 	   694919165
+Error Rate:      	 40.1516% 	  4668368 	  6.6000% 	    49111572
+Sub Rate:        	 36.1971% 	  4208584 	  1.3874% 	    10323485
+Del Rate:        	  2.8244% 	   328384 	  5.0474% 	    37558760
+Ins Rate:        	  6.9089% 	   803292 	  0.1652% 	     1229327
+N Rate:          	  0.1028% 	    11956 	  0.0112% 	       83703
+
+Total time:     	104.018 seconds.
+[bam_sort_core] merging from 0 files and 40 in-memory blocks...
+Started analysis of L2201726_LNA_2.fq.gz_trimmed.fastq.gz
+Approx 5% complete for L2201726_LNA_2.fq.gz_trimmed.fastq.gz
+Approx 10% complete for L2201726_LNA_2.fq.gz_trimmed.fastq.gz
+Approx 15% complete for L2201726_LNA_2.fq.gz_trimmed.fastq.gz
+Approx 20% complete for L2201726_LNA_2.fq.gz_trimmed.fastq.gz
+Approx 25% complete for L2201726_LNA_2.fq.gz_trimmed.fastq.gz
+Approx 30% complete for L2201726_LNA_2.fq.gz_trimmed.fastq.gz
+Approx 35% complete for L2201726_LNA_2.fq.gz_trimmed.fastq.gz
+Approx 40% complete for L2201726_LNA_2.fq.gz_trimmed.fastq.gz
+Approx 45% complete for L2201726_LNA_2.fq.gz_trimmed.fastq.gz
+Approx 50% complete for L2201726_LNA_2.fq.gz_trimmed.fastq.gz
+Approx 55% complete for L2201726_LNA_2.fq.gz_trimmed.fastq.gz
+Approx 60% complete for L2201726_LNA_2.fq.gz_trimmed.fastq.gz
+Approx 65% complete for L2201726_LNA_2.fq.gz_trimmed.fastq.gz
+Approx 70% complete for L2201726_LNA_2.fq.gz_trimmed.fastq.gz
+Approx 75% complete for L2201726_LNA_2.fq.gz_trimmed.fastq.gz
+Approx 80% complete for L2201726_LNA_2.fq.gz_trimmed.fastq.gz
+Approx 85% complete for L2201726_LNA_2.fq.gz_trimmed.fastq.gz
+Approx 90% complete for L2201726_LNA_2.fq.gz_trimmed.fastq.gz
+Approx 95% complete for L2201726_LNA_2.fq.gz_trimmed.fastq.gz
+Analysis complete for L2201726_LNA_2.fq.gz_trimmed.fastq.gz
+Starting mapping for sample: L2201727_RNA_Ome_2.fq.gz
+java -Djava.library.path=/home/jakob_jung/miniconda3/opt/bbmap-38.18/jni/ -ea -Xmx27114m -cp /home/jakob_jung/miniconda3/opt/bbmap-38.18/current/ align2.BBMap build=1 overwrite=true fastareadlen=500 in=../data/libs/L2201727_RNA_Ome_2.fq.gz_trimmed.fastq.gz trimreaddescription=t t=20 ref=../data/reference_sequences/FQ312003_wplasmids.fa k=12 outm=../data/rna_align/L2201727_RNA_Ome_2.fq.gz.sam
+Executing align2.BBMap [build=1, overwrite=true, fastareadlen=500, in=../data/libs/L2201727_RNA_Ome_2.fq.gz_trimmed.fastq.gz, trimreaddescription=t, t=20, ref=../data/reference_sequences/FQ312003_wplasmids.fa, k=12, outm=../data/rna_align/L2201727_RNA_Ome_2.fq.gz.sam]
+Version 38.18
+
+Set threads to 20
+Retaining first best site only for ambiguous mappings.
+NOTE:	Ignoring reference file because it already appears to have been processed.
+NOTE:	If you wish to regenerate the index, please manually delete ref/genome/1/summary.txt
+Set genome to 1
+
+Loaded Reference:	0.053 seconds.
+Loading index for chunk 1-1, build 1
+Generated Index:	0.221 seconds.
+Analyzed Index:   	0.731 seconds.
+Started output stream:	0.028 seconds.
+Cleared Memory:    	0.115 seconds.
+Processing reads in single-ended mode.
+Started read stream.
+Started 20 mapping threads.
+Detecting finished threads: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19
+
+   ------------------   Results   ------------------   
+
+Genome:                	1
+Key Length:            	12
+Max Indel:             	16000
+Minimum Score Ratio:  	0.56
+Mapping Mode:         	normal
+Reads Used:           	11653241	(718913672 bases)
+
+Mapping:          	92.588 seconds.
+Reads/sec:       	125861.27
+kBases/sec:      	7764.65
+
+
+Read 1 data:      	pct reads	num reads 	pct bases	   num bases
+
+mapped:          	 98.0848% 	 11430063 	 98.6432% 	   709159155
+unambiguous:     	 94.8714% 	 11055593 	 95.7536% 	   688386010
+ambiguous:       	  3.2134% 	   374470 	  2.8895% 	    20773145
+low-Q discards:  	  0.0000% 	        5 	  0.0000% 	         170
+
+perfect best site:	 59.7343% 	  6960984 	 61.8298% 	   444502867
+semiperfect site:	 59.7451% 	  6962246 	 61.8410% 	   444583047
+
+Match Rate:      	      NA 	       NA 	 93.7416% 	   698385622
+Error Rate:      	 38.6142% 	  4461413 	  6.2469% 	    46539896
+Sub Rate:        	 34.6164% 	  3999521 	  1.2770% 	     9514065
+Del Rate:        	  2.5126% 	   290305 	  4.8123% 	    35852365
+Ins Rate:        	  6.7186% 	   776256 	  0.1575% 	     1173466
+N Rate:          	  0.1055% 	    12185 	  0.0115% 	       86002
+
+Total time:     	93.825 seconds.
+[bam_sort_core] merging from 0 files and 40 in-memory blocks...
+Started analysis of L2201727_RNA_Ome_2.fq.gz_trimmed.fastq.gz
+Approx 5% complete for L2201727_RNA_Ome_2.fq.gz_trimmed.fastq.gz
+Approx 10% complete for L2201727_RNA_Ome_2.fq.gz_trimmed.fastq.gz
+Approx 15% complete for L2201727_RNA_Ome_2.fq.gz_trimmed.fastq.gz
+Approx 20% complete for L2201727_RNA_Ome_2.fq.gz_trimmed.fastq.gz
+Approx 25% complete for L2201727_RNA_Ome_2.fq.gz_trimmed.fastq.gz
+Approx 30% complete for L2201727_RNA_Ome_2.fq.gz_trimmed.fastq.gz
+Approx 35% complete for L2201727_RNA_Ome_2.fq.gz_trimmed.fastq.gz
+Approx 40% complete for L2201727_RNA_Ome_2.fq.gz_trimmed.fastq.gz
+Approx 45% complete for L2201727_RNA_Ome_2.fq.gz_trimmed.fastq.gz
+Approx 50% complete for L2201727_RNA_Ome_2.fq.gz_trimmed.fastq.gz
+Approx 55% complete for L2201727_RNA_Ome_2.fq.gz_trimmed.fastq.gz
+Approx 60% complete for L2201727_RNA_Ome_2.fq.gz_trimmed.fastq.gz
+Approx 65% complete for L2201727_RNA_Ome_2.fq.gz_trimmed.fastq.gz
+Approx 70% complete for L2201727_RNA_Ome_2.fq.gz_trimmed.fastq.gz
+Approx 75% complete for L2201727_RNA_Ome_2.fq.gz_trimmed.fastq.gz
+Approx 80% complete for L2201727_RNA_Ome_2.fq.gz_trimmed.fastq.gz
+Approx 85% complete for L2201727_RNA_Ome_2.fq.gz_trimmed.fastq.gz
+Approx 90% complete for L2201727_RNA_Ome_2.fq.gz_trimmed.fastq.gz
+Approx 95% complete for L2201727_RNA_Ome_2.fq.gz_trimmed.fastq.gz
+Analysis complete for L2201727_RNA_Ome_2.fq.gz_trimmed.fastq.gz
+Starting mapping for sample: L2201728_DNA_PTO_2.fq.gz
+java -Djava.library.path=/home/jakob_jung/miniconda3/opt/bbmap-38.18/jni/ -ea -Xmx27114m -cp /home/jakob_jung/miniconda3/opt/bbmap-38.18/current/ align2.BBMap build=1 overwrite=true fastareadlen=500 in=../data/libs/L2201728_DNA_PTO_2.fq.gz_trimmed.fastq.gz trimreaddescription=t t=20 ref=../data/reference_sequences/FQ312003_wplasmids.fa k=12 outm=../data/rna_align/L2201728_DNA_PTO_2.fq.gz.sam
+Executing align2.BBMap [build=1, overwrite=true, fastareadlen=500, in=../data/libs/L2201728_DNA_PTO_2.fq.gz_trimmed.fastq.gz, trimreaddescription=t, t=20, ref=../data/reference_sequences/FQ312003_wplasmids.fa, k=12, outm=../data/rna_align/L2201728_DNA_PTO_2.fq.gz.sam]
+Version 38.18
+
+Set threads to 20
+Retaining first best site only for ambiguous mappings.
+NOTE:	Ignoring reference file because it already appears to have been processed.
+NOTE:	If you wish to regenerate the index, please manually delete ref/genome/1/summary.txt
+Set genome to 1
+
+Loaded Reference:	0.053 seconds.
+Loading index for chunk 1-1, build 1
+Generated Index:	0.220 seconds.
+Analyzed Index:   	0.744 seconds.
+Started output stream:	0.027 seconds.
+Cleared Memory:    	0.117 seconds.
+Processing reads in single-ended mode.
+Started read stream.
+Started 20 mapping threads.
+Detecting finished threads: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19
+
+   ------------------   Results   ------------------   
+
+Genome:                	1
+Key Length:            	12
+Max Indel:             	16000
+Minimum Score Ratio:  	0.56
+Mapping Mode:         	normal
+Reads Used:           	11446889	(699190924 bases)
+
+Mapping:          	97.870 seconds.
+Reads/sec:       	116959.99
+kBases/sec:      	7144.07
+
+
+Read 1 data:      	pct reads	num reads 	pct bases	   num bases
+
+mapped:          	 97.5344% 	 11164655 	 98.3325% 	   687531735
+unambiguous:     	 94.6210% 	 10831163 	 95.8354% 	   670072672
+ambiguous:       	  2.9134% 	   333492 	  2.4970% 	    17459063
+low-Q discards:  	  0.0000% 	        5 	  0.0000% 	         175
+
+perfect best site:	 57.4118% 	  6571862 	 59.9777% 	   419358322
+semiperfect site:	 57.4216% 	  6572985 	 59.9879% 	   419429749
+
+Match Rate:      	      NA 	       NA 	 93.9938% 	   676104343
+Error Rate:      	 40.5383% 	  4585776 	  5.9950% 	    43122153
+Sub Rate:        	 36.4584% 	  4124250 	  1.4075% 	    10124572
+Del Rate:        	  2.7951% 	   316192 	  4.4175% 	    31775692
+Ins Rate:        	  7.1169% 	   805074 	  0.1699% 	     1221889
+N Rate:          	  0.1026% 	    11602 	  0.0113% 	       80931
+
+Total time:     	99.119 seconds.
+[bam_sort_core] merging from 0 files and 40 in-memory blocks...
+Started analysis of L2201728_DNA_PTO_2.fq.gz_trimmed.fastq.gz
+Approx 5% complete for L2201728_DNA_PTO_2.fq.gz_trimmed.fastq.gz
+Approx 10% complete for L2201728_DNA_PTO_2.fq.gz_trimmed.fastq.gz
+Approx 15% complete for L2201728_DNA_PTO_2.fq.gz_trimmed.fastq.gz
+Approx 20% complete for L2201728_DNA_PTO_2.fq.gz_trimmed.fastq.gz
+Approx 25% complete for L2201728_DNA_PTO_2.fq.gz_trimmed.fastq.gz
+Approx 30% complete for L2201728_DNA_PTO_2.fq.gz_trimmed.fastq.gz
+Approx 35% complete for L2201728_DNA_PTO_2.fq.gz_trimmed.fastq.gz
+Approx 40% complete for L2201728_DNA_PTO_2.fq.gz_trimmed.fastq.gz
+Approx 45% complete for L2201728_DNA_PTO_2.fq.gz_trimmed.fastq.gz
+Approx 50% complete for L2201728_DNA_PTO_2.fq.gz_trimmed.fastq.gz
+Approx 55% complete for L2201728_DNA_PTO_2.fq.gz_trimmed.fastq.gz
+Approx 60% complete for L2201728_DNA_PTO_2.fq.gz_trimmed.fastq.gz
+Approx 65% complete for L2201728_DNA_PTO_2.fq.gz_trimmed.fastq.gz
+Approx 70% complete for L2201728_DNA_PTO_2.fq.gz_trimmed.fastq.gz
+Approx 75% complete for L2201728_DNA_PTO_2.fq.gz_trimmed.fastq.gz
+Approx 80% complete for L2201728_DNA_PTO_2.fq.gz_trimmed.fastq.gz
+Approx 85% complete for L2201728_DNA_PTO_2.fq.gz_trimmed.fastq.gz
+Approx 90% complete for L2201728_DNA_PTO_2.fq.gz_trimmed.fastq.gz
+Approx 95% complete for L2201728_DNA_PTO_2.fq.gz_trimmed.fastq.gz
+Analysis complete for L2201728_DNA_PTO_2.fq.gz_trimmed.fastq.gz
+Starting mapping for sample: L2201729_PMO_2.fq.gz
+java -Djava.library.path=/home/jakob_jung/miniconda3/opt/bbmap-38.18/jni/ -ea -Xmx27114m -cp /home/jakob_jung/miniconda3/opt/bbmap-38.18/current/ align2.BBMap build=1 overwrite=true fastareadlen=500 in=../data/libs/L2201729_PMO_2.fq.gz_trimmed.fastq.gz trimreaddescription=t t=20 ref=../data/reference_sequences/FQ312003_wplasmids.fa k=12 outm=../data/rna_align/L2201729_PMO_2.fq.gz.sam
+Executing align2.BBMap [build=1, overwrite=true, fastareadlen=500, in=../data/libs/L2201729_PMO_2.fq.gz_trimmed.fastq.gz, trimreaddescription=t, t=20, ref=../data/reference_sequences/FQ312003_wplasmids.fa, k=12, outm=../data/rna_align/L2201729_PMO_2.fq.gz.sam]
+Version 38.18
+
+Set threads to 20
+Retaining first best site only for ambiguous mappings.
+NOTE:	Ignoring reference file because it already appears to have been processed.
+NOTE:	If you wish to regenerate the index, please manually delete ref/genome/1/summary.txt
+Set genome to 1
+
+Loaded Reference:	0.053 seconds.
+Loading index for chunk 1-1, build 1
+Generated Index:	0.224 seconds.
+Analyzed Index:   	0.728 seconds.
+Started output stream:	0.027 seconds.
+Cleared Memory:    	0.130 seconds.
+Processing reads in single-ended mode.
+Started read stream.
+Started 20 mapping threads.
+Detecting finished threads: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19
+
+   ------------------   Results   ------------------   
+
+Genome:                	1
+Key Length:            	12
+Max Indel:             	16000
+Minimum Score Ratio:  	0.56
+Mapping Mode:         	normal
+Reads Used:           	12040337	(739025691 bases)
+
+Mapping:          	100.710 seconds.
+Reads/sec:       	119554.29
+kBases/sec:      	7338.14
+
+
+Read 1 data:      	pct reads	num reads 	pct bases	   num bases
+
+mapped:          	 97.5690% 	 11747640 	 98.2368% 	   725995016
+unambiguous:     	 94.8731% 	 11423042 	 95.9009% 	   708731959
+ambiguous:       	  2.6959% 	   324598 	  2.3359% 	    17263057
+low-Q discards:  	  0.0000% 	        1 	  0.0000% 	          16
+
+perfect best site:	 57.7494% 	  6953220 	 60.0633% 	   443883585
+semiperfect site:	 57.7602% 	  6954524 	 60.0746% 	   443966469
+
+Match Rate:      	      NA 	       NA 	 93.6500% 	   714081904
+Error Rate:      	 40.2429% 	  4786542 	  6.3381% 	    48327891
+Sub Rate:        	 36.1566% 	  4300510 	  1.3823% 	    10540314
+Del Rate:        	  2.7064% 	   321900 	  4.7876% 	    36505525
+Ins Rate:        	  7.0554% 	   839173 	  0.1681% 	     1282052
+N Rate:          	  0.1079% 	    12837 	  0.0119% 	       90746
+
+Total time:     	101.964 seconds.
+[bam_sort_core] merging from 0 files and 40 in-memory blocks...
+Started analysis of L2201729_PMO_2.fq.gz_trimmed.fastq.gz
+Approx 5% complete for L2201729_PMO_2.fq.gz_trimmed.fastq.gz
+Approx 10% complete for L2201729_PMO_2.fq.gz_trimmed.fastq.gz
+Approx 15% complete for L2201729_PMO_2.fq.gz_trimmed.fastq.gz
+Approx 20% complete for L2201729_PMO_2.fq.gz_trimmed.fastq.gz
+Approx 25% complete for L2201729_PMO_2.fq.gz_trimmed.fastq.gz
+Approx 30% complete for L2201729_PMO_2.fq.gz_trimmed.fastq.gz
+Approx 35% complete for L2201729_PMO_2.fq.gz_trimmed.fastq.gz
+Approx 40% complete for L2201729_PMO_2.fq.gz_trimmed.fastq.gz
+Approx 45% complete for L2201729_PMO_2.fq.gz_trimmed.fastq.gz
+Approx 50% complete for L2201729_PMO_2.fq.gz_trimmed.fastq.gz
+Approx 55% complete for L2201729_PMO_2.fq.gz_trimmed.fastq.gz
+Approx 60% complete for L2201729_PMO_2.fq.gz_trimmed.fastq.gz
+Approx 65% complete for L2201729_PMO_2.fq.gz_trimmed.fastq.gz
+Approx 70% complete for L2201729_PMO_2.fq.gz_trimmed.fastq.gz
+Approx 75% complete for L2201729_PMO_2.fq.gz_trimmed.fastq.gz
+Approx 80% complete for L2201729_PMO_2.fq.gz_trimmed.fastq.gz
+Approx 85% complete for L2201729_PMO_2.fq.gz_trimmed.fastq.gz
+Approx 90% complete for L2201729_PMO_2.fq.gz_trimmed.fastq.gz
+Approx 95% complete for L2201729_PMO_2.fq.gz_trimmed.fastq.gz
+Analysis complete for L2201729_PMO_2.fq.gz_trimmed.fastq.gz
+Starting mapping for sample: L2201730_PNA_21_2.fq.gz
+java -Djava.library.path=/home/jakob_jung/miniconda3/opt/bbmap-38.18/jni/ -ea -Xmx27114m -cp /home/jakob_jung/miniconda3/opt/bbmap-38.18/current/ align2.BBMap build=1 overwrite=true fastareadlen=500 in=../data/libs/L2201730_PNA_21_2.fq.gz_trimmed.fastq.gz trimreaddescription=t t=20 ref=../data/reference_sequences/FQ312003_wplasmids.fa k=12 outm=../data/rna_align/L2201730_PNA_21_2.fq.gz.sam
+Executing align2.BBMap [build=1, overwrite=true, fastareadlen=500, in=../data/libs/L2201730_PNA_21_2.fq.gz_trimmed.fastq.gz, trimreaddescription=t, t=20, ref=../data/reference_sequences/FQ312003_wplasmids.fa, k=12, outm=../data/rna_align/L2201730_PNA_21_2.fq.gz.sam]
+Version 38.18
+
+Set threads to 20
+Retaining first best site only for ambiguous mappings.
+NOTE:	Ignoring reference file because it already appears to have been processed.
+NOTE:	If you wish to regenerate the index, please manually delete ref/genome/1/summary.txt
+Set genome to 1
+
+Loaded Reference:	0.054 seconds.
+Loading index for chunk 1-1, build 1
+Generated Index:	0.227 seconds.
+Analyzed Index:   	0.733 seconds.
+Started output stream:	0.027 seconds.
+Cleared Memory:    	0.115 seconds.
+Processing reads in single-ended mode.
+Started read stream.
+Started 20 mapping threads.
+Detecting finished threads: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19
+
+   ------------------   Results   ------------------   
+
+Genome:                	1
+Key Length:            	12
+Max Indel:             	16000
+Minimum Score Ratio:  	0.56
+Mapping Mode:         	normal
+Reads Used:           	11677141	(713006284 bases)
+
+Mapping:          	97.409 seconds.
+Reads/sec:       	119877.62
+kBases/sec:      	7319.73
+
+
+Read 1 data:      	pct reads	num reads 	pct bases	   num bases
+
+mapped:          	 97.2767% 	 11359133 	 98.2144% 	   700274963
+unambiguous:     	 94.4097% 	 11024351 	 95.7461% 	   682675527
+ambiguous:       	  2.8670% 	   334782 	  2.4683% 	    17599436
+low-Q discards:  	  0.0001% 	        6 	  0.0000% 	         143
+
+perfect best site:	 57.6363% 	  6730272 	 60.2485% 	   429575706
+semiperfect site:	 57.6485% 	  6731692 	 60.2612% 	   429666109
+
+Match Rate:      	      NA 	       NA 	 93.1608% 	   688591090
+Error Rate:      	 40.1300% 	  4621236 	  6.8271% 	    50462242
+Sub Rate:        	 36.2627% 	  4175892 	  1.4031% 	    10370913
+Del Rate:        	  2.8677% 	   330234 	  5.2585% 	    38867573
+Ins Rate:        	  6.7972% 	   782749 	  0.1656% 	     1223756
+N Rate:          	  0.1078% 	    12413 	  0.0121% 	       89204
+
+Total time:     	98.651 seconds.
+[bam_sort_core] merging from 0 files and 40 in-memory blocks...
+Started analysis of L2201730_PNA_21_2.fq.gz_trimmed.fastq.gz
+Approx 5% complete for L2201730_PNA_21_2.fq.gz_trimmed.fastq.gz
+Approx 10% complete for L2201730_PNA_21_2.fq.gz_trimmed.fastq.gz
+Approx 15% complete for L2201730_PNA_21_2.fq.gz_trimmed.fastq.gz
+Approx 20% complete for L2201730_PNA_21_2.fq.gz_trimmed.fastq.gz
+Approx 25% complete for L2201730_PNA_21_2.fq.gz_trimmed.fastq.gz
+Approx 30% complete for L2201730_PNA_21_2.fq.gz_trimmed.fastq.gz
+Approx 35% complete for L2201730_PNA_21_2.fq.gz_trimmed.fastq.gz
+Approx 40% complete for L2201730_PNA_21_2.fq.gz_trimmed.fastq.gz
+Approx 45% complete for L2201730_PNA_21_2.fq.gz_trimmed.fastq.gz
+Approx 50% complete for L2201730_PNA_21_2.fq.gz_trimmed.fastq.gz
+Approx 55% complete for L2201730_PNA_21_2.fq.gz_trimmed.fastq.gz
+Approx 60% complete for L2201730_PNA_21_2.fq.gz_trimmed.fastq.gz
+Approx 65% complete for L2201730_PNA_21_2.fq.gz_trimmed.fastq.gz
+Approx 70% complete for L2201730_PNA_21_2.fq.gz_trimmed.fastq.gz
+Approx 75% complete for L2201730_PNA_21_2.fq.gz_trimmed.fastq.gz
+Approx 80% complete for L2201730_PNA_21_2.fq.gz_trimmed.fastq.gz
+Approx 85% complete for L2201730_PNA_21_2.fq.gz_trimmed.fastq.gz
+Approx 90% complete for L2201730_PNA_21_2.fq.gz_trimmed.fastq.gz
+Approx 95% complete for L2201730_PNA_21_2.fq.gz_trimmed.fastq.gz
+Analysis complete for L2201730_PNA_21_2.fq.gz_trimmed.fastq.gz
+Starting mapping for sample: L2201731_PNA22_2.fq.gz
+java -Djava.library.path=/home/jakob_jung/miniconda3/opt/bbmap-38.18/jni/ -ea -Xmx27114m -cp /home/jakob_jung/miniconda3/opt/bbmap-38.18/current/ align2.BBMap build=1 overwrite=true fastareadlen=500 in=../data/libs/L2201731_PNA22_2.fq.gz_trimmed.fastq.gz trimreaddescription=t t=20 ref=../data/reference_sequences/FQ312003_wplasmids.fa k=12 outm=../data/rna_align/L2201731_PNA22_2.fq.gz.sam
+Executing align2.BBMap [build=1, overwrite=true, fastareadlen=500, in=../data/libs/L2201731_PNA22_2.fq.gz_trimmed.fastq.gz, trimreaddescription=t, t=20, ref=../data/reference_sequences/FQ312003_wplasmids.fa, k=12, outm=../data/rna_align/L2201731_PNA22_2.fq.gz.sam]
+Version 38.18
+
+Set threads to 20
+Retaining first best site only for ambiguous mappings.
+NOTE:	Ignoring reference file because it already appears to have been processed.
+NOTE:	If you wish to regenerate the index, please manually delete ref/genome/1/summary.txt
+Set genome to 1
+
+Loaded Reference:	0.054 seconds.
+Loading index for chunk 1-1, build 1
+Generated Index:	0.218 seconds.
+Analyzed Index:   	0.743 seconds.
+Started output stream:	0.028 seconds.
+Cleared Memory:    	0.115 seconds.
+Processing reads in single-ended mode.
+Started read stream.
+Started 20 mapping threads.
+Detecting finished threads: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19
+
+   ------------------   Results   ------------------   
+
+Genome:                	1
+Key Length:            	12
+Max Indel:             	16000
+Minimum Score Ratio:  	0.56
+Mapping Mode:         	normal
+Reads Used:           	12440256	(761024185 bases)
+
+Mapping:          	103.937 seconds.
+Reads/sec:       	119690.18
+kBases/sec:      	7321.97
+
+
+Read 1 data:      	pct reads	num reads 	pct bases	   num bases
+
+mapped:          	 97.6744% 	 12150942 	 98.4263% 	   749048112
+unambiguous:     	 94.7172% 	 11783060 	 95.8867% 	   729720645
+ambiguous:       	  2.9572% 	   367882 	  2.5397% 	    19327467
+low-Q discards:  	  0.0000% 	        3 	  0.0000% 	         106
+
+perfect best site:	 58.4666% 	  7273395 	 60.9997% 	   464222221
+semiperfect site:	 58.4790% 	  7274932 	 61.0125% 	   464319837
+
+Match Rate:      	      NA 	       NA 	 93.7051% 	   736967482
+Error Rate:      	 39.5825% 	  4869387 	  6.2829% 	    49413484
+Sub Rate:        	 35.7118% 	  4393226 	  1.3639% 	    10726564
+Del Rate:        	  2.7103% 	   333419 	  4.7588% 	    37426909
+Ins Rate:        	  6.6504% 	   818126 	  0.1602% 	     1260011
+N Rate:          	  0.1062% 	    13062 	  0.0120% 	       94055
+
+Total time:     	105.182 seconds.
+[bam_sort_core] merging from 0 files and 40 in-memory blocks...
+Started analysis of L2201731_PNA22_2.fq.gz_trimmed.fastq.gz
+Approx 5% complete for L2201731_PNA22_2.fq.gz_trimmed.fastq.gz
+Approx 10% complete for L2201731_PNA22_2.fq.gz_trimmed.fastq.gz
+Approx 15% complete for L2201731_PNA22_2.fq.gz_trimmed.fastq.gz
+Approx 20% complete for L2201731_PNA22_2.fq.gz_trimmed.fastq.gz
+Approx 25% complete for L2201731_PNA22_2.fq.gz_trimmed.fastq.gz
+Approx 30% complete for L2201731_PNA22_2.fq.gz_trimmed.fastq.gz
+Approx 35% complete for L2201731_PNA22_2.fq.gz_trimmed.fastq.gz
+Approx 40% complete for L2201731_PNA22_2.fq.gz_trimmed.fastq.gz
+Approx 45% complete for L2201731_PNA22_2.fq.gz_trimmed.fastq.gz
+Approx 50% complete for L2201731_PNA22_2.fq.gz_trimmed.fastq.gz
+Approx 55% complete for L2201731_PNA22_2.fq.gz_trimmed.fastq.gz
+Approx 60% complete for L2201731_PNA22_2.fq.gz_trimmed.fastq.gz
+Approx 65% complete for L2201731_PNA22_2.fq.gz_trimmed.fastq.gz
+Approx 70% complete for L2201731_PNA22_2.fq.gz_trimmed.fastq.gz
+Approx 75% complete for L2201731_PNA22_2.fq.gz_trimmed.fastq.gz
+Approx 80% complete for L2201731_PNA22_2.fq.gz_trimmed.fastq.gz
+Approx 85% complete for L2201731_PNA22_2.fq.gz_trimmed.fastq.gz
+Approx 90% complete for L2201731_PNA22_2.fq.gz_trimmed.fastq.gz
+Approx 95% complete for L2201731_PNA22_2.fq.gz_trimmed.fastq.gz
+Analysis complete for L2201731_PNA22_2.fq.gz_trimmed.fastq.gz
+Starting mapping for sample: L2201732_PNA15_2.fq.gz
+java -Djava.library.path=/home/jakob_jung/miniconda3/opt/bbmap-38.18/jni/ -ea -Xmx27114m -cp /home/jakob_jung/miniconda3/opt/bbmap-38.18/current/ align2.BBMap build=1 overwrite=true fastareadlen=500 in=../data/libs/L2201732_PNA15_2.fq.gz_trimmed.fastq.gz trimreaddescription=t t=20 ref=../data/reference_sequences/FQ312003_wplasmids.fa k=12 outm=../data/rna_align/L2201732_PNA15_2.fq.gz.sam
+Executing align2.BBMap [build=1, overwrite=true, fastareadlen=500, in=../data/libs/L2201732_PNA15_2.fq.gz_trimmed.fastq.gz, trimreaddescription=t, t=20, ref=../data/reference_sequences/FQ312003_wplasmids.fa, k=12, outm=../data/rna_align/L2201732_PNA15_2.fq.gz.sam]
+Version 38.18
+
+Set threads to 20
+Retaining first best site only for ambiguous mappings.
+NOTE:	Ignoring reference file because it already appears to have been processed.
+NOTE:	If you wish to regenerate the index, please manually delete ref/genome/1/summary.txt
+Set genome to 1
+
+Loaded Reference:	0.052 seconds.
+Loading index for chunk 1-1, build 1
+Generated Index:	0.222 seconds.
+Analyzed Index:   	0.746 seconds.
+Started output stream:	0.031 seconds.
+Cleared Memory:    	0.115 seconds.
+Processing reads in single-ended mode.
+Started read stream.
+Started 20 mapping threads.
+Detecting finished threads: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19
+
+   ------------------   Results   ------------------   
+
+Genome:                	1
+Key Length:            	12
+Max Indel:             	16000
+Minimum Score Ratio:  	0.56
+Mapping Mode:         	normal
+Reads Used:           	11919520	(729084605 bases)
+
+Mapping:          	92.967 seconds.
+Reads/sec:       	128212.89
+kBases/sec:      	7842.43
+
+
+Read 1 data:      	pct reads	num reads 	pct bases	   num bases
+
+mapped:          	 97.4599% 	 11616756 	 98.3351% 	   716946023
+unambiguous:     	 94.5734% 	 11272701 	 95.8541% 	   698857194
+ambiguous:       	  2.8865% 	   344055 	  2.4810% 	    18088829
+low-Q discards:  	  0.0000% 	        1 	  0.0000% 	          13
+
+perfect best site:	 59.4381% 	  7084733 	 62.0040% 	   452061917
+semiperfect site:	 59.4492% 	  7086058 	 62.0156% 	   452145961
+
+Match Rate:      	      NA 	       NA 	 94.2766% 	   706072517
+Error Rate:      	 38.4705% 	  4524027 	  5.7113% 	    42774103
+Sub Rate:        	 34.7241% 	  4083456 	  1.2891% 	     9654683
+Del Rate:        	  2.7136% 	   319107 	  4.2715% 	    31990975
+Ins Rate:        	  6.3446% 	   746103 	  0.1507% 	     1128445
+N Rate:          	  0.1082% 	    12722 	  0.0121% 	       90378
+
+Total time:     	94.221 seconds.
+[bam_sort_core] merging from 0 files and 40 in-memory blocks...
+Started analysis of L2201732_PNA15_2.fq.gz_trimmed.fastq.gz
+Approx 5% complete for L2201732_PNA15_2.fq.gz_trimmed.fastq.gz
+Approx 10% complete for L2201732_PNA15_2.fq.gz_trimmed.fastq.gz
+Approx 15% complete for L2201732_PNA15_2.fq.gz_trimmed.fastq.gz
+Approx 20% complete for L2201732_PNA15_2.fq.gz_trimmed.fastq.gz
+Approx 25% complete for L2201732_PNA15_2.fq.gz_trimmed.fastq.gz
+Approx 30% complete for L2201732_PNA15_2.fq.gz_trimmed.fastq.gz
+Approx 35% complete for L2201732_PNA15_2.fq.gz_trimmed.fastq.gz
+Approx 40% complete for L2201732_PNA15_2.fq.gz_trimmed.fastq.gz
+Approx 45% complete for L2201732_PNA15_2.fq.gz_trimmed.fastq.gz
+Approx 50% complete for L2201732_PNA15_2.fq.gz_trimmed.fastq.gz
+Approx 55% complete for L2201732_PNA15_2.fq.gz_trimmed.fastq.gz
+Approx 60% complete for L2201732_PNA15_2.fq.gz_trimmed.fastq.gz
+Approx 65% complete for L2201732_PNA15_2.fq.gz_trimmed.fastq.gz
+Approx 70% complete for L2201732_PNA15_2.fq.gz_trimmed.fastq.gz
+Approx 75% complete for L2201732_PNA15_2.fq.gz_trimmed.fastq.gz
+Approx 80% complete for L2201732_PNA15_2.fq.gz_trimmed.fastq.gz
+Approx 85% complete for L2201732_PNA15_2.fq.gz_trimmed.fastq.gz
+Approx 90% complete for L2201732_PNA15_2.fq.gz_trimmed.fastq.gz
+Approx 95% complete for L2201732_PNA15_2.fq.gz_trimmed.fastq.gz
+Analysis complete for L2201732_PNA15_2.fq.gz_trimmed.fastq.gz
+Starting mapping for sample: L2201733_PNA14_2.fq.gz
+java -Djava.library.path=/home/jakob_jung/miniconda3/opt/bbmap-38.18/jni/ -ea -Xmx27114m -cp /home/jakob_jung/miniconda3/opt/bbmap-38.18/current/ align2.BBMap build=1 overwrite=true fastareadlen=500 in=../data/libs/L2201733_PNA14_2.fq.gz_trimmed.fastq.gz trimreaddescription=t t=20 ref=../data/reference_sequences/FQ312003_wplasmids.fa k=12 outm=../data/rna_align/L2201733_PNA14_2.fq.gz.sam
+Executing align2.BBMap [build=1, overwrite=true, fastareadlen=500, in=../data/libs/L2201733_PNA14_2.fq.gz_trimmed.fastq.gz, trimreaddescription=t, t=20, ref=../data/reference_sequences/FQ312003_wplasmids.fa, k=12, outm=../data/rna_align/L2201733_PNA14_2.fq.gz.sam]
+Version 38.18
+
+Set threads to 20
+Retaining first best site only for ambiguous mappings.
+NOTE:	Ignoring reference file because it already appears to have been processed.
+NOTE:	If you wish to regenerate the index, please manually delete ref/genome/1/summary.txt
+Set genome to 1
+
+Loaded Reference:	0.054 seconds.
+Loading index for chunk 1-1, build 1
+Generated Index:	0.230 seconds.
+Analyzed Index:   	0.741 seconds.
+Started output stream:	0.029 seconds.
+Cleared Memory:    	0.129 seconds.
+Processing reads in single-ended mode.
+Started read stream.
+Started 20 mapping threads.
+Detecting finished threads: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19
+
+   ------------------   Results   ------------------   
+
+Genome:                	1
+Key Length:            	12
+Max Indel:             	16000
+Minimum Score Ratio:  	0.56
+Mapping Mode:         	normal
+Reads Used:           	8570996	(520065371 bases)
+
+Mapping:          	78.173 seconds.
+Reads/sec:       	109640.93
+kBases/sec:      	6652.72
+
+
+Read 1 data:      	pct reads	num reads 	pct bases	   num bases
+
+mapped:          	 96.8691% 	  8302644 	 98.0535% 	   509942336
+unambiguous:     	 93.6042% 	  8022812 	 95.2271% 	   495243269
+ambiguous:       	  3.2649% 	   279832 	  2.8264% 	    14699067
+low-Q discards:  	  0.0001% 	        7 	  0.0000% 	         213
+
+perfect best site:	 56.3089% 	  4826237 	 59.2032% 	   307895376
+semiperfect site:	 56.3203% 	  4827211 	 59.2151% 	   307957210
+
+Match Rate:      	      NA 	       NA 	 93.9732% 	   501181014
+Error Rate:      	 41.2299% 	  3470913 	  6.0147% 	    32077835
+Sub Rate:        	 37.0762% 	  3121230 	  1.4549% 	     7759512
+Del Rate:        	  2.7949% 	   235286 	  4.3840% 	    23381098
+Ins Rate:        	  7.3022% 	   614727 	  0.1757% 	      937225
+N Rate:          	  0.1077% 	     9065 	  0.0121% 	       64585
+
+Total time:     	79.443 seconds.
+[bam_sort_core] merging from 0 files and 40 in-memory blocks...
+Started analysis of L2201733_PNA14_2.fq.gz_trimmed.fastq.gz
+Approx 5% complete for L2201733_PNA14_2.fq.gz_trimmed.fastq.gz
+Approx 10% complete for L2201733_PNA14_2.fq.gz_trimmed.fastq.gz
+Approx 15% complete for L2201733_PNA14_2.fq.gz_trimmed.fastq.gz
+Approx 20% complete for L2201733_PNA14_2.fq.gz_trimmed.fastq.gz
+Approx 25% complete for L2201733_PNA14_2.fq.gz_trimmed.fastq.gz
+Approx 30% complete for L2201733_PNA14_2.fq.gz_trimmed.fastq.gz
+Approx 35% complete for L2201733_PNA14_2.fq.gz_trimmed.fastq.gz
+Approx 40% complete for L2201733_PNA14_2.fq.gz_trimmed.fastq.gz
+Approx 45% complete for L2201733_PNA14_2.fq.gz_trimmed.fastq.gz
+Approx 50% complete for L2201733_PNA14_2.fq.gz_trimmed.fastq.gz
+Approx 55% complete for L2201733_PNA14_2.fq.gz_trimmed.fastq.gz
+Approx 60% complete for L2201733_PNA14_2.fq.gz_trimmed.fastq.gz
+Approx 65% complete for L2201733_PNA14_2.fq.gz_trimmed.fastq.gz
+Approx 70% complete for L2201733_PNA14_2.fq.gz_trimmed.fastq.gz
+Approx 75% complete for L2201733_PNA14_2.fq.gz_trimmed.fastq.gz
+Approx 80% complete for L2201733_PNA14_2.fq.gz_trimmed.fastq.gz
+Approx 85% complete for L2201733_PNA14_2.fq.gz_trimmed.fastq.gz
+Approx 90% complete for L2201733_PNA14_2.fq.gz_trimmed.fastq.gz
+Approx 95% complete for L2201733_PNA14_2.fq.gz_trimmed.fastq.gz
+Analysis complete for L2201733_PNA14_2.fq.gz_trimmed.fastq.gz
+Starting mapping for sample: L2201734_JVPep112_2.fq.gz
+java -Djava.library.path=/home/jakob_jung/miniconda3/opt/bbmap-38.18/jni/ -ea -Xmx27114m -cp /home/jakob_jung/miniconda3/opt/bbmap-38.18/current/ align2.BBMap build=1 overwrite=true fastareadlen=500 in=../data/libs/L2201734_JVPep112_2.fq.gz_trimmed.fastq.gz trimreaddescription=t t=20 ref=../data/reference_sequences/FQ312003_wplasmids.fa k=12 outm=../data/rna_align/L2201734_JVPep112_2.fq.gz.sam
+Executing align2.BBMap [build=1, overwrite=true, fastareadlen=500, in=../data/libs/L2201734_JVPep112_2.fq.gz_trimmed.fastq.gz, trimreaddescription=t, t=20, ref=../data/reference_sequences/FQ312003_wplasmids.fa, k=12, outm=../data/rna_align/L2201734_JVPep112_2.fq.gz.sam]
+Version 38.18
+
+Set threads to 20
+Retaining first best site only for ambiguous mappings.
+NOTE:	Ignoring reference file because it already appears to have been processed.
+NOTE:	If you wish to regenerate the index, please manually delete ref/genome/1/summary.txt
+Set genome to 1
+
+Loaded Reference:	0.052 seconds.
+Loading index for chunk 1-1, build 1
+Generated Index:	0.225 seconds.
+Analyzed Index:   	0.764 seconds.
+Started output stream:	0.028 seconds.
+Cleared Memory:    	0.130 seconds.
+Processing reads in single-ended mode.
+Started read stream.
+Started 20 mapping threads.
+Detecting finished threads: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19
+
+   ------------------   Results   ------------------   
+
+Genome:                	1
+Key Length:            	12
+Max Indel:             	16000
+Minimum Score Ratio:  	0.56
+Mapping Mode:         	normal
+Reads Used:           	10628858	(660261145 bases)
+
+Mapping:          	84.938 seconds.
+Reads/sec:       	125136.63
+kBases/sec:      	7773.45
+
+
+Read 1 data:      	pct reads	num reads 	pct bases	   num bases
+
+mapped:          	 98.3452% 	 10452972 	 98.7785% 	   652195908
+unambiguous:     	 94.5987% 	 10054758 	 95.2717% 	   629041955
+ambiguous:       	  3.7465% 	   398214 	  3.5068% 	    23153953
+low-Q discards:  	  0.0000% 	        5 	  0.0000% 	         131
+
+perfect best site:	 60.9963% 	  6483213 	 62.7329% 	   414201105
+semiperfect site:	 61.0073% 	  6484382 	 62.7442% 	   414275344
+
+Match Rate:      	      NA 	       NA 	 94.3313% 	   642682824
+Error Rate:      	 37.5512% 	  3962756 	  5.6571% 	    38541869
+Sub Rate:        	 33.6796% 	  3554188 	  1.2343% 	     8409087
+Del Rate:        	  2.3634% 	   249408 	  4.2724% 	    29107896
+Ins Rate:        	  6.4516% 	   680830 	  0.1504% 	     1024886
+N Rate:          	  0.1061% 	    11192 	  0.0116% 	       79111
+
+Total time:     	86.227 seconds.
+[bam_sort_core] merging from 0 files and 40 in-memory blocks...
+Started analysis of L2201734_JVPep112_2.fq.gz_trimmed.fastq.gz
+Approx 5% complete for L2201734_JVPep112_2.fq.gz_trimmed.fastq.gz
+Approx 10% complete for L2201734_JVPep112_2.fq.gz_trimmed.fastq.gz
+Approx 15% complete for L2201734_JVPep112_2.fq.gz_trimmed.fastq.gz
+Approx 20% complete for L2201734_JVPep112_2.fq.gz_trimmed.fastq.gz
+Approx 25% complete for L2201734_JVPep112_2.fq.gz_trimmed.fastq.gz
+Approx 30% complete for L2201734_JVPep112_2.fq.gz_trimmed.fastq.gz
+Approx 35% complete for L2201734_JVPep112_2.fq.gz_trimmed.fastq.gz
+Approx 40% complete for L2201734_JVPep112_2.fq.gz_trimmed.fastq.gz
+Approx 45% complete for L2201734_JVPep112_2.fq.gz_trimmed.fastq.gz
+Approx 50% complete for L2201734_JVPep112_2.fq.gz_trimmed.fastq.gz
+Approx 55% complete for L2201734_JVPep112_2.fq.gz_trimmed.fastq.gz
+Approx 60% complete for L2201734_JVPep112_2.fq.gz_trimmed.fastq.gz
+Approx 65% complete for L2201734_JVPep112_2.fq.gz_trimmed.fastq.gz
+Approx 70% complete for L2201734_JVPep112_2.fq.gz_trimmed.fastq.gz
+Approx 75% complete for L2201734_JVPep112_2.fq.gz_trimmed.fastq.gz
+Approx 80% complete for L2201734_JVPep112_2.fq.gz_trimmed.fastq.gz
+Approx 85% complete for L2201734_JVPep112_2.fq.gz_trimmed.fastq.gz
+Approx 90% complete for L2201734_JVPep112_2.fq.gz_trimmed.fastq.gz
+Approx 95% complete for L2201734_JVPep112_2.fq.gz_trimmed.fastq.gz
+Analysis complete for L2201734_JVPep112_2.fq.gz_trimmed.fastq.gz
+Starting mapping for sample: L2201735_KFFN3_2.fq.gz
+java -Djava.library.path=/home/jakob_jung/miniconda3/opt/bbmap-38.18/jni/ -ea -Xmx27114m -cp /home/jakob_jung/miniconda3/opt/bbmap-38.18/current/ align2.BBMap build=1 overwrite=true fastareadlen=500 in=../data/libs/L2201735_KFFN3_2.fq.gz_trimmed.fastq.gz trimreaddescription=t t=20 ref=../data/reference_sequences/FQ312003_wplasmids.fa k=12 outm=../data/rna_align/L2201735_KFFN3_2.fq.gz.sam
+Executing align2.BBMap [build=1, overwrite=true, fastareadlen=500, in=../data/libs/L2201735_KFFN3_2.fq.gz_trimmed.fastq.gz, trimreaddescription=t, t=20, ref=../data/reference_sequences/FQ312003_wplasmids.fa, k=12, outm=../data/rna_align/L2201735_KFFN3_2.fq.gz.sam]
+Version 38.18
+
+Set threads to 20
+Retaining first best site only for ambiguous mappings.
+NOTE:	Ignoring reference file because it already appears to have been processed.
+NOTE:	If you wish to regenerate the index, please manually delete ref/genome/1/summary.txt
+Set genome to 1
+
+Loaded Reference:	0.052 seconds.
+Loading index for chunk 1-1, build 1
+Generated Index:	0.224 seconds.
+Analyzed Index:   	0.746 seconds.
+Started output stream:	0.028 seconds.
+Cleared Memory:    	0.115 seconds.
+Processing reads in single-ended mode.
+Started read stream.
+Started 20 mapping threads.
+Detecting finished threads: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19
+
+   ------------------   Results   ------------------   
+
+Genome:                	1
+Key Length:            	12
+Max Indel:             	16000
+Minimum Score Ratio:  	0.56
+Mapping Mode:         	normal
+Reads Used:           	12244951	(756576954 bases)
+
+Mapping:          	102.535 seconds.
+Reads/sec:       	119422.35
+kBases/sec:      	7378.73
+
+
+Read 1 data:      	pct reads	num reads 	pct bases	   num bases
+
+mapped:          	 98.0438% 	 12005419 	 98.5187% 	   745370076
+unambiguous:     	 95.4983% 	 11693722 	 96.2650% 	   728318769
+ambiguous:       	  2.5455% 	   311697 	  2.2537% 	    17051307
+low-Q discards:  	  0.0000% 	        2 	  0.0000% 	          69
+
+perfect best site:	 59.6206% 	  7300509 	 61.6323% 	   466295823
+semiperfect site:	 59.6324% 	  7301958 	 61.6445% 	   466387886
+
+Match Rate:      	      NA 	       NA 	 94.3490% 	   733806734
+Error Rate:      	 38.7040% 	  4696975 	  5.6391% 	    43858529
+Sub Rate:        	 34.7555% 	  4217797 	  1.3150% 	    10227619
+Del Rate:        	  2.5321% 	   307289 	  4.1643% 	    32388144
+Ins Rate:        	  6.7480% 	   818911 	  0.1598% 	     1242766
+N Rate:          	  0.1061% 	    12880 	  0.0120% 	       92957
+
+Total time:     	103.788 seconds.
+[bam_sort_core] merging from 0 files and 40 in-memory blocks...
+Started analysis of L2201735_KFFN3_2.fq.gz_trimmed.fastq.gz
+Approx 5% complete for L2201735_KFFN3_2.fq.gz_trimmed.fastq.gz
+Approx 10% complete for L2201735_KFFN3_2.fq.gz_trimmed.fastq.gz
+Approx 15% complete for L2201735_KFFN3_2.fq.gz_trimmed.fastq.gz
+Approx 20% complete for L2201735_KFFN3_2.fq.gz_trimmed.fastq.gz
+Approx 25% complete for L2201735_KFFN3_2.fq.gz_trimmed.fastq.gz
+Approx 30% complete for L2201735_KFFN3_2.fq.gz_trimmed.fastq.gz
+Approx 35% complete for L2201735_KFFN3_2.fq.gz_trimmed.fastq.gz
+Approx 40% complete for L2201735_KFFN3_2.fq.gz_trimmed.fastq.gz
+Approx 45% complete for L2201735_KFFN3_2.fq.gz_trimmed.fastq.gz
+Approx 50% complete for L2201735_KFFN3_2.fq.gz_trimmed.fastq.gz
+Approx 55% complete for L2201735_KFFN3_2.fq.gz_trimmed.fastq.gz
+Approx 60% complete for L2201735_KFFN3_2.fq.gz_trimmed.fastq.gz
+Approx 65% complete for L2201735_KFFN3_2.fq.gz_trimmed.fastq.gz
+Approx 70% complete for L2201735_KFFN3_2.fq.gz_trimmed.fastq.gz
+Approx 75% complete for L2201735_KFFN3_2.fq.gz_trimmed.fastq.gz
+Approx 80% complete for L2201735_KFFN3_2.fq.gz_trimmed.fastq.gz
+Approx 85% complete for L2201735_KFFN3_2.fq.gz_trimmed.fastq.gz
+Approx 90% complete for L2201735_KFFN3_2.fq.gz_trimmed.fastq.gz
+Approx 95% complete for L2201735_KFFN3_2.fq.gz_trimmed.fastq.gz
+Analysis complete for L2201735_KFFN3_2.fq.gz_trimmed.fastq.gz
+Finished mapping. Start connecting all tab files
+
+        ==========     _____ _    _ ____  _____  ______          _____  
+        =====         / ____| |  | |  _ \|  __ \|  ____|   /\   |  __ \ 
+          =====      | (___ | |  | | |_) | |__) | |__     /  \  | |  | |
+            ====      \___ \| |  | |  _ <|  _  /|  __|   / /\ \ | |  | |
+              ====    ____) | |__| | |_) | | \ \| |____ / ____ \| |__| |
+        ==========   |_____/ \____/|____/|_|  \_\______/_/    \_\_____/
+	  v2.0.1
+
+//========================== featureCounts setting ===========================\\
+||                                                                            ||
+||             Input files : 26 BAM files                                     ||
+||                           o L2201710_Control_1.fq.gz.bam                   ||
+||                           o L2201711_RNA_MOE_1.fq.gz.bam                   ||
+||                           o L2201712_RNA_F_1.fq.gz.bam                     ||
+||                           o L2201713_LNA_1.fq.gz.bam                       ||
+||                           o L2201714_RNA_Ome_1.fq.gz.bam                   ||
+||                           o L2201715_DNA_PTO_1.fq.gz.bam                   ||
+||                           o L2201716_PMO_1.fq.gz.bam                       ||
+||                           o L2201717_PNA_21_1.fq.gz.bam                    ||
+||                           o L2201718_PNA22_1.fq.gz.bam                     ||
+||                           o L2201719_PNA15_1.fq.gz.bam                     ||
+||                           o L2201720_PNA14_1.fq.gz.bam                     ||
+||                           o L2201721_JVPep112_1.fq.gz.bam                  ||
+||                           o L2201722_KFFN3_1.fq.gz.bam                     ||
+||                           o L2201723_Control_2.fq.gz.bam                   ||
+||                           o L2201724_RNA_MOE_2.fq.gz.bam                   ||
+||                           o L2201725_RNA_F_2.fq.gz.bam                     ||
+||                           o L2201726_LNA_2.fq.gz.bam                       ||
+||                           o L2201727_RNA_Ome_2.fq.gz.bam                   ||
+||                           o L2201728_DNA_PTO_2.fq.gz.bam                   ||
+||                           o L2201729_PMO_2.fq.gz.bam                       ||
+||                           o L2201730_PNA_21_2.fq.gz.bam                    ||
+||                           o L2201731_PNA22_2.fq.gz.bam                     ||
+||                           o L2201732_PNA15_2.fq.gz.bam                     ||
+||                           o L2201733_PNA14_2.fq.gz.bam                     ||
+||                           o L2201734_JVPep112_2.fq.gz.bam                  ||
+||                           o L2201735_KFFN3_2.fq.gz.bam                     ||
+||                                                                            ||
+||             Output file : counttable.txt                                   ||
+||                 Summary : counttable.txt.summary                           ||
+||              Annotation : FQ312003.1.gff (GTF)                             ||
+||      Dir for temp files : ../data/rna_align                                ||
+||                                                                            ||
+||                 Threads : 5                                                ||
+||                   Level : meta-feature level                               ||
+||              Paired-end : no                                               ||
+||      Multimapping reads : not counted                                      ||
+|| Multi-overlapping reads : not counted                                      ||
+||   Min overlapping bases : 1                                                ||
+||                                                                            ||
+\\============================================================================//
+
+//================================= Running ==================================\\
+||                                                                            ||
+|| Load annotation file FQ312003.1.gff ...                                    ||
+||    Features : 4981                                                         ||
+||    Meta-features : 4915                                                    ||
+||    Chromosomes/contigs : 4                                                 ||
+||                                                                            ||
+|| Process BAM file L2201710_Control_1.fq.gz.bam...                           ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 11637035                                             ||
+||    Successfully assigned alignments : 10153993 (87.3%)                     ||
+||    Running time : 0.04 minutes                                             ||
+||                                                                            ||
+|| Process BAM file L2201711_RNA_MOE_1.fq.gz.bam...                           ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 11506088                                             ||
+||    Successfully assigned alignments : 9901986 (86.1%)                      ||
+||    Running time : 0.04 minutes                                             ||
+||                                                                            ||
+|| Process BAM file L2201712_RNA_F_1.fq.gz.bam...                             ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 12474585                                             ||
+||    Successfully assigned alignments : 11023381 (88.4%)                     ||
+||    Running time : 0.04 minutes                                             ||
+||                                                                            ||
+|| Process BAM file L2201713_LNA_1.fq.gz.bam...                               ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 11199570                                             ||
+||    Successfully assigned alignments : 9940396 (88.8%)                      ||
+||    Running time : 0.04 minutes                                             ||
+||                                                                            ||
+|| Process BAM file L2201714_RNA_Ome_1.fq.gz.bam...                           ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 12359880                                             ||
+||    Successfully assigned alignments : 11033459 (89.3%)                     ||
+||    Running time : 0.04 minutes                                             ||
+||                                                                            ||
+|| Process BAM file L2201715_DNA_PTO_1.fq.gz.bam...                           ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 9923069                                              ||
+||    Successfully assigned alignments : 8914152 (89.8%)                      ||
+||    Running time : 0.03 minutes                                             ||
+||                                                                            ||
+|| Process BAM file L2201716_PMO_1.fq.gz.bam...                               ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 10057158                                             ||
+||    Successfully assigned alignments : 8974927 (89.2%)                      ||
+||    Running time : 0.03 minutes                                             ||
+||                                                                            ||
+|| Process BAM file L2201717_PNA_21_1.fq.gz.bam...                            ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 9253333                                              ||
+||    Successfully assigned alignments : 8030452 (86.8%)                      ||
+||    Running time : 0.03 minutes                                             ||
+||                                                                            ||
+|| Process BAM file L2201718_PNA22_1.fq.gz.bam...                             ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 10525839                                             ||
+||    Successfully assigned alignments : 9364009 (89.0%)                      ||
+||    Running time : 0.03 minutes                                             ||
+||                                                                            ||
+|| Process BAM file L2201719_PNA15_1.fq.gz.bam...                             ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 10895409                                             ||
+||    Successfully assigned alignments : 9685132 (88.9%)                      ||
+||    Running time : 0.04 minutes                                             ||
+||                                                                            ||
+|| Process BAM file L2201720_PNA14_1.fq.gz.bam...                             ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 11313634                                             ||
+||    Successfully assigned alignments : 10116006 (89.4%)                     ||
+||    Running time : 0.04 minutes                                             ||
+||                                                                            ||
+|| Process BAM file L2201721_JVPep112_1.fq.gz.bam...                          ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 10806685                                             ||
+||    Successfully assigned alignments : 9596362 (88.8%)                      ||
+||    Running time : 0.04 minutes                                             ||
+||                                                                            ||
+|| Process BAM file L2201722_KFFN3_1.fq.gz.bam...                             ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 11615260                                             ||
+||    Successfully assigned alignments : 10430687 (89.8%)                     ||
+||    Running time : 0.04 minutes                                             ||
+||                                                                            ||
+|| Process BAM file L2201723_Control_2.fq.gz.bam...                           ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 10462539                                             ||
+||    Successfully assigned alignments : 9416440 (90.0%)                      ||
+||    Running time : 0.03 minutes                                             ||
+||                                                                            ||
+|| Process BAM file L2201724_RNA_MOE_2.fq.gz.bam...                           ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 11310551                                             ||
+||    Successfully assigned alignments : 10104842 (89.3%)                     ||
+||    Running time : 0.04 minutes                                             ||
+||                                                                            ||
+|| Process BAM file L2201725_RNA_F_2.fq.gz.bam...                             ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 8001593                                              ||
+||    Successfully assigned alignments : 7220479 (90.2%)                      ||
+||    Running time : 0.03 minutes                                             ||
+||                                                                            ||
+|| Process BAM file L2201726_LNA_2.fq.gz.bam...                               ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 11483889                                             ||
+||    Successfully assigned alignments : 10112921 (88.1%)                     ||
+||    Running time : 0.04 minutes                                             ||
+||                                                                            ||
+|| Process BAM file L2201727_RNA_Ome_2.fq.gz.bam...                           ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 11430063                                             ||
+||    Successfully assigned alignments : 10135771 (88.7%)                     ||
+||    Running time : 0.04 minutes                                             ||
+||                                                                            ||
+|| Process BAM file L2201728_DNA_PTO_2.fq.gz.bam...                           ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 11164655                                             ||
+||    Successfully assigned alignments : 10027992 (89.8%)                     ||
+||    Running time : 0.04 minutes                                             ||
+||                                                                            ||
+|| Process BAM file L2201729_PMO_2.fq.gz.bam...                               ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 11747640                                             ||
+||    Successfully assigned alignments : 10515420 (89.5%)                     ||
+||    Running time : 0.04 minutes                                             ||
+||                                                                            ||
+|| Process BAM file L2201730_PNA_21_2.fq.gz.bam...                            ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 11359133                                             ||
+||    Successfully assigned alignments : 10162673 (89.5%)                     ||
+||    Running time : 0.04 minutes                                             ||
+||                                                                            ||
+|| Process BAM file L2201731_PNA22_2.fq.gz.bam...                             ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 12150942                                             ||
+||    Successfully assigned alignments : 10885627 (89.6%)                     ||
+||    Running time : 0.04 minutes                                             ||
+||                                                                            ||
+|| Process BAM file L2201732_PNA15_2.fq.gz.bam...                             ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 11616756                                             ||
+||    Successfully assigned alignments : 10341064 (89.0%)                     ||
+||    Running time : 0.04 minutes                                             ||
+||                                                                            ||
+|| Process BAM file L2201733_PNA14_2.fq.gz.bam...                             ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 8302644                                              ||
+||    Successfully assigned alignments : 7430661 (89.5%)                      ||
+||    Running time : 0.03 minutes                                             ||
+||                                                                            ||
+|| Process BAM file L2201734_JVPep112_2.fq.gz.bam...                          ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 10452972                                             ||
+||    Successfully assigned alignments : 9175975 (87.8%)                      ||
+||    Running time : 0.03 minutes                                             ||
+||                                                                            ||
+|| Process BAM file L2201735_KFFN3_2.fq.gz.bam...                             ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 12005419                                             ||
+||    Successfully assigned alignments : 10735864 (89.4%)                     ||
+||    Running time : 0.04 minutes                                             ||
+||                                                                            ||
+|| Write the final count table.                                               ||
+|| Write the read assignment summary.                                         ||
+||                                                                            ||
+|| Summary of counting results can be found in file "../data/rna_align/count  ||
+|| table.txt.summary"                                                         ||
+||                                                                            ||
+\\============================================================================//
+
+
+        ==========     _____ _    _ ____  _____  ______          _____  
+        =====         / ____| |  | |  _ \|  __ \|  ____|   /\   |  __ \ 
+          =====      | (___ | |  | | |_) | |__) | |__     /  \  | |  | |
+            ====      \___ \| |  | |  _ <|  _  /|  __|   / /\ \ | |  | |
+              ====    ____) | |__| | |_) | | \ \| |____ / ____ \| |__| |
+        ==========   |_____/ \____/|____/|_|  \_\______/_/    \_\_____/
+	  v2.0.1
+
+//========================== featureCounts setting ===========================\\
+||                                                                            ||
+||             Input files : 26 BAM files                                     ||
+||                           o L2201710_Control_1.fq.gz.bam                   ||
+||                           o L2201711_RNA_MOE_1.fq.gz.bam                   ||
+||                           o L2201712_RNA_F_1.fq.gz.bam                     ||
+||                           o L2201713_LNA_1.fq.gz.bam                       ||
+||                           o L2201714_RNA_Ome_1.fq.gz.bam                   ||
+||                           o L2201715_DNA_PTO_1.fq.gz.bam                   ||
+||                           o L2201716_PMO_1.fq.gz.bam                       ||
+||                           o L2201717_PNA_21_1.fq.gz.bam                    ||
+||                           o L2201718_PNA22_1.fq.gz.bam                     ||
+||                           o L2201719_PNA15_1.fq.gz.bam                     ||
+||                           o L2201720_PNA14_1.fq.gz.bam                     ||
+||                           o L2201721_JVPep112_1.fq.gz.bam                  ||
+||                           o L2201722_KFFN3_1.fq.gz.bam                     ||
+||                           o L2201723_Control_2.fq.gz.bam                   ||
+||                           o L2201724_RNA_MOE_2.fq.gz.bam                   ||
+||                           o L2201725_RNA_F_2.fq.gz.bam                     ||
+||                           o L2201726_LNA_2.fq.gz.bam                       ||
+||                           o L2201727_RNA_Ome_2.fq.gz.bam                   ||
+||                           o L2201728_DNA_PTO_2.fq.gz.bam                   ||
+||                           o L2201729_PMO_2.fq.gz.bam                       ||
+||                           o L2201730_PNA_21_2.fq.gz.bam                    ||
+||                           o L2201731_PNA22_2.fq.gz.bam                     ||
+||                           o L2201732_PNA15_2.fq.gz.bam                     ||
+||                           o L2201733_PNA14_2.fq.gz.bam                     ||
+||                           o L2201734_JVPep112_2.fq.gz.bam                  ||
+||                           o L2201735_KFFN3_2.fq.gz.bam                     ||
+||                                                                            ||
+||             Output file : rRNA_counttable.txt                              ||
+||                 Summary : rRNA_counttable.txt.summary                      ||
+||              Annotation : FQ312003.1.gff (GTF)                             ||
+||      Dir for temp files : ../data/rna_align                                ||
+||                                                                            ||
+||                 Threads : 5                                                ||
+||                   Level : meta-feature level                               ||
+||              Paired-end : no                                               ||
+||      Multimapping reads : not counted                                      ||
+|| Multi-overlapping reads : not counted                                      ||
+||   Min overlapping bases : 1                                                ||
+||                                                                            ||
+\\============================================================================//
+
+//================================= Running ==================================\\
+||                                                                            ||
+|| Load annotation file FQ312003.1.gff ...                                    ||
+
+ERROR: failed to find the gene identifier attribute in the 9th column of the provided GTF file.
+The specified gene identifier attribute is 'locus_tag' 
+An example of attributes included in your GTF annotation is 'ID=rna-FQ312003.1:289180..290723;gbkey=rRNA;product=16S ribosomal RNA' 
+The program has to terminate.
+
+
+        ==========     _____ _    _ ____  _____  ______          _____  
+        =====         / ____| |  | |  _ \|  __ \|  ____|   /\   |  __ \ 
+          =====      | (___ | |  | | |_) | |__) | |__     /  \  | |  | |
+            ====      \___ \| |  | |  _ <|  _  /|  __|   / /\ \ | |  | |
+              ====    ____) | |__| | |_) | | \ \| |____ / ____ \| |__| |
+        ==========   |_____/ \____/|____/|_|  \_\______/_/    \_\_____/
+	  v2.0.1
+
+//========================== featureCounts setting ===========================\\
+||                                                                            ||
+||             Input files : 26 BAM files                                     ||
+||                           o L2201710_Control_1.fq.gz.bam                   ||
+||                           o L2201711_RNA_MOE_1.fq.gz.bam                   ||
+||                           o L2201712_RNA_F_1.fq.gz.bam                     ||
+||                           o L2201713_LNA_1.fq.gz.bam                       ||
+||                           o L2201714_RNA_Ome_1.fq.gz.bam                   ||
+||                           o L2201715_DNA_PTO_1.fq.gz.bam                   ||
+||                           o L2201716_PMO_1.fq.gz.bam                       ||
+||                           o L2201717_PNA_21_1.fq.gz.bam                    ||
+||                           o L2201718_PNA22_1.fq.gz.bam                     ||
+||                           o L2201719_PNA15_1.fq.gz.bam                     ||
+||                           o L2201720_PNA14_1.fq.gz.bam                     ||
+||                           o L2201721_JVPep112_1.fq.gz.bam                  ||
+||                           o L2201722_KFFN3_1.fq.gz.bam                     ||
+||                           o L2201723_Control_2.fq.gz.bam                   ||
+||                           o L2201724_RNA_MOE_2.fq.gz.bam                   ||
+||                           o L2201725_RNA_F_2.fq.gz.bam                     ||
+||                           o L2201726_LNA_2.fq.gz.bam                       ||
+||                           o L2201727_RNA_Ome_2.fq.gz.bam                   ||
+||                           o L2201728_DNA_PTO_2.fq.gz.bam                   ||
+||                           o L2201729_PMO_2.fq.gz.bam                       ||
+||                           o L2201730_PNA_21_2.fq.gz.bam                    ||
+||                           o L2201731_PNA22_2.fq.gz.bam                     ||
+||                           o L2201732_PNA15_2.fq.gz.bam                     ||
+||                           o L2201733_PNA14_2.fq.gz.bam                     ||
+||                           o L2201734_JVPep112_2.fq.gz.bam                  ||
+||                           o L2201735_KFFN3_2.fq.gz.bam                     ||
+||                                                                            ||
+||             Output file : tRNA_counttable.txt                              ||
+||                 Summary : tRNA_counttable.txt.summary                      ||
+||              Annotation : FQ312003.1.gff (GTF)                             ||
+||      Dir for temp files : ../data/rna_align                                ||
+||                                                                            ||
+||                 Threads : 5                                                ||
+||                   Level : meta-feature level                               ||
+||              Paired-end : no                                               ||
+||      Multimapping reads : not counted                                      ||
+|| Multi-overlapping reads : not counted                                      ||
+||   Min overlapping bases : 1                                                ||
+||                                                                            ||
+\\============================================================================//
+
+//================================= Running ==================================\\
+||                                                                            ||
+|| Load annotation file FQ312003.1.gff ...                                    ||
+
+ERROR: failed to find the gene identifier attribute in the 9th column of the provided GTF file.
+The specified gene identifier attribute is 'locus_tag' 
+An example of attributes included in your GTF annotation is 'ID=rna-FQ312003.1:290781..290854;Note=tRNA Ile anticodon GAT%2C Cove score 70.86;gbkey=tRNA;product=tRNA-Ile' 
+The program has to terminate.
+
