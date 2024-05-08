@@ -58,7 +58,7 @@ For running the whole analysis, one needs following packages/tools/software:
 
 ### 2. Mapping
 
-All raw FastQ files are located in the folder [./data/fastq](data/fastq) and were deposited to the GEO repository under accession number: . Details on samples and setup of the experiment can be found in the methods section of the manuscript. Navigate to [data/libs](./data/libs) to find fastQC quality statistics in HTML format of the trimmed reads. 
+All raw FastQ files are located in the folder [./data/fastq](data/fastq) and were deposited to the GEO repository under accession number: GSE232819. Details on samples and setup of the experiment can be found in the methods section of the manuscript. Navigate to [data/libs](./data/libs) to find fastQC quality statistics in HTML format of the trimmed reads. 
 
  To run the mapping, run the bash script [./scripts/trimm_map_BB.sh](./scripts/trimm_map_BB.sh) . The script loops through the fastq-files, trims off adapters using BBDuk, maps against the reference genome (reference fasta and gff files can be found in [./data/reference_sequences/](./data/reference_sequences/)) and counts the reads mapped to coding sequences and sRNAs using featureCounts.
 
